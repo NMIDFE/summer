@@ -45,5 +45,5 @@
 3、练习
 
 + 3.1 相关练习
-    + [练习一](http://7xrp04.com1.z0.glb.clouddn.com/task_1_5_1.jpg)
-   +  [练习二](http://7xrp04.com1.z0.glb.clouddn.com/task_1_6_1.psd) 
+    + [练习一](https://www.jintianlixia.cn/jintianlixiaPic/STRARA1.png)
+   +  [练习二](https://www.jintianlixia.cn/jintianlixiaPic/webpage.psd) 
