@@ -1,0 +1,148 @@
+ @charset "utf-8";
+body{
+margin: 0px;
+padding: 0px;
+}
+a{
+	text-decoration:none;
+}
+
+#head{
+	background-image:url(images/images/webpages_02.png);
+	width:1925px;
+	height:1030px;
+}
+#zuo1{margin:0px 0px 0px 300px;
+display:inline-block;
+}
+#zuo1 li{color:white;
+font-family:Arial, Helvetica, sans-serif;
+display:inline-block;
+margin:15px 20px 0px;
+}
+#zuo1 a{
+	color:white;}
+.lo{
+	font-size:44px;
+	}
+.you{
+	display:inline-block;
+	margin:0px 0px 0px 260px;
+}
+.you img{
+	margin:15px 5px 0px;}
+	
+.daohang{width:1925px;
+height:83px;}
+
+.daohang a{color:black;}
+
+.daohang a:hover{
+	font-size:36px;
+}	
+	
+.zuo2{margin:0px 0px 0px 300px;
+display:inline-block;
+
+}
+.zuo2 li{color:black;
+font-family:Arial, Helvetica, sans-serif;
+display:inline-block;
+margin:15px 20px 0px;
+}
+#cms{
+	background-image:url(images/images/webpage_03.png);
+	width:1925px;
+	height:875px;}
+#workshow{
+	width:1925px;
+	height:866px;
+	background-image:url(images/webpage_11.png);
+	}
+#zanzhu{
+	width: 1925px;
+	margin: auto;
+	padding-top: 0px;
+	background-color:#f3f3f3;
+	}
+#brand{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 300px;
+	padding-bottom: 0px;
+	padding-left: 300px;
+		}
+#why{
+	background-image:url(images/images/s_02.png);
+	width:1925px;
+	height:788px;
+	}
+	#sub{
+		background-image:url(images/webpage_35.png);
+		width:1925px;
+		height:1101px;
+	}
+	form{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 630px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 890px;
+	padding-top: 335px;
+		}
+		input{
+			width:280px;
+			height:38px;
+		}
+		td
+		{
+	margin-right: 20px;
+}
+		textarea{
+			resize:none;
+		width:575px;
+		height:215px;
+		}
+		button{
+			display:inline-block;
+			width:200px;
+			height:60px;
+			margin-top:10px;
+			margin-left:200px;
+			margin-right:180px;
+			margin-bottom:0px;
+			background-color:#f36453;
+			border-color:white;
+			font-size:36px;
+			color:white;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+#footer{
+	background-color:black;
+	width:1925px;
+	height:628px;
+}
+#our{
+	margin-right: 418px;
+	margin-bottom: 0px;
+	margin-left: 358px;
+	padding-top: 54px;
+}
+.ser{
+	float:left;
+	height: 400px;
+	width: 238px;
+	color: #77757a;
+	margin-right: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#di{
+	color:#77757a;
+	text-align:center;
+	clear:both;
+	width:590px;
+	margin:auto;
+}
