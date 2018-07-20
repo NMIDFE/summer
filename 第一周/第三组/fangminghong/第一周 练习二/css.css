@@ -1,0 +1,526 @@
+/*样式重置*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border: none;}
+textarea{resize:none;}
+a{text-decoration:none;display: block;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+/*定位*/
+.relative{position: relative;}
+.absolute{position: absolute;}
+/*web1 页面开始*/
+.web1{
+	width: 100%;
+	height: 1077px;
+	background: #fff url(images/web1_main.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.blackNav{
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.7;
+}
+.blackNav a{
+	color: #ffffff !important;
+}
+.web1 .ellipse{
+	width: 114px;
+	text-align: center;
+	background: #000000 url(images/web1__yuan.png) center center no-repeat;
+}
+.web1 .content1{
+	margin: 0 auto;
+	width: 800px;
+	height: 80px;
+	color: #fff;
+	font-family: Bell MT,Arial;
+}
+.web1 .content1 p:nth-of-type(1){
+	margin-top: 230px;
+}
+.web1 .content1 p:nth-of-type(1),.web1 .content1 p:nth-of-type(2){
+	text-align: center;
+	font-size: 72px;
+}
+.web1 .content1 p:nth-of-type(3){
+	text-align: center;
+	font-size: 28px;
+}
+.web1 .content1 p:nth-of-type(4){
+	width: 300px;
+	height: 3px;
+	background-color: #fff;
+	margin: 12px auto;
+}
+/*web1 页面结束*/
+
+/*web2 页面开始*/
+.web2{
+	width: 100%;
+	height: 957px;
+	background-color: #f7f7f8;
+	overflow: hidden;
+}
+.web2 .content2{
+	width: 1200px;
+	height: 873px;
+	background: #f7f7f8 url(images/web2_main.png) center center no-repeat;
+	margin: 0 auto;
+}
+.web2 .content2 .bigger1{
+	width: 1200px;
+	line-height: 47px;
+	color: #565656;
+	font-size: 70px;
+	font-family: Bell MT,Arial;
+	text-align: center;
+	margin: 23px auto 0 auto;
+}
+.web2 .content2 .bigger2{
+	width: 1200px;
+	line-height: 20px;
+	color: #4d4d4e;
+	font-size: 20px;
+	font-family: Bell MT,Arial;
+	text-align: center;
+	margin: 38px auto 0 auto;
+}
+.web2 .content2 p:nth-of-type(3){
+	width: 300px;
+	line-height: 20;
+}
+.web2 .lawer2 p{
+	font-family: Arial;
+	font-size: 13px;
+}
+.web2 .icon1{
+	width: 350px;
+	height: 160px;
+	text-align: center;
+	left: 440px;
+	top: 133px;
+}
+.web2 .icon1 p{
+	margin-bottom: 17px;
+	font-family: Arial;
+	color: #db679e;
+}
+.web2 .icon2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 380px;
+	height: 130px;
+	left: 5px;
+	top: 300px;
+}
+.web2 .icon2 p{
+	color: #fdc758;
+}
+
+.web2 .icon3{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 380px;
+	height: 130px;
+	left: -50px;
+	top: 600px;
+}
+.web2 .icon3 p{
+	color: #b5d092;
+}
+.web2 .icon4{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 380px;
+	height: 130px;
+	left: 820px;
+	top: 300px;
+}
+.web2 .icon4 p{
+	color: #14ced1;
+}
+.web2 .icon5{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 380px;
+	height: 130px;
+	left: 890px;
+	top: 600px;
+}
+.web2 .icon5 p{
+	color: #92b7f6;
+}
+.web2 .icon6{
+	width: 440px;
+	height: 440px;
+	left: 414px;
+	top: 400px;
+}
+.web2 .p1{
+	width: 10px;
+	height: 15px;
+	left: 584px;
+	top: 624px;
+}
+.web2 .p1 p{
+	font-size: 40px;
+	color: #ffffff;
+	font-family: Arial;
+}
+.web2 .p2{
+	width: 360px;
+	height: 100px;
+	left: 465px;
+	top: 688px;
+}
+.web2 .p2 p{
+	line-height: 22px;
+	text-align: center;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+/*web2 页面结束*/
+
+/*web3 页面开始*/
+.web3{
+	width: 100%;
+	height: 1032px;
+	background: #fff url(images/web3_main.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.content3{
+	width: 1200px;
+	height: 212px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content3 p:first-child{
+	margin-top: 30px;
+	font-family: Arial;
+	font-size: 48px;
+	color: #565656;
+}
+.content3 p:last-child{
+	font-family: Arial;
+	margin-top: 26px;
+	font-size: 18px;
+	color: #565656;
+}
+
+/*web3 页面结束*/
+
+/*web4 页面开始*/
+.web4{
+	width: 100%;
+	height: 866px;
+	background: #fff url(images/web4_main.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.content4{
+	width: 1200px;
+	height: 728px;
+	margin: 0 auto;
+}
+.content4 .upper4{
+	width: 1200px;
+	height: 232px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.content4 .upper4 p:first-child{
+	color: #fff;
+	font-family: Arial;
+	font-size: 49px;
+}
+.content4 .upper4 p:last-child{
+	color: #676761;
+	font-family: Arial;
+	font-size: 19px;
+}
+.content4 .middle4{
+	width: 1200px;
+	height: 182px;
+}
+.content4 .middle4 p:first-of-type{
+	color: #fff;
+	font-size: 14px;
+	font-family: Arial;
+	left: 502px;
+	top: 82px;
+}
+.content4 .middle4 p:last-of-type{
+	color: #fff;
+	font-size: 14px;
+	font-family: Arial;
+	left: 636px;
+	top: 82px;
+}
+.content4 .middle4 img{
+	left: 477px;
+	top: 70px;
+}
+.content4 .lawer4{
+	width: 1200px;
+	height: 368px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.content4 .lawer4 div{
+	text-align: center;
+}
+.content4 .lawer4 div p{
+	margin-top: 76px;
+	color: #dde3db;
+	font-size: 14px;
+	font-family: Arial;
+}
+/*web4 页面结束*/
+
+/*web5 页面开始*/
+.web5{
+	width: 100%;
+	height: 1102px;
+	background: #fff url(images/web5_main.png) center center no-repeat;
+	background-size: cover;
+}
+.mainNav{
+	width: 100%;
+	background-color: #fff;
+}
+.nav{
+	width: 1200px;
+	height: 84px;
+	margin: 0 auto;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.left ul li{
+	float: left;
+	line-height: 84px;
+}
+.left ul li a{
+	color: #000000;
+	font-family: Arial;
+}
+.first{
+	margin-right: 90px;
+	font-size: 35px;
+}
+.others{
+	margin-right: 45px;
+	font-size: 15px;
+}
+.right ul li{
+	float: right;
+	line-height: 84px;
+}
+.right ul li a{
+	margin-left: 10px;
+	color: #000000;
+}
+.ellipse{
+	width: 114px;
+	text-align: center;
+	background: #fff url(images/web2_yuan.png) center center no-repeat;
+}
+.content{
+	width: 1200px;
+	height: 1018px;
+	margin: 0 auto;
+}
+.content .upper{
+	width: 1200px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content .upper p:first-child{
+	font-size: 48px;
+	font-family: Arial;
+	color: #ffffff;
+}
+.content .upper p:nth-child(2){
+	font-size: 48px;
+	font-family: Arial;
+	color: #ffffff;
+}
+.content .upper p:last-child{
+	font-size: 18px;
+	font-family: Arial;
+	color: #ffffff;
+}
+.content .left{
+	width: 534px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content .left p{
+	color: #1c1c1d;
+	font-size: 14px;
+	font-family: Arial;
+}
+.content .left p:nth-of-type(1){
+	margin-top: 20px;
+}
+.content .left p:nth-of-type(3){
+	margin-top: 20px;
+}
+.content .left p:nth-of-type(5){
+	margin-top: 20px;
+	color: #ffffff;
+	font-family: Eras Medium ITC,Arial;
+}
+.content .right{
+	width: 666px;
+	height: 600px;
+	position: relative;
+}
+.lower .right p{
+	position: absolute;
+	font-family: Arial;
+	font-size: 16px;
+	color: #ffffff;
+}
+.lower .right input{
+	position: absolute;
+	width: 287px;
+	height: 40px;
+}
+.lower .right .messageInput{
+	width: 586px;
+	height: 213px;
+}
+.lower .right .button{
+	width: 218px;
+	height: 52px;
+	border: 1px solid #ffffff;
+	color:#ffffff;
+	background: none;
+	position: absolute;
+	left: 183px;
+	top: 474px;
+}
+.lower .right p:nth-of-type(2){
+	left: 300px;
+	top: 0;
+}
+.lower .right p:nth-of-type(3){
+	left: 0;
+	top: 75px;
+}
+.lower .right p:nth-of-type(4){
+	left: 300px;
+	top: 75px;
+}
+.lower .right p:nth-of-type(5){
+	left: 0px;
+	top: 150px;
+}
+.lower .right p:nth-of-type(6){
+	left: 300px;
+	top: 150px;
+}
+.lower .right p:nth-of-type(7){
+	left: 0px;
+	top: 220px;
+}
+.lower .right input:nth-of-type(1){
+	left: 0px;
+	top: 26px;
+}
+.lower .right input:nth-of-type(2){
+	left: 300px;
+	top: 26px;
+}
+.lower .right input:nth-of-type(3){
+	left: 0px;
+	top: 100px;
+}
+.lower .right input:nth-of-type(4){
+	left: 300px;
+	top: 100px;
+}
+.lower .right input:nth-of-type(5){
+	left: 0px;
+	top: 174px;
+}
+.lower .right input:nth-of-type(6){
+	left: 300px;
+	top: 174px;
+}
+.lower .right input:nth-of-type(7){
+	left: 0px;
+	top: 250px;
+}
+/*web5 页面结束*/
+
+/*web6 页面开始*/
+.web6{
+	width: 100%;
+	height: 600px;
+	background-color: #000000;
+}
+.web6 .upper6 p:first-of-type{
+	color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	margin-top: 54px;
+}
+.web6 .upper6 p:nth-of-type(2){
+	width: 240px;
+	border-top: 1px dashed #77757a;
+}
+.web6 .upper6 p{
+	color: #77757a;
+	font-family: Arial;
+	font-size: 12px;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+.web6 .upper6{
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.web6 .lawer6{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+.web6 .lawer6 p{
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial;
+	color: #77757a;
+}
+/*web6 页面结束*/
