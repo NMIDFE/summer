@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hpage {
+    width: 100%;
+    height: 2000px;
+    background: url(../images/bg1.png) no-repeat;
+    background-size: cover;
+    position: fixed;
+    font-family: Arial;
+}
+
+.hpage .nav {
+    position: relative;width: 100%;height: 90px;background: rgba(0, 0, 0, 0.5);
+}
+
+.hpage .nav .left {
+    float: left;margin-left: 300px;
+}
+
+.hpage .nav .left p {
+    font-size: 32px;line-height: 90px;color: #fff;
+}
+
+/*================*/
+
+.hpage .nav .con {
+    text-align: center;
+}
+
+.hpage .nav .con ul li {
+    list-style: none; float: left; font-size: 1em;line-height: 90px;color: #fff;margin-left: 60px;
+}
+
+.hpage .nav a {
+    text-decoration: none; color: #fff;
+}
+
+/*================*/
+
+.hpage .nav .right {
+    float: left; margin-left: 200px;
+}
+
+.hpage .nav .right div {
+    float: left; margin-top: 30px; margin-left: 30px;
+}
+
+.hpage .nav .right .th1 p {
+    line-height: 30px; width: 110%;text-align: center;font-size: 1em;border: solid 2px white;border-radius: 5px;color: red;
+}
+
+.hpage .nav .right .th2 {
+    float: left;
+}
+
+.hpage .nav .right .th2 p {
+    font-size: 14px;color: red;
+}
+
+.hpage .mid {
+    width: 800px;height: 50%;margin: 230px auto;
+}
+
+.hpage .mid p {
+    color: #fff;width: 760px; height: 49;font-size: 60px;font-family: Bell MT;
+}
+
+.hpage .mid div p[class] {
+    display: inline;font-size: 30px;
+}
+
+.hpage .mid div {
+    float: left; margin-top: 100px;margin-left: 150px;
+}

@@ -1,0 +1,83 @@
+
+li{
+    list-style: none;
+}
+.fif{
+    width: 100%;height: 900px;background: url(../images/bg2.png) no-repeat;background-size: cover; text-align: center;
+}
+.fif .con h2{
+    font-family: Arial;font-size: 48px;color: #fff;padding-top: 50px;
+}
+.fif .con h4{
+    font-family: Arial;font-size: 18px;color: #fff;margin-top: 20px;
+}
+
+.fif .miancon{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+}
+.fif .miancon .left-side .call{
+    width: 338px;height: 438px;float: left; margin-left: 56px;
+}
+.fif .miancon .right-side .form-ul select,.fif .miancon .right-side .form-ul input[type="text"]{
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    width: 250px;
+    height: 36px;
+}
+.fif .miancon .right-side{
+    width: 600px;height: 550px;float: right; margin-right: 56px;
+}
+.fif .miancon .right-side li{
+    display: block;
+    float: left;
+}
+.fif .miancon .right-side .left{
+    float: left;
+    margin-left: 30px;
+}
+
+.fif .miancon .right-side .tarea{
+    padding: 1%;
+    width: 98%;
+    height: 200px;
+    position: relative;top: 20px;
+}
+.fif .miancon .right-side .right{
+    float: right;
+    margin-left: 20px;
+}
+.fif .miancon .right-side label{
+    display: block;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.fif .miancon .right-side .tarea{
+    margin-right: 20px;
+}
+.fif .miancon .right-side .tarea label{
+    margin-left: 28px;
+}
+.fif .miancon .right-side .tarea textarea{
+    height: 200px;
+    width: 100%;
+}
+.fif .miancon .right-side .sub {
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    left: 200px;
+}
+.fif .miancon .right-side .sub input{
+    margin-top: 20px;
+    width: 220px; height: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+}
+

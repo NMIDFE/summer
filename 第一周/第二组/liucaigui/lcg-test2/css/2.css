@@ -1,0 +1,114 @@
+a{
+    text-decoration: none;
+}
+.sec{
+    height: 974px;
+    width: 100%;
+    text-align: center;
+    background: #f7f7f8；
+}
+.mid{
+    padding-top: 100px;
+}
+.mid h2,h4{
+    font-family: Bell MT;
+}
+.mid h2{
+    margin-top: 20px;
+    font-size: 70px;
+   
+}
+.mid h4{
+    font-family: Bell MT;
+    font-size: 20px;
+}
+.mid .circle-wra{
+    height: 588px; overflow: hidden;position: relative;margin-top: 50px;padding-top: 95px;
+}
+.mid .circle-wra .circle{
+width: 790px;height: 750px;margin: 0 auto;border: 1px dashed #c0c0c0; border-radius: 50%;
+}
+#knob-icons{
+position: absolute;
+}    
+.mid .circle-wra .circle #knob-icons .knob{
+position: absolute;
+text-align: center;
+border-radius: 50%;
+transition: all 1.5s ease;
+}
+.mid .circle-wra .circle #knob-icons .mail{
+color: green;
+top: 400px;
+left: -60px;
+}
+.mid .circle-wra .circle #knob-icons span{
+position: absolute; width: 130px;
+}
+.mid .circle-wra .circle #knob-icons a img{
+transition: 0.5s;
+}
+.mid .circle-wra .circle #knob-icons a img:hover{/*动态伪类*/
+transform:rotate(360deg) scale(1.2);/*css3变换*/
+}
+.mid .circle-wra .circle #knob-icons .mail span,.mid .circle-wra .circle #knob-icons .globe span{
+right: 143px;
+text-align: right;
+top: 44px;
+}
+.mid .circle-wra .circle #knob-icons .globe{
+color: orange;
+top: 150px;
+left: -10px;
+}
+.mid .circle-wra .circle #knob-icons .comments{
+top: -50px;left: 345px;color: palevioletred;
+}
+
+.mid .circle-wra .circle #knob-icons .comments span{
+top: -40px;
+left: -80px;
+width: 300px;
+}
+.mid .circle-wra .circle #knob-icons .social{
+color: cyan;
+top: 150px;
+right:-800px;
+}
+.mid .circle-wra .circle #knob-icons .social span,.mid .circle-wra .circle #knob-icons .mobile span{
+left: 143px;
+text-align: left;
+top: 44px;
+}
+.mid .circle-wra .circle #knob-icons .mobile{
+color: deepskyblue;
+top: 400px;
+right: -850px;
+}
+#knob-message{
+position: absolute;
+}
+.knob-message{
+width: 444px;
+height: 444px;
+text-align: center;
+border-radius: 50%;
+position: absolute;
+left: 740px;top: -350px;
+background: green;
+}
+.knob-message .knob-msg-item{
+margin-top: 90px;
+}
+.knob-message .knob-msg-item a{
+color: #fff;
+}
+.knob-message .knob-msg-item h3{
+font-size: 30px;
+
+}
+.knob-message .knob-msg-item p{
+margin-top: 20px;
+font-size: 16px;
+line-height: 1.4;
+}
