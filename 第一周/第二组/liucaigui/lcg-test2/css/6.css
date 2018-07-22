@@ -1,5 +1,5 @@
 footer {
-    width: 100%;height: 600px;
+    width: 100%;
     background: black;
     color: #848484;
     font-size: 11px;
@@ -23,7 +23,10 @@ footer h4 {
     border-bottom: dotted 1px #848484;
     padding-bottom: 10px;
 }
-
+footer .main-width{
+    width: 70%;
+    margin: 0 auto;
+}
 .footer-toggle {
     padding-top: 30px;
     display: none;
