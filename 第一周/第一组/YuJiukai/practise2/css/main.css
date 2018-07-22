@@ -1,0 +1,80 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+    a {
+        text-decoration: none;
+    }
+    .dream {
+        font-size: 40px;
+    }
+    .mokuai1 {
+        width: 100%;
+        height: 682px;
+        background-image: url(../img/bg_1.png);
+        background-size: 100% 100%;
+
+    }
+    ul {
+        list-style-type: none;
+
+    }
+    li {
+        display: inline;
+        padding: 8px;
+    }
+    .bt1 {
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+        
+    }
+    .bt2 {
+        margin-left: 38%;
+        color: white;
+        border-bottom: 2px solid white;
+        margin-top:80px;
+        width: 300px; 
+    }
+    .daohang {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(145, 145, 145,0.5);
+        
+    }
+   .daohang2 {
+        width: 100%;
+        height: 100px;
+   }
+   .content_4 {
+    width: 100%;
+    height: 682px;
+    background-image: url(../img/bg_4.png);
+    background-size: 100% 100%;
+
+   }
+   .content_5 {
+    width: 100%;
+    height: 682px;
+    background-image: url(../img/bg_5.png);
+    background-size: 100% 100%;
+
+   }
+   #biao {
+       margin-left: 100px;
+   }
+
+   .foot {
+       margin-top: 0px;
+    width: 100%;
+    height: 682px;
+    background-image: url(../img/bg_6.png);
+    background-size: 100% 100%;
+   }
+   .our {
+       margin-left:15% ;
+       float: left;
+
+   }
+ 
