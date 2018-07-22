@@ -1,0 +1,76 @@
+body{
+	background-color: skyblue;
+}
+h2{
+	color: white;
+}
+.two2{
+	text-align: center;
+	margin-left: -60px;
+}
+#three3{
+    height: 180px;
+}
+.three31{
+	text-align: center;
+	margin-left: -96.5px;
+	margin-top: 40px;
+}
+.one {
+	border:none;
+	outline: medium;
+	background-color:skyblue;
+	border-bottom: 2px solid #FFFFFF;
+}
+.three32{
+	text-align: center;
+	margin-left:-96.5px;
+	margin-top: 40px;
+}
+.two{
+	border:none;
+	outline: medium;
+	background-color: skyblue;
+	border-bottom: 2px solid #FFFFFF;
+}
+.three33{
+	height: 45px;
+	text-align: center;
+	margin-left: -90px;
+	margin-top: 30px;
+	position: relative;
+}
+.three331{
+	width: 13%;
+	height:10%;
+	font-size: 25px;
+	text-align: center;
+	margin-left: -94.5px;
+	position: absolute;
+    margin-top: 20px;
+	color: skyblue;
+	border-radius: 25px 25px 25px;
+	background-color: white;
+	padding: 20px;
+}
+.three331{
+	line-height:5px;
+	height: 10px;
+	font-family: "songti";
+	border-left-color: skyblue;
+	border-top-color: skyblue;
+	border-height-color:skyblue;
+	border: none;
+}
+.four4{
+	text-align: center;
+	margin-left: -50px;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+	font-size: 12px;
+}
+a:hover{
+	color: red;
+}
