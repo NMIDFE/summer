@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 350px;
+	height: 550px;
+	background-color: #00B2FF;
+	border-radius:5px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 100px;
+}
+.top{
+	width: 350px;
+	height: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	font-size: 12px;
+}
+.top i{
+	font-size: 14px;
+	margin-left: 5px;
+}
+.top span{
+	display: inline-block;
+}
+.time{
+	width: 210px;
+	text-align: center;
+}
+#energy{
+	margin-left: 0;
+	font-size: 20px;
+	position: relative;
+	top: 3px;
+}
+.mid-top{
+	width: 350px;
+	height: 220px;
+	color: #ffffff;
+}
+.mid-top span{
+	width: 350px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	top: 120px;
+	font-size: 23px;
+}
+.mid-down{
+	width: 350px;
+	height: 120px;
+	color: #ffffff;
+}
+.indown{
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mid-down i{
+	font-size: 25px;
+	position: relative;
+
+}
+.mid-down input{
+	width: 230px;
+	height: 25px;
+	background-color: #00B2FF;
+	border: 0px;
+	outline:none;
+	font-size: 20px;
+	color: #ffffff;
+}
+.hr1{ 
+	height:1px;
+	width: 270px;
+	border:none;
+	border-top:1px solid #FFFFFF;
+}  
+input::-webkit-input-placeholder {
+     
+    color: #ffffff;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+}
+.button{
+	background-color: #ffffff;
+	width:270px;
+	height: 40px;
+	border-radius: 50px;
+	border: 0px;
+	position: relative;
+	left: 40px;
+	font-size: 20px;
+	color: #00B2FF;
+}
+.last{
+	display: inline-block;
+	width: 350px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 40px;
+}
