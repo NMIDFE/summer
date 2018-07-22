@@ -1,0 +1,77 @@
+*{
+	margin: 0 auto;
+	color: white;
+}
+.bg{
+	background-color: #2ab2fe;
+	width: 500px;
+	height: 700px;
+}
+.top{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.top1{
+	float: left;
+	margin-left: 30px;
+}
+.top2{
+	float: left;
+	margin-left: 150px;
+}
+.top3{
+	float: left;
+	margin-left: 150px;
+}
+.center{
+	text-align: center;
+	margin-top: 200px;
+}
+.button1{
+	width: 300px;
+	overflow: hidden;
+	line-height: 30px;
+	margin-top: 80px;
+}
+.user{
+	float: left;
+}
+.user1{
+	float: left;
+	margin-left: 20px;
+}
+.line{
+	width: 300px;
+	height: 1px;
+	border-top: 1px solid white;
+	float: left;
+}
+.password{
+	float: left;
+}
+.password1{
+	float: left;
+	margin-left: 20px;
+}
+.button2{
+	width: 300px;
+	overflow: hidden;
+	line-height: 30px;
+	margin-top: 20px;
+}
+.footer{
+	text-align: center;
+	margin-top: 30px;
+}
+.sigin{
+	width: 300px;
+	line-height: 50px;
+	color: #2ab2fe;
+	background-color: white;
+	font-size: 34px;
+	border: 1px solid white;
+	border-radius: 30px;
+}
+.found{
+	margin-top: 10px;
+}
