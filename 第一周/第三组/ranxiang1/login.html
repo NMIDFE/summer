@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Login</title>
+ 
+<style type="text/css">
+input[type="text"]::-webkit-input-placeholder{color:white;opacity:1;}/* WebKit browsers */
+input[type="password"]::-webkit-input-placeholder{color:white;opacity:1;}/* WebKit browsers */
+
+.full {
+	position: relative;
+	width: 100%;
+	background: #00BFFF;
+	overflow: hidden;/*溢出隐藏*/
+	background-size: cover;
+	background-position: center center;
+	
+}
+.logo_box{
+	width: 400px;
+	height: 600px;
+	padding: 35px;
+	color: #EEE;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -200px;
+	margin-top: -250px;
+}
+.forms{
+	width: 280px;
+	height: 485px;
+}
+.logon_inof{
+	width: 100%;
+	min-height: 450px;
+	padding-top: 35px;
+	position: relative;
+}		
+.input_outer{
+	height: 46px;
+	padding: 0px 5px;
+	margin-bottom: 30px;
+	position: relative;
+    border:none;   /*只显示一条边*/
+	border-bottom: #FFFFFF 2px solid ;
+}
+.u_user{
+	width: 25px;
+	height: 25px;
+	background-image: url(user.png);
+	background-position:  -125px 0;
+	position: absolute;
+	margin: 10px 13px;
+}
+.us_user{
+	width: 25px;
+	height: 25px;
+	background-image: url(lock.png);
+	background-position: -125px -34px;
+	position: absolute;
+	margin: 10px 13px;
+}
+
+.text{
+	width: 220px;
+	height: 46px;
+	outline: none;
+	display: inline-block;
+	font: 14px "Microsoft jhengHei";
+	margin-left: 50px;
+	border: none;
+	background: none;
+	line-height: 46px;
+    
+}
+
+.mb2{
+	margin-bottom: 20px
+}
+.mb2 a{
+	text-decoration: none;
+	outline: none;
+}
+.submit {
+	padding: 15px;
+	margin-top: 20px;
+	display: block;
+}
+.act-but{
+	line-height: 20px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 100px;
+	background: #ffffff;
+    font-family:  Microsoft JhengHei;
+}
+.setfont{
+    text-align: center;
+    font-size: 45px;
+    color:#F0F8FF;
+    font-family: Microsoft JhengHei;
+}
+.infomation{
+   
+    margin-top: -15px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-family: Microsoft JhengHei;
+}
+
+  
+</style>
+</head>
+<body >
+        <div class="full" id="full" style="height: 782px;">
+                
+                <div class="logo_box">
+                    <p class="setfont">STARTA GO</p>
+                    <form action="save.php" method="post">
+                        <div class="input_outer">
+                            <span class="u_user"></span>
+                            <input name="logname" class="text"  type="text" placeholder="Username">
+                        </div>
+                        <div class="input_outer">
+                            <span class="us_user"></span>
+                            <input name="logpass" class="text"  type="password" placeholder="password" >
+                        </div>
+                        <div class="mb2"><a class="act-but submit" style="color: #00BFFF">SIGN IN</a></div>
+                    </form>
+                    <p class="infomation">Forgot Password?</p>
+                </div>
+            </div>
+
+</body>
+</html>
+    
+    
+    
+    
+    
+    
