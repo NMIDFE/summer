@@ -1,0 +1,642 @@
+
+.banner {
+	position: relative;
+	height: 1080px;
+	background-image: url('img/banner-background.png');
+}
+.banner-navie {
+	position: relative;
+	left: 360px;
+	height: 84px;
+	line-height: 84px;
+}
+h1.dream {
+	position: relative;
+	float: left;
+	display: inline-block;
+	color: white;
+}
+h5.services {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 86px;
+}
+a.services {
+	text-decoration: none;
+	color: white;
+}
+h5.portfolio {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.portfolio {
+	text-decoration: none;
+	color: white;
+}
+h5.about {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.about {
+	text-decoration: none;
+	color: white;
+}
+h5.contact {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.contact {
+	text-decoration: none;
+	color: white;
+}
+h5.quote {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 260px;
+}
+a.quote {
+	text-decoration: none;
+	color: red;
+}
+div.way {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+	height: 83px;
+	width: 130px;
+	color: red;
+}
+div.call {
+	position: relative;
+	margin-top: 18px;
+	height: 15px;
+}
+div.number {
+	position: relative;
+	height: 10px;
+}
+img.number {
+	float: left;
+	margin-top: 70px;
+}
+div.text {
+	position: absolute;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+div.lover {
+	position: absolute;
+	font-size: 30px;
+	text-decoration: underline;
+	color: white;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+.sort {
+	position: relative;
+	height: 957px;
+	background-color: #f7f7f8;
+}
+.sort-navie {
+	position: relative;
+	left: 360px;
+	height: 84px;
+	line-height: 84px;
+	color: #ffffff;
+}
+h1.sort-dream {
+	position: relative;
+	float: left;
+	display: inline-block;
+	color: black;
+}
+h5.sort-services {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 86px;
+}
+a.sort-services {
+	text-decoration: none;
+	color: black;
+}
+h5.sort-portfolio {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.sort-portfolio {
+	text-decoration: none;
+	color: black;
+}
+h5.sort-about {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.sort-about {
+	text-decoration: none;
+	color: black;
+}
+h5.sort-contact {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.sort-contact {
+	text-decoration: none;
+	color: black;
+}
+h5.sort-quote {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 260px;
+}
+a.sort-quote {
+	text-decoration: none;
+	color: red;
+}
+div.sort-way {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+	height: 83px;
+	width: 130px;
+	color: red;
+}
+div.sort-call {
+	position: relative;
+	margin-top: 18px;
+	height: 15px;
+}
+div.sort-number {
+	position: relative;
+	height: 10px;
+}
+img.sort-number {
+	float: left;
+	margin-top: 70px;
+}
+div.sort-text {
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	text-align: center;
+}
+span.size1 {
+	font-size: 70px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+span.size2 {
+	font-size: 15px;
+}
+img.sort-img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-52%, 0%);
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.work {
+	position: relative;
+	height: 1114px;
+	background-color: orange;
+}
+div.work-text {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+span.work-text {
+	font-size: 50px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+ #frame {
+	position:absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-52%, 0%);
+	width:1100px;
+	height:550px;
+	overflow:hidden;
+	border-radius:5px
+}
+#dis {
+	position:absolute;
+	left:-50px;
+	top:-10px;
+	opacity:.5
+}
+#photos img {
+	float:left;
+	width:1100px;
+	height:550px
+}
+#photos {
+	position:absolute;
+	z-index:9;
+	width:calc(300px * 4);
+}
+.play {
+	animation:ma 20s ease-out infinite alternate;
+}
+@keyframes ma {
+	0%,25% {
+	margin-left:0px;
+}
+30%,50% {
+	margin-left:-300px;
+}
+55%,75% {
+	margin-left:-600px;
+}
+80%,100% {
+	margin-left:-900px;
+}
+}
+img.work-img {
+	position: absolute;
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.choose {
+	position: relative;
+	height: 784px;
+	background-color: #2c2c2c;
+}
+.choose-navie {
+	position: relative;
+	margin-left: 360px;
+	height: 84px;
+	line-height: 84px;
+}
+h1.choose-dream {
+	position: relative;
+	float: left;
+	display: inline-block;
+	color: white;
+}
+h5.choose-services {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 86px;
+}
+a.choose-services {
+	text-decoration: none;
+	color: white;
+}
+h5.choose-portfolio {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.choose-portfolio {
+	text-decoration: none;
+	color: white;
+}
+h5.choose-about {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.choose-about {
+	text-decoration: none;
+	color: white;
+}
+h5.choose-contact {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 43px;
+}
+a.choose-contact {
+	text-decoration: none;
+	color: white;
+}
+h5.choose-quote {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 260px;
+}
+a.choose-quote {
+	text-decoration: none;
+	color: red;
+}
+div.choose-way {
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 5px;
+	height: 83px;
+	width: 130px;
+	color: red;
+}
+div.choose-call {
+	position: relative;
+	margin-top: 18px;
+	height: 15px;
+}
+div.choose-number {
+	position: relative;
+	height: 10px;
+}
+img.choose-number {
+	float: left;
+	margin-top: 70px;
+}
+div.choose-text {
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	color: white;
+}
+span.choose-text1 {
+	font-size: 60px;
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+div.button {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	width: 250px;
+	height: 40px;
+	border-radius: 10px;
+	top: 270px;
+	left: 50%;
+	margin-left: -125px;
+}
+button.button {
+	position: relative;
+	float: left;
+	background-color: #262626;
+	color: white;
+	border: 0px;
+	width: 125px;
+	height: 40px;
+}
+div.choose-img {
+	position: absolute;
+	top: 370px;
+	left: 50%;
+	margin-left: -880px;
+}
+div.choose-img1 {
+	position: relative;
+	float: left;
+	color: #b9beb7;
+	text-align: center;
+}
+div.choose-img2 {
+	position: relative;
+	float: left;
+	margin-left: 100px;
+	color: #b9beb7;
+	text-align: center;
+}
+div.choose-img3 {
+	position: relative;
+	float: left;
+	margin-left: 100px;
+	color: #b9beb7;
+	text-align: center;
+}
+div.choose-img4 {
+	position: relative;
+	float: left;
+	margin-left: 100px;
+	color: #b9beb7;
+	text-align: center;
+}
+div.choose-img5 {
+	position: relative;
+	float: left;
+	margin-left: 100px;
+	color: #b9beb7;
+	text-align: center;
+}
+span.choose-img123 {
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+img.choose-img45 {
+	margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navie {
+	position: relative;
+	padding-left: 290px;
+	height: 85px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.information {
+	position: relative;
+	height: 1103px;
+	background-color: #f26352;
+}
+div.information-title {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0%);
+	text-align: center;
+	color: white;
+}
+span.big-title {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 45px;
+}
+span.small-title {
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 10px;
+}
+img.information-img {
+	position: absolute;
+	float: left;
+	top: 300px;
+	left: 260px;
+}
+div.information-form {
+	position: absolute;
+	float: left;
+	top: 333px;
+	left: 800px;
+}
+div.form1 {
+	position: relative;
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+div.form2 {
+	position: relative;
+	float: left;
+	left: 10px;
+	font-size: 20px;
+	color: white;
+}
+div.form3 {
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	margin-top: 10px;
+}
+div.form4 {
+	position: absolute;
+	left: 200px;
+	margin-top: 20px;
+}
+input.small-form {
+	width: 285px;
+	height: 40px;
+}
+input.big-form {
+	width: 585px;
+	height: 214px;
+}
+button.button-form {
+	background-color: #f26352;
+	border: 10px;
+	width: 216px;
+	height: 50px;
+	border: 3px solid white;
+	color: white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	position: relative;
+	height: 638px;
+	background-color: #000000;
+	background-image: url('img/footer.png');
+}
