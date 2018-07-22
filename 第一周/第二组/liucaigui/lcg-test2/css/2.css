@@ -94,7 +94,8 @@ height: 444px;
 text-align: center;
 border-radius: 50%;
 position: absolute;
-left: 740px;top: -350px;
+left: 190px;
+    top: 200px;
 background: green;
 }
 .knob-message .knob-msg-item{
