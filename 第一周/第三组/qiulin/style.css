@@ -1,0 +1,50 @@
+
+ * {
+     margin:0;
+     padding:0;
+     border: none;
+       }
+.div{
+       width:300px;
+       height:600px;
+       background-color: rgb(42,178,254);
+       font-family: Microsoft Yahei;
+       color:white;
+       text-align:center;
+     }
+  h2{ 
+       width:100%;
+       padding-top: 120px;
+       }
+  input{
+       width:200px;
+       height:20px;
+       padding-top:30px;
+  }
+.img{
+       border:none;
+       border-bottom: white solid 1px ;
+      background-color: rgb(42,178,254);
+   
+      }
+
+  .div1{
+        width:300px;
+        margin:20px 0 0 0;
+    	}
+  .div1 input:hover{
+        background: white;
+    	}
+    	.div1 input{
+    		width:70%;
+        height:40px;
+    		padding:10px 0;
+    		border:#3cf solid 1px;
+	      border-radius:20px;
+        color:rgb(42,178,254);
+	      font-size:20px;
+    	}
+    	.div2{
+    		font-size:10px;
+    		color:white;
+      }
