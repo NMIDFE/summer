@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>task 1</title>
+    <style type="text/css" rel="stylesheet">
+        div{
+        	width: 321px;
+        	height: 570px;
+        	background: #2ab2fe;
+        	position: absolute;
+        	top: 0px;
+        	left: 0px;
+        	
+        } 
+
+        .photo1{
+        	position: absolute;
+        	top: 0px;
+        	left: 0px;
+
+        }
+
+        .word1{
+        	position: absolute;
+        	top: 134px;
+        	left:89px; 
+        	color: white;
+            font-size: 24px;
+            font-family: Microsoft Yahei;
+        }
+
+        .photo2{
+        	position: absolute;
+        	top: 228px;
+        	left: 50px;
+
+        }
+
+        .photo3{
+        	position: absolute;
+        	top: 270px;
+        	left: 50px;
+
+        }
+
+        .word2{
+        	position: absolute;
+        	top: 222px;
+        	left: 86px;
+        	color: white;
+        	font-family: Microsoft Yahei;
+        	font-size: 10px;
+        }
+
+        .word3{
+        	position: absolute;
+        	top: 264px;
+        	left: 86px;
+        	color: white;
+        	font-family: Microsoft Yahei;
+        	font-size: 10px;
+        }
+  
+         .line1{
+         	position: absolute;
+         	border-bottom: 1px solid white;
+         	top:240px;
+         	left:50px;
+         	width: 220px;
+         }
+
+         .line2{
+         	position: absolute;
+         	border-bottom: 1px solid white;
+         	top:281px;
+         	left:50px;
+         	width: 220px;
+         }
+         .photo4{
+         	position: absolute;
+         	top: 330px;
+         	left: 45px;
+
+         }
+         .word4{
+        	position: absolute;
+        	top: 370px;
+        	left: 110px;
+        	color: white;
+        	font-family: Microsoft Yahei;
+        	font-size: 10px;
+        }
+
+    </style>
+</head>
+    <body>
+        <div></div>
+        <img src="file:///C:/Users/ht/Desktop/task%201/task%201%20top.png" class="photo1">
+        <p><span class="word1">STRATA GO</span></p>
+        <img src="file:///C:/Users/ht/Desktop/task%201/name.png" class="photo2">
+        <img src="file:///C:/Users/ht/Desktop/task%201/pass.png" class="photo3">
+        <p class="word2">Username</p>  
+        <p class="word3">Password</p>
+        <p class="line1"></p>
+        <p class="line2"></p>
+        <img src="file:///C:/Users/ht/Desktop/task%201/sign.png" class="photo4">
+        <p><span class="word4">Forgot Password?</span></p>
+
+    </body>
+</html>
