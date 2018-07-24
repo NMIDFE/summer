@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>task 1</title>
     <style type="text/css" rel="stylesheet">
+    input::-webkit-input-placeholder {
+    color: white; 
+    }
         div{
         	width: 321px;
         	height: 570px;
@@ -23,9 +26,9 @@
 
         .word1{
         	position: absolute;
+        	color: white;
         	top: 134px;
         	left:89px; 
-        	color: white;
             font-size: 24px;
             font-family: Microsoft Yahei;
         }
@@ -46,20 +49,21 @@
 
         .word2{
         	position: absolute;
-        	top: 222px;
+        	top: 234px;
         	left: 86px;
-        	color: white;
         	font-family: Microsoft Yahei;
         	font-size: 10px;
+            background: #2ab2fe;
         }
 
         .word3{
         	position: absolute;
-        	top: 264px;
+        	top: 274px;
         	left: 86px;
-        	color: white;
         	font-family: Microsoft Yahei;
         	font-size: 10px;
+        	background: #2ab2fe;
+
         }
   
          .line1{
@@ -96,15 +100,17 @@
 </head>
     <body>
         <div></div>
-        <img src="file:///C:/Users/ht/Desktop/task%201/task%201%20top.png" class="photo1">
+        <img src="picture/top.png" class="photo1">
         <p><span class="word1">STRATA GO</span></p>
-        <img src="file:///C:/Users/ht/Desktop/task%201/name.png" class="photo2">
-        <img src="file:///C:/Users/ht/Desktop/task%201/pass.png" class="photo3">
-        <p class="word2">Username</p>  
-        <p class="word3">Password</p>
+        <img src="picture/name.png" class="photo2">
+        <img src="picture/pass.png" class="photo3">
+        <form  method="post" action="save.php"> 
+	        <input type="text" class="word2" style="border:0px" placeholder="Username" color="white">
+          <input type="password" class="word3"  style="border:0px" placeholder="Password" color="white">
+        </form> 
         <p class="line1"></p>
         <p class="line2"></p>
-        <img src="file:///C:/Users/ht/Desktop/task%201/sign.png" class="photo4">
+        <img src="picture/sign.png" class="photo4">
         <p><span class="word4">Forgot Password?</span></p>
 
     </body>
