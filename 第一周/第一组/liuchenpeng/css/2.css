@@ -2,6 +2,14 @@
 	margin: 0 auto;
 	color: white;
 }
+* input{
+	background-color: #2ab2fe;
+	border: 0;
+	height: 30px;
+}
+input::-webkit-input-placeholder{
+	color: white;
+}
 .bg{
 	background-color: #2ab2fe;
 	width: 500px;
@@ -35,10 +43,11 @@
 }
 .user{
 	float: left;
+	width: 30px;
+	height: 30px;
 }
 .user1{
 	float: left;
-	margin-left: 20px;
 }
 .line{
 	width: 300px;
@@ -48,10 +57,11 @@
 }
 .password{
 	float: left;
+	width: 30px;
+	height: 30px;
 }
 .password1{
 	float: left;
-	margin-left: 20px;
 }
 .button2{
 	width: 300px;
