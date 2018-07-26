@@ -1,0 +1,75 @@
+body.background {
+	background-color: black;
+}
+div.bigdiv {
+	position: absolute;
+	width: 321px;
+	height: 570px;
+	background-color: #2ab2fe;
+	left: 50%;
+	top: 50%;
+	margin-left: -160px;
+	margin-top: -285px;
+}
+div.title {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	top: 80px;
+	margin-bottom: 40px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+div.form {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	top: 200px;
+}
+img.img {
+	display: inline-block;
+	position: absolute;
+	float: left;
+}
+input.input {
+	width: 100px;
+	height: 25px;
+	margin-left: 50px;
+	background-color: #2ab2fe;
+	border: 0px;
+	color: white;
+}
+form.form1{
+	display: inline-block;
+}
+
+img.thread {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+button.button {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	top: 120px;
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: white;
+	color: #2ab2fe;
+	font-size: 25px;
+}
+
+h5.forget {
+	position: absolute;
+	top: 355px;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+a.forget {
+	text-decoration: none;
+	color: white;
+}

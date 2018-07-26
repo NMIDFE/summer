@@ -1,0 +1,56 @@
+div {
+	background: #2ab2fe;
+	width: 400px;
+	text-align: center;
+	margin:0 auto;
+}
+h {
+	color: white;
+	font-size: 33px;
+	font-family: Arial;
+	font-weight: normal;
+	padding-top: 100px;
+	display: block;
+}
+form {
+	margin:0 auto;
+}
+table {
+	margin-top: 60px;
+	text-align: center;
+	margin-left: 15%;
+	vertical-align: middle;
+}
+input {
+	padding-left: 10px;
+	background: none;
+	border: none;
+	color: white;
+}
+th {
+	height: 40px;
+	vertical-align: middle;
+	border-bottom: 1px solid white;
+}
+input :focus {
+	border: none;
+}
+.value {
+	margin-top: 20px;
+	font-size: 33px;
+	color:#2ab2fe;;
+	border: 1px;
+	border-radius: 30px;
+	background: white;
+	width: 300px;
+	height: 40px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	padding-bottom: 200px;
+	display: block;
+}
+input placeholder {
+	color: white;
+}

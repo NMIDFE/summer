@@ -1,0 +1,431 @@
+body{
+	margin: 0 auto;
+}
+.content1{
+    width:100%
+}
+.text{
+    position: absolute;
+    z-index: 101;
+    display: block;
+    color: white;
+    width: 100%;
+    height: 86px;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+}
+.biaoti{
+	font-size: 40px;
+    float: left;
+    padding-left: 202px;
+    line-height: 80px;
+}
+.biaoti strong{
+	font-size: 40px;
+}
+.biaoti1 {
+	display: block;
+	font-size: 1px;
+	padding-bottom: 30px;
+	float: left;
+	line-height: 76px;
+}
+.nav{
+    float: left;
+    margin-left: 40px;
+    margin: 0 auto;
+}
+.nav-ul{
+    overflow: hidden;
+    height: 85px;
+    margin: 0 auto;
+    list-style:none;
+    color: #fff;
+}
+.nav-li{
+    float: left;
+    margin-left: 40px;
+    height: 85px;
+    line-height: 85px;
+}
+.nav-li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wenzi2{
+	border-style: solid; 
+	border-width:1px;
+	border-radius:8px;
+	padding: 2px 8px;
+	margin-right: 26px;
+    float:right;
+    margin-top: 28px;
+    font-size: 15px;
+}
+.text2{
+    float: right;
+    margin-right: 38px;
+    margin-top: 20px;
+}
+.wenzi3{
+	font-size: 12px;
+}
+.ling{
+	font-size: 8px;
+
+}
+.photo1 {
+    position: relative;
+	display: inline-block;
+    width: 100%;
+}
+.photo1 img{
+	height:714px;
+	width: 100%;
+}
+.inner{
+    position: absolute;
+    z-index: 101;
+    display: block;
+    color: white;
+    width: 100%;
+    margin:0 auto; 
+    margin-top:174px;
+    text-align: center;
+    clear: both;
+}
+.wenzi4{	
+	font-size: 40px;
+	width: 100px;
+}
+.wenzi5{
+	margin-top: 30px;
+	font-size:26px;
+	display: inline-block;
+	border-bottom:2px solid white;
+}
+.wenzi6{
+	padding: 5px;
+}
+.photo2{    
+    margin-top:158px; 
+	z-index: 101;
+}
+
+.content2{
+	background-color: #f5f5f6;
+	width: 100%;
+    float: left;
+}
+.other{
+	background: #fff;
+   	color: #000;
+   	border-bottom: 2px solid #e5e5e5;
+}
+.nav-li1{
+    float: left;
+    margin-left: 40px;
+    height: 85px;
+    line-height: 85px;
+}
+.nav-li1 a{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text3{
+    z-index: 101;
+    display: block;
+    color: black;
+    width: 100%;
+    height: 86px;
+    float: left;
+    background: #fff;
+    border-bottom:1px solid #aaa;
+}
+.wenzi7{
+	background: #ff8627;
+	border-style: solid; 
+	border-color: #ff8627;
+	border-width: 3px;
+	border-radius:8px;
+	padding: 10px;
+	margin-left: 104px;
+}
+.text4{
+	margin-top: 106px;
+}
+.wenzi8{
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	color: #565656;
+	font-weight: bold;
+}
+.wenzi9{
+	display: block;
+	text-align: center;
+	font-size:12px;
+	color: #565656;
+}
+.content3{
+	width: 100%;
+	float: left;
+}
+.inter{
+	margin-top: 88px;
+	width: 100%;
+}
+.wenzi10{
+    position: absolute;
+    z-index: 101;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.tupian{
+	width: 100%;
+	margin: 0 auto;
+}
+.photo3 {
+    position: relative;
+	display: inline-block;
+	width: 100%;
+
+}
+.photo3 img{
+    height:777px;
+	width: 100%;
+}
+.photo4{
+	position: absolute;
+	z-index: 101;
+	width: 100%;
+	margin-top: 178px;
+}
+.mobile{
+	height: 450px;
+}
+.wenzi11{
+	position: absolute;
+	z-index: 102;
+	margin-top: 12.5%;
+	margin-left: 59%;
+}
+.wenzi12{
+	font-size: 10px;
+	display: block;
+	padding-left: 50px;
+}
+.brands{
+    background: #f2f2f4;
+    width: 100%;
+    position: absolute;
+}
+
+.content4{
+	width: 100%;
+	float: left;
+}
+.inner2{
+    background: url(images/content4.gif);
+    margin-top: 88px;
+}
+.w1{
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	color: #e5e5e5;
+    padding-top: 10px;
+}
+.w2{
+	display: block;
+	text-align: center;
+	font-size:12px;
+	color: #6c6c65;
+}
+.photo5{
+	margin-top: 78px;
+}
+.photo6{
+	margin-top: 70px;
+}
+.zi{
+    width: 1380px;
+    margin: 0 auto;
+    overflow: hidden;
+	display: block;
+}
+.wenzizizi1{
+    margin-right: 54px;
+    text-align: center;
+    float: left;
+}
+.neirong{
+	width: 188px;
+	text-align: center;
+	color:#c1c6bf;
+}
+a{
+	text-decoration:none;
+}
+.biao{
+	color: #aaa;
+}
+
+.content5{
+	width: 100%;
+	float: left;
+}
+.left{
+    position: absolute;
+    right: 55%;
+    margin-top: 228px;
+    z-index: 101;
+    display: block;
+}
+.word3{
+	margin-right: 52px;
+	margin-top: 10px;
+	text-align:center;
+}
+.twi{
+    margin-top: 10px;
+    margin-right:15%;
+}
+.word2{
+	font-size: 10px;
+	float: left;
+	text-align: center;
+}
+.button{
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.button label{
+    color: #fff;
+}
+.button input{
+    width: 285px;
+    margin-top: 10px;
+    height: 35px;
+}
+.button select{
+    width: 290px;
+    margin-top: 10px;
+    height: 41px;
+}
+.submit{
+    background-color: rgba(0,0,0,0);
+    width: 220px;
+    height: 55px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 36px;
+    color: #fff;
+}
+.right{
+    width: 600px;
+    height: 565px;
+    overflow: hidden;
+	position: absolute;
+    left: 55%;
+	margin-top: 246px;
+    z-index: 101;
+    display: block;
+}    
+.submit{
+	width: 180px;
+	background-color: #f06150;
+	margin-top: 20px;
+	border-style: solid; 
+	border-width: 1px;
+	border-radius:5px;
+	padding: 10px;
+	margin-left: 200px;
+	color: #efefef;
+}
+.word4{
+	margin-right: 190px;
+	font-size: 15px;
+	padding-bottom: 10px;
+	color: white;
+}
+.photo7{
+    position: relative;
+	display: inline-block;
+	width: 100%;
+
+}
+.photo7 img{
+	width: 100%;
+	    height: 850px;
+}
+.content6{
+	width: 100%;
+	background: black;
+	float: left;
+}
+.footer_link { 
+	width:1080px; 
+	margin:0 auto; 
+	overflow:hidden; 
+	padding-top:20px; 
+}
+.footer_link dl { 
+	float:left; 
+	width:240px; 
+}
+.footer_link dt { 
+	font-size:15px; 
+	color:#fff; 
+	font-weight:bold; 
+	line-height:50px;
+	padding-left: 40px; 
+}
+.footer_link dd { 
+	line-height:20px; 
+}
+.footer_link a { 
+	font-size:13px; 
+	color:#737b7d; 
+}
+.footer-bottom{
+    width: 1210px;
+    border-top: 1px solid #737b7d;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.footer-bottom a{
+     color: #737b7d;
+     border-right: 1px solid #737b7d;
+     padding: 0 5px;
+     font-size: 14px;
+ }
+.footer-one{
+    width: 710px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-two{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-three{
+    width: 535px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-four{
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.footer-four a{
+    border: 0;
+}
+

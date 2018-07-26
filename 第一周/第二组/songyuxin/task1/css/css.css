@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0；
+}
+
+.background{
+	background-color: #2AB2FE;
+	padding: 10%;
+}
+
+.article {
+	background-color: #2AB2FE;
+	margin: 0 auto;
+	width: 30%;
+	padding: 1%;
+	text-align: center;
+	color: white;
+}
+
+.article-p {
+	line-height: 50px;
+	color: white;
+}
+
+.submit	{
+	background-color: white;
+    border: none;
+    color: #2AB2FE;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:150%;
+    cursor: pointer;
+    border-radius:30px;
+    width: 100%;
+    padding:3%; 
+    margin: 18% 0 0 0;
+}
+
+.articleheader{
+	background-color: #2AB2FE;
+	text-align: center;
+	color: white;
+	font-size: 150%;
+	padding: 10%;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+}
+
+.div-bor{
+    position: relative;
+    width: 90%;
+}
+
+.icon-user{
+    position: absolute;
+    z-index:5;
+    background-image: url(../images/1.png); 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px; 
+    width: 50px;
+    height: 50px;
+    top: 4px;
+    left:5px;
+}
+
+.user{
+    padding:5px 5px 5px 58px;
+    border-style: none; 
+	border-bottom: 1px solid white; 
+    color: white;
+    width: 90%;
+    height: 38px;
+    background: #2AB2FE;
+}
+
+.icon-user1{
+    position: absolute;
+    z-index:5;
+    background-image: url(../images/2.png); 
+    background-repeat: no-repeat; 
+    background-position: 0px 0px; 
+    width: 50px;
+    height: 50px;
+    top: 4px;
+    left:5px;
+}

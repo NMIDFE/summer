@@ -1,0 +1,95 @@
+footer {
+    width: 100%;
+    background: black;
+    color: #848484;
+    font-size: 11px;
+    padding: 10px 0;
+    font-family: 'Muli', sans-serif, Arial, Tahoma;
+    font-weight: 400;
+}
+
+footer a {
+    color: #848484;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer h4 {
+    font-size: 12px;
+    color: white;
+    border-bottom: dotted 1px #848484;
+    padding-bottom: 10px;
+}
+footer .main-width{
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-toggle {
+    padding-top: 30px;
+    display: none;
+    padding-bottom: 10px;
+}
+
+.footer-top-row {
+    overflow: hidden;
+}
+
+.footer-col {
+    float: left;
+    width: 20%;
+    padding-right: 5%;
+}
+
+.footer-col ul {
+    line-height: 26px;
+    margin-top: 10px;
+}
+
+.footer-links {
+    text-align: center;
+    line-height: 18px;
+    border-top: solid 1px #1a1a1a;
+    margin-top: 50px;
+    padding: 12px 0;
+}
+
+.copyright {
+    padding: 20px 0;
+    font-family: 'Muli', sans-serif, Arial, Tahoma;
+    font-weight: 300;
+}
+
+.copyright,
+.toggle-link {
+    text-align: center;
+}
+
+.toggle-link {
+    text-transform: uppercase;
+}
+
+.toggle-link span {
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    bottom: 18px;
+}
+
+.toggle-link span:hover {
+    color: white;
+}
+
+.toggle-link span.hide-link {
+    display: none;
+}
+
+.toggle-link.active span.hide-link {
+    display: block;
+}
+
+.toggle-link.active span.show-link {
+    display: none;
+}

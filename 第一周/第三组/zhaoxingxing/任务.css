@@ -1,0 +1,375 @@
+* {
+	padding:0px;
+	margin: 0px;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style: none;
+	}
+#first {
+	background: url(任务.png); 
+	height: 759px;
+	width: 1349px;
+}
+#lead {
+	background:rgba(35,36,35,0.5); 
+	height: 84px;
+	width: 100%;
+}
+.leadingl a{
+	float: left;
+	padding: 0 10px;
+	color: white;
+	font-family::Arial Narrow Bold;
+	font-size: 10px;
+	line-height: 70px;
+}
+ul li .big {
+	color: white;
+	font-size: 30px;
+	padding:0 50px 0 200px;
+	line-height: 70px;
+}
+.leadingr {
+	float:right; 
+}
+.leadingr li{
+	float: left;
+	
+}
+.leadingr li a{
+	color: red;
+	font-size: 10px;
+	/*字体不能变的更小了*/
+	line-height: 70px;
+	padding-right: 10px;
+}
+.leading {
+	float: right;
+	display: inline;
+	padding-right: 200px;
+	margin-top: 15px;
+	color: red;
+}
+/*如何让ul标签垂直居中*/
+#center {
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+	font-family: Bell MT Regular;
+}
+.shape {
+	font-size: 60px;
+	padding-top: 10px;
+}
+.love {
+	font-size: 15px;
+	padding-top: 30px;
+}
+.love img {
+	padding:0px;
+}
+#lead1 {
+	background:white; 
+	height: 84px;
+	width: 100%;
+}
+.leadingl1 a{
+	float: left;
+	padding: 0 10px;
+	color: black;
+	font-family::Arial Narrow Bold;
+	font-size: 10px;
+	line-height: 70px;
+}
+ul li .big1 {
+	color: black;
+	font-size: 30px;
+	padding:0 50px 0 200px;
+	line-height: 70px;
+}
+.leadingr1 {
+	float:right; 
+}
+.leadingr1 li{
+	float: left;
+	
+}
+.leadingr1 li a{
+	color: white;
+	font-size: 10px;
+	/*字体不能变的更小了*/
+	line-height: 70px;
+	padding-right: 10px;
+	background-image: url(图标背景.png);
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+.leading1 {
+	float: right;
+	display: inline;
+	padding-right: 200px;
+	margin-top: 15px;
+	color: black;
+}
+#second {
+	width: 1349px;
+	height: 697px;
+}
+#picture {
+	width: 1349px;
+	height: 613px;
+	background-image: url(背景.png);
+	
+}
+.WE {
+	font-size: 55px;
+	font-family: Bell MT;
+	padding-top: 10px;
+	text-align: center;
+}
+#picture .middle {
+	margin-top: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+#picture .small {
+	font-size: 10px;
+	margin-top: 10px;
+	color: #db5f9b;
+	text-align: center;
+}
+#picture .shangmian {
+	height: 107px;
+	width: 1349px;
+}
+#picture .datubiao {
+	margin-left: 40px;
+	background-image: url(中心图标.png);
+	height: 489px;
+	width: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-position-y:top;
+	font-size: 10px;
+}
+.datubiao .left1 {
+	top: 150px;
+	position: relative;
+	color: #ffbc31;
+	margin-left: 200px;
+}
+.datubiao .left2 {
+	position: relative;
+	top: 310px;
+	margin-left: 225px;
+	color: #83b444;
+}
+.datubiao .right1 {
+	position: relative;
+	top:115px;
+	margin-left: 940px;
+	color: #04cbce;
+}
+.datubiao .right2 {
+	position: relative;
+	top: 275px;
+	margin-left: 1000px;
+	color: #7eabf5;
+	width: auto;
+	height: auto;
+}
+.datubiao ul{
+	text-align: center;
+	position: relative;
+	top:250px;
+}
+.datubiao ul li {
+	color: white;
+	padding-top: 5px;
+	font-size: 10px;
+}
+.datubiao ul .big {
+	font-size: 25px;
+}
+.TV {
+	text-align: center;
+
+}
+.TV .big {
+	font-size: 30px;
+	font-family: Arial;
+} 
+.TV .small {
+	font-family: Arial;
+	display: block;
+	margin-top: 10px;
+	font-size: 10px;
+}
+#fourth {
+	background-image: url(背景2.png);
+	height: 551px;
+}
+.h {
+	font-family: Arial;
+	text-align: center;
+}
+.h h {
+	display: block;
+	margin-top: 50px;
+	font-size:33px;
+	color: white;
+}
+.h p {
+	font-size: 10px;
+	color: #676761;
+}
+.button {
+	float: none;
+	text-align: center;
+	padding-top: 30px;
+	color: white;
+}
+.button input{
+	color: white;
+	width: 100px;
+	height: 35px;
+	background: #262626;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin:0px;
+	float: none;
+}
+.tubiao1 {
+	float: left;
+	width: 180px;
+	margin-left: 200px;
+	text-align:center;
+	font-family: Arial Regular;
+	color: #b9beb7;
+	font-size: 5px;
+	margin-right: 10px;
+}
+
+.biglogle {
+	padding-top: 30px;
+}
+.biglogle .big {
+	color: #525657;
+	font-size: 15px;
+	padding: 15px 0px;
+}
+.tubiao2,.tubiao3,.tubiao4,.tubiao5{
+	float: left;
+	width: 180px;
+	text-align:center;
+	font-family: Arial Regular;
+	color: #b9beb7;
+	font-size: 5px;
+	margin-right: 10px;
+}
+.redbc {
+	width: 1349px;
+	height: 775px;
+	background-image: url(大背景2.png);
+	text-align: center;
+	font-family: Arial Regular;
+	color:white;
+}
+.redbc .title {
+	padding-top: 50px;
+}
+.redbc h {
+	font-size: 33px;
+	display: block;
+	padding-top: 10px;
+}
+.redbc p {
+	font-size: 10px;
+	padding-top: 10px;
+}
+.tbwenzi {
+	float: left;
+	text-align: center;
+	padding-left: 280px;
+	width: 350px;
+}
+.tbwenzi img {
+	padding-top: 30px;
+}
+.tbwenzi p {
+	font-size: 5px;
+	font-family: Arial;
+	color: black;
+	padding-top: 10px;
+}
+.tbwenzi .white {
+	color: white;
+}
+.form {
+	width: 450px;
+	height: 450px;
+	float: right;
+	padding-right: 220px;
+	margin-top:60px;
+	text-align: none; 
+}
+.form table {
+	float: left;
+}
+.form tr th{
+	font-family: Arial;
+	width: 165px;
+	height: 18px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 10px;
+	padding-left: 10px;
+}
+.form tr th input {
+	width: 170px;
+	height: 18px;
+}
+textarea {
+	width: 80%;
+	height: 150px;
+	float: left;
+	margin-left: 10px;
+}
+input {
+	float: left;
+	position: relative;
+}
+/*提交按钮无法再textarea下显示*/
+#sixth {
+	background: black;
+	height:448px;
+	width: auto;
+	padding-left: 200px;
+}
+.first1 {
+	float: left;
+	margin-right: 80px;
+}
+.first1 li{
+	color: #77757a;
+	font-size: 5px;
+	font-family: Arial;
+	padding-top: 5px;
+}
+.first1 .big {
+	margin-top: 30px;
+	font-size: 10px;
+	color: white;
+	padding-bottom: 15px;
+}
+#sixth .center {
+	text-align: center;
+	padding-top: 300px; 
+	padding-right: 200px;
+	width: 750px;
+}
+#sixth .center p{
+	color: #77757a;
+	font-size: 5px;
+	margin-bottom: 20px;
+}
