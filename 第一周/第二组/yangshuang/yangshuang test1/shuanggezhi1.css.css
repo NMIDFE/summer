@@ -12,17 +12,19 @@ body{background-color:#2ab2fe;}
 	
 	width:230px;
 	margin:auto;}
-
+#user img{
+	float: left;
+}
+#pass img{
+	float: left;
+}
 input{
 background:none;
 display:inline-block;
+padding-left: 10px;
 height:25px;
-border-color: #ffffff;
-border-style: solid; 
-border-top-width: 0px;
- border-right-width: 0px; 
-border-bottom-width: 1px;
- border-left-width: 0px;
+border: none;
+outline: none;
 }
 input::-webkit-input-placeholder{
 	color:white; 
@@ -30,7 +32,7 @@ input::-webkit-input-placeholder{
 input::-moz-input-placeholder{
 	color:white; 
 }
-input::-moz-input-placeholder{
+input::-moz-input-placehlder{
 	color:white; 
 }
 input::-ms-input-placeholder{
@@ -41,6 +43,7 @@ input::-ms-input-placeholder{
 	margin: 30px auto 0px;
 	
 }
+
 
 #forget 
 {
