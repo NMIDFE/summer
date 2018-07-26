@@ -1,4 +1,12 @@
-body {
+
+a:link{
+    text-decoration: none;
+}
+
+img {
+    margin-bottom:-3px;
+}
+.box{
     background-color: rgb(42,178,254);
     position: absolute;
     left: 0px;
@@ -6,10 +14,37 @@ body {
     width: 321px;
     height: 570px;
     z-index: 1;
-    text-align: center;
 }
-a:link{
-    text-decoration: none;
+.title {
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 146px;
+    left: 90px;
+}
+.user {
+     position: absolute;
+     top: 250px;
+     left: 30px;
+     width: 223px;
+     height: 34px;
+    border-bottom: 1px solid #cccccc;
+}
+.pass {
+    position: absolute;
+    top: 285px;
+    left: 30px;
+    width: 223px;
+    height: 34px;
+    border-bottom: 1px solid #cccccc;
+}
+.sub{
+    position: absolute;
+    top: 337px;
+    left: 45px;
+    width: 223px;
+    height:56px;
+    text-align: center;
 }
 
 
