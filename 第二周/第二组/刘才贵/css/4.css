@@ -1,0 +1,119 @@
+.fou{
+    width: 100%;height: 800px;background: white;padding-top: 50px;
+}
+.fou .head{ text-align: center;}
+
+.fou .head h1{font-size: 50px;}
+.fou .head p{margin-top: 20px; font-family: Calisto MT;font-size: 20px;font-weight: bold;}
+.fou .head::after{content: '' ;position: absolute; height: 5px;left: calc(50% - 30px);width: 60px;background: orange;margin-top: 20px;}
+.fou .con{
+    width: 1020px;height: 500px;margin: 0 auto;margin-top: 100px;
+}
+.fou .con .header{
+    background: grey;height: 40px;line-height: 40px;
+}
+.fou .con .header span{
+    margin-right: 20px;color: white;
+}
+.fou .con .th{
+    width: 300px;height: 400px;margin-top: 20px;float: left;margin-right: 40px;position: relative;overflow: hidden;
+}
+.fou .con .th img{
+    transition: .5s;
+}
+.fou .con .th .text{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 10%;
+    text-align: center;
+}
+
+.fou .con .th .text a{
+    text-decoration: none;
+}
+/**/
+.fou .con .th .text a{
+margin-top: 10px; position: relative; background-color:gold; color: black; z-index: 0; display: inline-block;
+width: 220px; height:45px; line-height: 45px; text-align: center; vertical-align: middle;
+ }
+.fou .con .th .text a:after {
+content: ''; position: absolute; z-index: -1; top: 0px; left: 0px; display: inline-block; width: 0; height: 100%;
+background-color:black; transition: width .3s ,color .3s;
+}
+.fou .con .th .text a:hover {
+    color: #fff;
+}
+.fou .con .th .text a:hover:after {
+    width: 100%;  
+}
+.fou .con .th1 .text{
+    top: 80%;
+}
+.fou .con .th1 .text a{
+    background: white;
+}
+.fou .con .th2  .text{
+    left: 0;
+}
+.fou .con .th2  .text .one{
+    font-size: 25px;
+}
+.fou .con .th2  .text .two{
+    margin-top: 30%;
+}
+.fou .con .th2 .text a{
+    margin-top: 49%;
+}
+.fou .con .th2 .text .three{
+    display: inline-block;width: 250px;
+}
+.fou .con .th3{
+    width: 300px;height: 400px;margin-top: 20px;float: left;
+}
+.fou .con .th3 .rhead{
+    border-left: 5px solid orange;padding-left: 5px;
+}
+.fou .con .th3 .box{
+    width: 300px;height: 100px;margin-top: 20px;
+}
+.fou .con .th3 .box img{
+    margin-right: 10px;
+    float: left;
+}
+.fou .con .th3 .box span{
+    float: left;color: grey;display: inline-block;width: 175px;font-size: 14px;
+}
+.fou .con .th3 .box a{
+    margin-top: 10%;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;width: 175px;
+    float: left;
+}
+.fou .con .th3 .box a:hover{
+    text-decoration: underline solid orange;
+}
+.fou .con .th3 .foot{
+    margin-top: 10%;
+    color: black;
+    position: relative;
+    text-decoration: none;
+    border-bottom: 2px solid orange;z-index: 0;
+    background: orange;
+    float: left;
+    transition:1s;
+}
+.fou .con .th3 .foot::after{
+    content: '';
+    width: 100%;  
+    height: 100%;
+    position: absolute;top: 0px;
+    left: 0px;z-index: -1;
+    background: white;
+    transition:.3s;
+}
+.fou .con .th3 .foot:hover:after{
+    height:0;
+}

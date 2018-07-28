@@ -1,0 +1,94 @@
+.first{
+    width: 100%;height: 1200px;background: url("../images/bg.jpg") 100% 1000px;background-attachment: fixed;color: #fff;padding-top: 200px;
+}
+.first .head{ text-align: center;}
+.first .head h1{font-size: 50px;}
+.first .head p{margin-top: 20px; font-family: Calisto MT;font-size: 20px;font-weight: bold;}
+.first .head::after{content: '' ;position: absolute; height: 5px;left: calc(50% - 30px);width: 60px;background: orange;margin-top: 20px;}
+.first .con{
+    width: 1020px;
+    margin: 0px auto;margin-top: 100px;
+}
+.first .con .zleft{
+    width: 360px;float: left;
+}
+.first .con .zleft .header{
+    border-left: 3px solid orange;
+}
+
+.first .con .zleft a{
+    color: #fff;
+    text-decoration: none;
+}
+.first .con .zleft .one:hover{
+    text-decoration:underline;
+}
+.first .con .zleft .two:hover{
+    color: grey;
+}
+.first .con ul{margin-top: 20px;}
+.first .con li{
+   list-style: none;height: 90px;margin-bottom: 20px;
+}
+.first .con li .left{margin-right: 20px;float: left;}
+.first .con li .right{
+   vertical-align:middle;line-height: 25px;
+}
+.first .con li .right span{
+   display: inline-block;width: 210px;line-height: normal;
+}
+/*=======*/
+.first .con .zright{
+   width: 620px;height: 880px;
+   float: right;
+}
+.first .con .zright .lim{
+   width: 295px;height: 260px;overflow: hidden;
+}
+.first .con .zright .top{
+width: 600px;height: 400px;overflow: hidden; margin-bottom: 40px;transition: 0.3s;position: relative;
+}
+.first .con .zright .top .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+   margin-left: 5%;
+   padding-top: 40%;
+}
+
+.first .con .zright .left{
+   float: left;
+}
+
+.first .con .zright .right{
+   float: right;
+}
+.first .con .zright span{
+   display: inline-block;width: 260px;
+}
+.first .con .zright img{
+   transition: 0.5s;
+}
+.first .con .zright img:hover{
+transform: scale(1.1);
+}
+.first .con .zleft .footer{
+    position: relative;
+    text-decoration: none;
+    border-bottom: 2px solid orange;z-index: 0;
+    background: orange;
+    float: left;
+    transition:1s;
+}
+.first .con .zleft .footer::after{
+    content: '';
+    width: 100%;  
+    height: 100%;
+    position: absolute;top: 0px;
+    left: 0px;z-index: -1;
+    background: black;
+    transition:.3s;
+}
+.first .con .zleft .footer:hover:after{
+    height:0;
+}

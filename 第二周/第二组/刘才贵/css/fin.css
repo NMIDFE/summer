@@ -1,0 +1,17 @@
+.fin{height: 540px;height: 100%;}
+.fin .top{position: relative; text-align: center;height: 250px;width: 100%; background: url("../images/7_bg.jpg");background-position: bottom; color: white;padding-top: 20px;}
+.fin .top input{width: 50%;height: 60px;}
+.fin .top button{width: 60px;height: 60px;background: url("../images/7_2.png"); line-height: 60px;vertical-align: middle;}
+.fin .top h4{margin:20px auto 20px;}
+.fin .top p{display: inline-block;max-width: 920px;font-size: 12px;padding-top: 20px;}
+.fin .top p a{color: #fff;}
+.fin .con{background: black; padding-top:2%;}
+.fin .con .li{width: 900px; height: 300px; margin: 0 auto;}
+.fin .con ul{float: left;margin-left: 40px;list-style: none;color: white;font-size: 18px;}
+.fin .con ul li a{text-decoration: none;color: white;font-size: 12px;}
+.fin .con ul li a:hover{text-decoration: underline;}
+.fin .footer{width: 100%;height: 70px;background: black;color: white;border-top: white 1px dashed;line-height: 70px; vertical-align: middle;}
+.fin .footer .fcon{width: 990px;height: 100%;margin: 0 auto; font-size: 10px;}
+.fin .footer .fcon a{color: white;}
+.fin .footer .fcon .icon{font-size: 16px;display: inline-block;margin-right: 20px;max-width: 100px;line-height: normal;vertical-align: middle;}
+.fin .footer .fcon img{line-height: 70px;vertical-align: middle;}
