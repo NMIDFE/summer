@@ -1,0 +1,140 @@
+* {
+	margin:0 auto;
+	padding:0;
+	text-decoration: none;
+	list-style:none;
+}
+a {
+	color: black;
+}
+#root {
+	background: white;
+	position: fixed;
+	top: 0px;
+	height: 48px;
+	width: 100%;
+	line-height: 48px;
+	display: block;
+	overflow: hidden;
+	z-index: 999;
+}
+#root a {
+	float: left;
+	margin-left: 10px;
+}
+#root ul {
+	float: right;
+}
+#root li {
+	float: left;
+}
+#root ul img {
+	padding-top: 10px;
+}
+#root span:hover{
+	border-bottom: 2px solid #ffcc00;
+}
+.EXPLORE {
+	height: 1000px;
+	background-image: url(老人背景.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	background-position: center 0;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+}
+.EXPLORE h1 {
+	padding-top:105px; 
+	font-weight: 400;
+	font-size: 54px;
+	letter-spacing: 4.2px;
+	font-weight: bold;
+}
+.EXPLORE h2 {
+	padding-top: 30px;
+	font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.STORIES {
+	margin-top: 30px;
+}
+.STORIES .left {
+	width: 320px;
+	height: auto;
+	color: white;
+	
+	position: relative;
+}
+.STORIES .left .first {
+	width:320px;
+	background: red;
+}
+.STORIES .left div p{
+	float: left;
+	padding-right: 10px;
+	display: block;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.STORIES .left .next {
+	padding-top: 15px;
+}
+.STORIES .left .picture {
+	width: 90px;
+	height: 98px;
+	position: relative;
+	display: inline;
+
+}
+.STORIES .left div div img{
+	float: left;
+	width: 90px;
+	position: relative;
+}
+.STORIES .left div div p{
+	float: right;
+}
+.STORIES .left .sim {
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 3px;
+    color: white;
+    text-align: none;
+}
+.STORIES .left .cu {
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: bold;
+    font-size: 5x;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: white;
+}
+.STORIES .left .cu:hover {
+	color: #999;
+}
+.STORIES .left .sim:hover{
+	text-decoration: underline;
+}
+.STORIES .left .next div div {
+	margin-top: 10px;
+}
+.STORIES .right {
+	float: right;
+}
