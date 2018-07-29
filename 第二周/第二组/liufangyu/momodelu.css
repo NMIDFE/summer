@@ -1,0 +1,155 @@
+
+@charset "utf-8";
+body{
+margin: 0px;
+padding: 0px;
+}
+a{
+	text-decoration:none;
+}
+
+#head{
+	background-image:url(images/images/webpages_02.png);
+	width:1925px;
+	height:1030px;
+}
+#left{
+    margin:0px 0px 0px 300px;
+    display:inline-block;
+}
+#left li{
+   color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   display:inline-block;
+   margin:20px 15px 0px;
+}
+#left a{
+	color: white;
+}
+.size{
+	font-size: 44px;
+}
+.right{
+    margin:0px 0px 0px 300px;
+    display:inline-block;
+}
+.right img{
+	margin: 15px 5px 0px;
+}
+.navi{
+	width:1925px;
+    height:83px;
+}
+.navi a{color:black;}
+
+.navi a:hover{
+	font-size:36px;
+}
+.left2{margin:0px 0px 0px 300px;
+    display:inline-block;
+    
+    }
+.left2 li{color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    display:inline-block;
+    margin:20px 15px 0px;
+    }	
+#cms{
+	background-image:url(images/images/webpage_03.png);
+	width:1925px;
+	height:875px;}
+#example{
+	width:1925px;
+	height:866px;
+	background-image:url(images/webpage_11.png);
+	}
+#spon{
+	width: 1925px;
+	margin: auto;
+	padding-top: 0px;
+	background-color:#f3f3f3;
+	}
+#brand{
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 300px;
+	padding-bottom: 0px;
+	padding-left: 300px;
+		}
+#advan{
+	background-image:url(images/images/s_02.png);
+	width:1925px;
+	height:788px;
+	}
+#sub{
+		background-image:url(images/webpage_35.png);
+		width:1925px;
+		height:1101px;
+	}
+form{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 630px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 890px;
+	padding-top: 335px;
+		}
+input{
+			width:280px;
+			height:38px;
+		}
+td
+		{
+	margin-right: 20px;
+}
+textarea{
+			resize:none;
+		width:575px;
+		height:215px;
+		}
+button{
+			display:inline-block;
+			width:200px;
+			height:60px;
+			margin-top:10px;
+			margin-left:200px;
+			margin-right:180px;
+			margin-bottom:0px;
+			background-color:#f55948;
+			border-color:white;
+			font-size:36px;
+			color:white;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+#footer{
+	background-color:black;
+	width:1925px;
+	height:628px;
+}
+#our{
+	margin-right: 418px;
+	margin-bottom: 0px;
+	margin-left: 358px;
+	padding-top: 54px;
+}
+.ser{
+	float:left;
+	height: 400px;
+	width: 238px;
+	color: #77757a;
+	margin-right: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#di{
+	color:#77757a;
+	text-align:center;
+	clear:both;
+	width:590px;
+	margin:auto;
+}
+
+
+
