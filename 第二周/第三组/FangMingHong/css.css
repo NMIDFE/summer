@@ -1,0 +1,1214 @@
+/*reset*/
+*{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;color: #000;}
+
+/*clearfloat*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.left{float:left;}
+.right{float: right;}
+
+
+
+/*position*/
+.relative{position: relative;}
+.absolute{position: absolute;}
+
+/*seeMore start*/
+.seeMore{
+	width: 87px;
+	height: 20px;
+	border-bottom: 3px solid rgb(255,204,0);
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+.seeMore p{
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 12px !important;
+    letter-spacing: 3px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold !important;
+}
+.seeMore:hover{
+	background-color: rgb(255,204,0);
+}
+/*seeMore end*/
+
+/*button start*/
+button{
+	width: 150px;
+	height: 46px;
+	background-color: rgb(255,204,0);
+	border: none;
+	color: #000;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+button:hover{
+	background-color: #000;
+	color: #fff;
+}
+/*button end*/
+/*headline start*/
+.headline{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.headline h1{
+	font-size: 54px;
+    letter-spacing: 4.2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.headline{
+	letter-spacing: .1px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 68px;
+}
+.headline span{
+	display: block;
+	width: 60px;
+	height: 5px;
+	background-color: rgb(255,204,0);
+	margin: 0 auto;
+}
+/*headline end*/
+
+
+/*iconfont*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('fonts/iconfont.eot');
+  src: url('fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/iconfont.woff') format('woff'),
+  url('fonts/iconfont.ttf') format('truetype'),
+  url('fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ifcolor{
+	color: #fff;
+}
+/*nav start*/
+.nav{
+	width: 100%;
+	min-width: 500px;
+	height: 48px;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	z-index: 20;
+}
+.nav .navLeft a img{
+	height: 47px;
+}
+.nav .navRight{
+	width: 255px;
+}
+.nav .navRight a{
+	line-height: 48px;
+	font-size: 14px;
+}
+.nav .navRight a:nth-of-type(1){
+	margin-right: 18px;
+	font-family: 'GeoEditRegular';
+}
+.nav .navRight i:nth-of-type(1){
+	margin-right: 18px;
+}
+.nav .navRight i:nth-of-type(2){
+	margin-right: 36px;
+}
+.nav .navRight a:nth-of-type(2){
+	margin-right: 8px;
+}
+.nav .navRight i:nth-of-type(3){
+	font-size: 10px
+}
+.nav .navRight i{
+	line-height: 48px;
+	font-weight: bold;
+}
+/*nav end*/
+
+/*homepage start*/
+.homepage{
+	height: 1270px;
+	width: 100%;
+	min-width: 1200px;
+	background: linear-gradient(180deg, transparent 0%, #000 100%),url(images/homepage.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.homepage .headline{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.homepage .headline h1{
+	font-size: 54px;
+    letter-spacing: 4.2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+}
+.homepage .headline p{
+	letter-spacing: .1px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 68px;
+}
+.homepage .headline span{
+	display: block;
+	width: 60px;
+	height: 5px;
+	background-color: rgb(255,204,0);
+	margin: 0 auto;
+}
+.homepage .homepagelawer{
+	width: 1200px;
+	height: 970px;
+	margin: 0 auto;
+}
+.homepage .homepagelawer .seeMore{
+	margin-top: 40px;
+}
+.homepage .homepagelawer .latestStories{
+	width: 370px;
+	height: 970px;
+}
+.homepage .homepagelawer .latestStories span{
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: rgb(255,204,0);
+	margin-right: 20px;
+}
+.homepage .homepagelawer .latestStories p{
+	font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.homepage .homepagelawer .latestStories .stories{
+	width: 370px;
+	height: 100px;
+	position: relative;
+	margin-top: 40px
+}
+.homepage .homepagelawer .latestStories .stories img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+.homepage .homepagelawer .latestStories .stories a{
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.homepage .homepagelawer .latestStories .stories a:hover{
+	border-bottom: 1px solid #fff;
+}
+.homepage .homepagelawer .latestStories .stories p{
+	width: 216px;
+	font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    cursor: pointer;
+}
+.homepage .homepagelawer .latestStories .stories p:hover{
+	color: #ccc;
+}
+.homepage .homepagelawer .readMore{
+	width: 830px;
+	height: 970px;
+}
+.homepage .homepagelawer .readMore .readTop{
+	width: 830px;
+	height: 500px;
+	position: relative;
+}
+.homepage .homepagelawer .readMore .readTop .Img{
+	width: 750px;
+	height: 422px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.homepage .homepagelawer .readMore .readTop img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	transition:width 0.5s, height 0.5s;
+}
+.homepage .homepagelawer .readMore .readTop img:hover{
+	width: 110%;
+	height: 110%;
+}
+.homepage .homepagelawer .readMore .readTop .top{
+	height: 160px;
+	width: 730px;
+	position: absolute;
+	top: 262px;
+	right: 0;
+}
+.homepage .homepagelawer .readMore .readTop .top p{
+	cursor: pointer;
+}
+.homepage .homepagelawer .readMore .readTop .top p:nth-of-type(1){
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+}
+.homepage .homepagelawer .readMore .readTop .top p:nth-of-type(2){
+	color: #fff;
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 40px;
+    margin-top: 5px;
+}
+.homepage .homepagelawer .readMore .readTop .top p:nth-of-type(3){
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+.homepage .homepagelawer .readMore .readLeft{
+	width: 415px;
+	height: 470px;
+}
+.homepage .homepagelawer .readMore .readRight{
+	width: 415px;
+	height: 470px;
+}
+.homepage .homepagelawer .readMore .readBox{
+	width: 314px;
+	height: 417px;
+	background-color: #fff;
+}
+.homepage .homepagelawer .readMore .readBox p{
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size: 22px;
+    margin: 18px 0 18px 24px;
+}
+.homepage .homepagelawer .readMore .readBox a{
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-left: 24px;
+}
+.homepage .homepagelawer .readMore .readLeft .readBox{
+	margin-right: 20px;
+}
+.homepage .homepagelawer .readMore .readBox img{
+	width: 100%;
+	height: 100%;
+	transition:width 0.5s, height 0.5s;
+}
+.homepage .homepagelawer .readMore .readBox:hover img{
+	width: 110%;
+	height: 110%;
+}
+.hp03{
+	width: 314px;
+	height: 260px;
+	overflow: hidden;
+}
+/*homepage end*/
+
+/*watch start*/
+.watch{
+	width: 100%;
+	min-width: 1200px;
+	height: 1300px;
+	background-color: #fff;
+}
+.watch .headline h1{
+	color: #000;
+}
+.watch .headline p{
+	color: #000;
+}
+.watch .video{
+	width: 940px;
+	height: 530px;
+	margin: 0 auto;
+}
+.watch .video video{
+	width: 940px;
+	height: 530px;
+}
+.watch .video{
+
+}
+.watch .videoContent{
+	width: 900px;
+	height: 300px;
+	left: 0;
+	bottom: 0;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.watch .videoContent p{
+	color: #fff;
+	font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+.watch .videoContent h2{
+	font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    color: #fff;
+    margin-bottom: 22px;
+}
+.watch .videoContent button{
+	width: 256px;
+	height: 44px;
+	background-color: rgb(255,204,0);
+	border: none;
+	color: #fff;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.watch .videoContent button:hover{
+	background-color: #000;
+}
+.watch .nat{
+	width: 940px;
+	height: 77px;
+	margin: 0 auto;
+}
+.watch .nat p{
+	font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 77px;
+    color: #000;
+    font-size: 18px !important;
+}
+.watch .nat .seeMore{
+	font-size: 12px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.watch .photos{
+	width: 940px;
+	height: 255px;
+	margin: 0 auto;
+}
+.watch .photos .photo{
+	height: 255px;
+	width: 170px;
+	margin-right: 22.5px;
+	overflow: hidden;
+}
+.watch .photos .photo img{
+	width: 100%;
+	height: 100%;
+	transition: height 1s,width 1s;
+}
+.watch .photos .photo:hover img{
+	width: 110%;
+	height: 110%;
+}
+.watch .photos .lastPhoto{
+	margin: 0;
+}
+.watch .leftArrow{
+	left: -30px;
+	top: 117px;
+	cursor: pointer;
+}
+.watch .rightArrow{
+	right: -30px;
+	top: 117px;
+	cursor: pointer;
+}
+
+/*watch end*/
+
+/*travel start*/
+.travel{
+	width: 100%;
+	min-width: 1200px;
+	height: 1350px;
+	background: linear-gradient(180deg, transparent 0%, #000 100%),url(images/travel.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.travel .headline{
+	width: 1200px;
+	height: 300px;
+	margin: 0 auto;
+}
+.travel .headline h1{
+	font-size: 54px;
+    letter-spacing: 4.2px;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+}
+.travel .headline p{
+	letter-spacing: .1px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 68px;
+}
+.travel .headline span{
+	display: block;
+	width: 60px;
+	height: 5px;
+	background-color: rgb(255,204,0);
+	margin: 0 auto;
+}
+.travellawer{
+	width: 1200px;
+	height: 970px;
+	margin: 0 auto;
+}
+.travellawer .seeMore{
+	margin-top: 40px;
+}
+.travellawer .latestStories{
+	width: 370px;
+	height: 970px;
+}
+.travellawer .latestStories span{
+	display: inline-block;
+	width: 6px;
+	height: 20px;
+	background-color: rgb(255,204,0);
+	margin-right: 20px;
+}
+.travellawer .latestStories p{
+	font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.travellawer .latestStories .stories{
+	width: 370px;
+	height: 100px;
+	position: relative;
+	margin-top: 40px
+}
+.travellawer .latestStories .stories img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+.travellawer .latestStories .stories a{
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.travellawer .latestStories .stories a:hover{
+	border-bottom: 1px solid #fff;
+}
+.travellawer .latestStories .stories p{
+	width: 216px;
+	font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    cursor: pointer;
+}
+.travellawer .latestStories .stories p:hover{
+	color: #ccc;
+}
+.travellawer .readMore{
+	width: 830px;
+	height: 970px;
+}
+.travellawer .readMore .moreTop{
+	width: 660px;
+	height: 413px;
+	margin-left: 40px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.travellawer .readMore .moreTop .topMore{
+	width: 660px;
+	left: 20px;
+	bottom: 20px;
+}
+.travellawer .readMore .moreTop img{
+	width: 100%;
+	height: 100%;
+	transition: height 0.5s,width 0.5s;
+}
+.travellawer .readMore .moreTop:hover img{
+	width: 110%;
+	height: 110%;
+}
+.travellawer .readMore .moreTop .topMore h2{
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.travellawer .readMore .moreTop .topMore p{
+	color: #fff;
+	font-size: 14px;
+}
+.travellawer .readMore .moreLawer{
+	width: 700px;
+	height: 413px;
+}
+.travellawer .readMore .moreLawer .lawerPhoto{
+	width: 310px;
+	height: 413px;
+	margin-left: 40px;
+	margin-top: 42px;
+	overflow: hidden;
+}
+.travellawer .readMore .moreLawer .lawerPhoto img{
+	width: 100%;
+	height: 100%;
+	transition: height 0.5s,width 0.5s;
+}
+.travellawer .readMore .moreLawer .lawerPhoto:hover img{
+	width: 110%;
+	height: 110%;
+}
+.travellawer .info{
+	left: 0px;
+	top: 100px;
+}
+.travellawer .info h2{
+	width: 310px;
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+}
+.travellawer .info button{
+	width: 150px;
+	height: 46px;
+	margin-top: 140px;
+	margin-left: 80px;
+	background-color: rgb(255,204,0);
+	border: none;
+	color: #000;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.travellawer .info button:hover{
+	background-color: #000;
+	color: #fff;
+}
+/*travel end*/
+
+/*belong start*/
+.belong{
+	width: 100%;
+	min-width: 1200px;
+	height: 1540px;
+	background-color: rgb(242,242,242);
+}
+.belong .headline h1{
+	color: #000;
+}
+.belong .headline p{
+	color: #000;
+}
+.belong .content{
+	width: 1020px;
+	height: 666px;
+	margin: 60px auto;
+	overflow: hidden;
+}
+.belong .content img{
+	width: 100%;
+	height: 100%;
+	transition: height 0.5s,width 0.5s;
+}
+.belong .content:hover img{
+	width: 110%;
+	height: 110%;
+}
+.belong .content .contentInfo1{
+	left: 0;
+	top: 40px;
+	width: 1020px;
+}
+.belong .content .contentInfo1 h2{
+	font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.belong .content .contentInfo2{
+	left: 0;
+	bottom: 10px;
+	width: 1020px;
+}
+.belong .content .contentInfo2 p{
+	font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #fff;
+    display: inline-block;
+    margin-right: 15px;
+    padding-left: 20px;
+}
+.belongLawer{
+	width: 1020px;
+	height: 400px;
+	margin: 0 auto;
+}
+.belongLawer .camera{
+	width: 300px;
+	height: 400px;
+	background-color: rgb(255,204,0);
+	text-align: center;
+}
+.belongLawer .camera img{
+	margin-top: 80px;
+}
+.belongLawer .camera p{
+	font-family:  'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 22px;
+    line-height: 1.273;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.belongLawer .camera button{
+	background-color: #fff;
+	color: #000;
+	margin-top: 20px;
+}
+.belongLawer .camera button:hover{
+	background-color: #000;
+	color: #fff;
+}
+.belongLawer .beibao{
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	margin-left: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.belongLawer .beibao img{
+	width: 100%;
+	height: 100%;
+	transition: height 0.5s,width 0.5s;
+}
+.belongLawer .beibao:hover img{
+	width: 115%;
+	height: 115%;
+}
+.belongLawer .beibao h2{
+    letter-spacing: 0;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.belongLawer .beibao .beibaoInfo{
+	left: 0;
+	bottom: 28px;
+}
+.latestPhoto .lpp{
+	width: 300px;
+	font-weight: bold;
+	font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+.latestPhoto .lpp p{
+	left: 26px;
+	top: 0;
+}
+.latestPhoto .lpp span{
+	width: 6px;
+	height: 46px;
+	background-color: rgb(255,204,0);
+	display: inline-block;
+}
+.latestPhoto .lpInfo{
+	width: 260px;
+	height: 92px;
+	margin-top: 30px;
+}
+.latestPhoto .lpInfo .lpInfoMore{
+	left: 110px;
+	top: 0;
+}
+.latestPhoto .lpInfo .lpInfoMore h3{
+	font-size: 16px;
+	cursor: pointer;
+	border-bottom: 3px solid #F2F2F2;
+}
+.latestPhoto .lpInfo .lpInfoMore h3:hover{
+	border-bottom: 3px solid #FFCC00;
+}
+.latestPhoto .lpInfo .lpInfoMore p{
+	margin-top: 8px;
+	letter-spacing: .1px;
+    font-size: 12px;
+    color: #999;
+}
+.latestPhoto .seeMore{
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 2px;
+	width: 80px;
+	margin-top: 40px;
+}
+
+/*belong end*/
+
+
+/*what start*/
+.what{
+	width: 1000px;
+	height: 950px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.what .headline{
+	width: 1000px;
+}
+.what .headline h1{
+	color: #000;
+}
+.what .headline p{
+	color: #000;
+	line-height: 30px;
+	margin: 30px 0 30px 0;
+}
+.what .whatPhoto{
+	width: 320px;
+	height: 427px;
+	margin-top: 100px;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.what .whatPhoto:hover img{
+	width: 110%;
+	height: 110%;
+}
+.what .whatPhoto img{
+	width: 100%;
+	height: 100%;
+	transition: height 0.5s,width 0.5s;
+}
+.what .whatPhoto .photoInfo{
+	width: 320px;
+	left: 0;
+	top: 0;
+}
+.what .whatPhoto .photoInfo h3{
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 16px;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-top: 123px;
+}
+.what .whatPhoto .photoInfo h2{
+	margin-top: 30px;
+	letter-spacing: 0;
+    font-size: 28px;
+    color: #fff;
+	margin-bottom: 100px;
+}
+.clearMargin{
+	margin-right: 0 !important;
+}
+/*what end*/
+
+/*magazine start*/
+.magazine{
+	width: 100%;
+	height: 758px;
+	background-color: #F2F2F2;
+	z-index: -1;
+}
+.magazine .magazineInfo{
+	width: 1000px;
+	height: 758px;
+	margin: 0 auto;
+	background: #F2F2F2 url(images/magazine.png) center center no-repeat;
+	z-index: -1;
+}
+.blank{
+	height: 758px;
+	width: 100%;
+	z-index: -1;
+}
+/*magazine end*/
+
+/*sleep start*/
+ .sleep{
+ 	width: 100%;
+ 	height: 978px;
+ 	background: linear-gradient(to left, transparent 0%, rgba(0,0,0,0.028) 11.9%, rgba(0,0,0,0.104) 22.5%, rgba(0,0,0,0.216) 32.2%, rgba(0,0,0,0.352) 41.2%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.648) 58.8%, rgba(0,0,0,0.784) 67.8%, rgba(0,0,0,0.896) 77.5%, rgba(0,0,0,0.972) 88.1%, #000 100%),#fff url(images/sleep.jpg) center center no-repeat;
+ 	background-size: cover;
+ }
+ 
+.sleep .sleepMain{
+	width: 1200px;
+	height: 978px;
+	margin: 0 auto;
+}
+.sleep .sleepMain .sleepContent{
+	width: 360px;
+	height: 978px;
+}
+.sleep .sleepMain .sleepContent .head{
+	padding-top: 62px;
+	padding-bottom: 44px;
+}
+.sleep .sleepMain .sleepContent span{
+	width: 6px;
+	height: 16px;
+	background-color: #FFCC00;
+	display: inline-block;
+}
+.sleep .sleepMain .sleepContent a{
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-weight: 400px;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 0 70px;
+    color: #FFCC00;
+}
+.sleep .sleepMain .sleepContent a:hover{
+	color: #fff;
+}
+.sleep .sleepMain .sleepContent h1{
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+	font-size: 38px;
+	color: #fff;
+	margin-bottom: 26px;
+}
+.sleep .sleepMain .sleepContent h2{
+	font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+	letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.sleep .seeMore{
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 28px;
+}
+.sleep .sleepMain .also{
+	font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+}
+.sleep .sleepMain .sleepContent .contentInfo{
+	margin: 30px 0;
+	width: 360px;
+	height: 92px;
+}
+.sleep .sleepMain .sleepContent .contentInfo .absolute{
+	top: 0;
+	left: 110px;
+}
+.sleep .sleepMain .sleepContent .contentInfo .absolute p{
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: .1px;
+	color: #fff;
+	cursor: pointer;
+}
+.sleep .sleepMain .sleepContent .contentInfo .absolute p:hover{
+	color: #ccc;
+}
+
+/*sleep end*/
+
+
+/*giveback start*/
+
+.white{
+	background-color: #fff;
+}
+.giveback{
+	height: 920px;
+	width: 1020px;
+	margin: 0 auto;
+}
+.giveback .headline{
+	width: 1020px;
+	color: #000;
+}
+.giveback .headline h1{
+	color: #000;
+}
+.giveback .gbInfo{
+	width: 313px;
+	height: 500px;
+	text-align: center;
+	margin-top: 54px;
+}
+.giveback .gbInfo p{
+	font-family: 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+	letter-spacing: .1px;
+    font-size: 22px;
+    font-weight: 550;
+    margin: 30px 0 60px 0;
+}
+.giveback .gbInfo button{
+	font-weight: 400;
+}
+.giveback .gbInfo1 button{
+	width: 185px;
+}
+.giveback .gbInfo1{
+	margin-right: 40.5px;
+}
+/*giveback end*/
+
+
+/*search start*/
+.search{
+	width: 100%;
+	height: 360px;
+	min-width: 1200px;
+	background: #fff url(images/search.jpg) center center no-repeat;
+	background-size: cover;
+}
+.search .content{
+	width: 1200px;
+	height: 360px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 63px;
+}
+.search .content h1{
+	color: #fff;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 32px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.search .content h2{
+	color: #fff;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 18px;
+    line-height: 27px;
+    margin: 28px 0 28px 0;
+}
+.search .content input{
+	width: 700px;
+	height: 60px;
+	border: none;
+	padding-left: 20px;
+}
+.search .content input::-webkit-input-placeholder{
+	font-size: 16px;
+	color: #ccc;
+}
+.search .content button{
+	width: 60px;
+	height: 60px;
+	border: none;
+	top: 1px;
+	margin-bottom: 36px;
+}
+.search .content button:hover{
+	background-color: #FFCC00;
+}
+.search .content .pInfo{
+	width: 720px;
+	margin: 0 auto;
+}
+.search .content p{
+	color: rgba(255,255,255,.8) !important;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 16px !important;
+}
+.search .content a{
+	color: rgba(255,255,255,.8);
+	border-bottom: 1px solid #fff;
+}
+.search .content a:hover{
+	color: #fff;
+}
+/*search end*/
+
+
+
+/*footer start*/
+.footer{
+	width: 100%;
+	height: 464px;
+	background-color: #000;
+}
+.footer .line{
+	width: 100%;
+	height: 1px;
+	background-color: #333;
+	margin: -3px 0 3px 0;
+}
+.footer .main{
+	width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+}
+.footer .main .about{
+	width: 1000px;
+	height: 356px;
+}
+.footer .copyright{
+	width: 1000px;
+	height: 64px;
+	margin: 0 auto;
+}
+.footer .main .aboutInfo{
+	width: 250px;
+	height: 356px;
+	padding-top: 36px;
+}
+.footer .main .aboutInfo a{
+	color: #fff;
+	font-family: 'GeoEditRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 0.2px;
+}
+.footer .main .aboutInfo li{
+	margin-top: 12px;
+}
+.footer .main .aboutInfo a:hover{
+	border-bottom: 1px solid #fff;
+}
+.footer .main .aboutInfo h3{
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.aboutInfo4 img{
+	width: 20px;
+	cursor: pointer;
+}
+.aboutInfo .ifsize{
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.aboutInfo4 a{
+	letter-spacing: 0.2px !important;
+	font-size: 14px !important;
+	margin: 0 8px 0 8px;
+}
+.aboutInfo4 a:hover{
+	border: none !important;
+}
+.aboutInfo4 h3{
+	margin: 30px 0 20px 0;
+}
+.aboutInfo4 i{
+	cursor: pointer;
+	margin-right: 8px;
+	font-size: 18px;
+}
+.aboutInfo4 i:hover{
+	color: rgb(255,204,0);
+}
+.copyright span{
+	width: 1px;
+	background-color: #999;
+	height: 10px;
+	top: 27px;
+	left: 438px;
+}
+.copyright img{
+	line-height: 64px;
+	padding-top: 6px;
+}
+.copyright p{
+	line-height: 64px;
+	font-family: 'GeoEditRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.2px;
+	color: #999;
+	margin-left: 20px;
+}
+/*footer end*/
