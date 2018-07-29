@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 5000px;
+}
+.div2{
+    width: 18px;
+    height: 28px;
+   border: #ffbd13 3px solid;
+    margin-left: 15px;
+}
+.span1{
+    font-weight: bold;
+    font-size: 15px;
+}
+.div3,.div2,.ul1{
+    display: inline-block;
+}
+.li1{
+    display: inline-block;
+   position: absolute;
+    margin-top: -20px;
+}
+
+.div4{
+    background-image:  url("nationalgeographic_2444018.adapt.1900.1.jpg");
+    height: 1400px;
+    width: 1516px;
+    margin-top: 20px;
+    background-attachment: fixed;
+
+}
+.div5{
+    width: 1000px;
+    position: relative;
+    color: white;
+    padding-top: 130px;
+   margin-left: 200px;
+    text-align: center;
+}
+.div6{
+    position:relative ;
+    margin-top: 90px;
+    margin-left: 300px;
+    color: white;
+    width: 300px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: darkgrey;
+}
+.p1{
+    margin-left: 170px;
+    margin-top: -100px;
+}
+.li2{
+    list-style: none;
+    margin-top: -20px;
+}
+.title1{
+    display: inline-block;
+    margin-left: 20px;
+}
+.div7,.div6{
+    display: inline-block;
+}
+.img2{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    margin-top: -750px;
+}
+.img1{
+    display: inline-block;
+    width: 320px;
+    height: 250px;
+    position: absolute;
+}
+.p2{
+    position: absolute;
+    margin-top: -400px;
+    color: white;
+    margin-left: 30px;
+}
+.div10{
+    width:320px ;
+    height:180px ;
+    background-color: white;
+}
+.div11{
+    width:320px ;
+    height:200px ;
+    background-color: black;
+    margin-left: 50px;
+}
+.div10,.div11{
+    display: inline-block;
+}
+.p3{
+    color: lightgray;
+    letter-spacing:5px;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.video1{
+    width:1300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: absolute;
+}
+.p4{
+    color: white;
+    margin-left: 320px;
+}
+.div12{
+    position: absolute;
+    margin-top: 300px;
+}
+.input1{
+    background-color: #ffbd13;
+    width: 300px;
+    height: 50px;
+    border: none;
+    position: relative;
+    margin-left: 320px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.div13{
+    background-image: url("nationalgeographic_2641466.adapt.1900.1 (2).jpg");
+    height: 1400px;
+    width: 1516px;
+    margin-top: 700px;
+    background-attachment: fixed;
+}
+.div14{
+    margin-top: 900px;
+    margin-left: 200px;
+}
+.img3{
+    width: 300px;
+    height: 400px;
+}
+.div17{
+    margin-left: 1000px;
+    margin-top: -950px;
+    position: relative;
+    width: 300px;
+    color: white;
+}
+.div18{
+    background-image:url("QQ图片20180729170841.png");
+    height: 1000px;
+    width: 900px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    margin-left:300px;
+}
+.div19{
+    width: 1000px;
+    position: relative;
+    color: white;
+    padding-top: 50px;
+    margin-left: -50px;
+    text-align: center;
+}

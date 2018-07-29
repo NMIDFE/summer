@@ -1,0 +1,76 @@
+1.<hx>...</hx> x=1,2,3...6(标题)
+2.<p>...</p>(段落)
+3.<em>...</em>(斜体)
+4.<strong>...</strong>(粗体)
+5.<q>...</q>(短文引用)
+6.<blockquote>...</blockquote>(长文本引用)
+7.<br/>(空行)
+8.&nbsp;(空格)
+9.<hr/>(水平横线)
+10.<code>...</code>(一行代码显示)
+11.<pre>...</pre>(大段代码显示)
+12.<ul>
+	<li>第一行第一列的内容</li> 
+	<li>第一行第二列的内容</li> 
+   </ul>                (无序列表)
+13.<ol>
+	<li>第二行第一列的内容</li> 
+	<li>第二行第二列的内容</li> 
+   </ol>                 (有序列表)
+14.<div id="模块的名字">需要划分的内容</div>(划分逻辑板块并给模块命名)
+15.<table summary="表格简介文本">
+	<caption>标题文本</caption>
+	<tr>
+	 <th>...</th>
+	 <th>...</th>
+	</tr>
+	<tr>
+	 <th>...</th>
+	 <th>...</th>
+	</tr>
+   </table>               (表格建立并增加标题和摘要)
+16.<a href="目标网址" title="鼠标滑过显示的内容">链接显示的文本</a>   (超链接)
+17.<a href="目标网址" target="_black">链接显示的文本</a>   (新窗口打开链接)
+18.<img src="图片地址" alt="下载失败时的替换文件" title="提示文本">
+19.<form method="传送方式" action="服务器文件">
+	<label for="username">用户名：</label>
+	<input type="text" name="username"/> 
+	<label for="pass">密码：</label>
+	<input type="password" name="pass" /> 
+   </form>
+
+20.<input type="text/password" name="名称" value="文本" /> (type=text为文本输入框,type=password为密码输入框)
+21.<textarea  rows="行数" cols="列数">文本</textarea> (多行文本输入)
+22.<input   type="radio/checkbox"   value="值"    name="名称"   checked="checked"/> (当 type="radio" 时，控件为单选框； 当 type="checkbox" 时，控件为复选框；当设置 checked="checked" 时，该选项被默认选中) (选择列表)
+23.<option value="提交值" selected="selceted">显示文本</option> (selected="selceted"，则该选项被默认选中) (下拉列表框)
+24.<option value="提交值" multiple="multiple">显示文本</option> (下拉列表框多选)
+25.<input   type="submit"   value="按钮显示的文字"> (提交数据按钮)
+26.<input type="reset" value="按钮显示的文字"> (重置表单信息)
+26.<label for="控件id名称"> (当用户单击选中该label标签时，浏览器就会自动将焦点转到和标签相关的表单控件上)
+
+相对定位：相对于原本位置进行定位    psotion:relative
+绝对定位：相对于最接近的具有定位属性的父包含块进行定位    position:absolute
+固定定位：类似于绝对定位，但是固定的，不会随着滚动条的移动而变化，固定在设定的位置
+对行内元素进行水平居中：text-align:center(如果设置元素为文本、图片等行内元素，水平居中是对父元素设置)
+对定宽块状元素进行水平居中：margin:...px auto;
+对不定宽块状元素进行水平居中：1.加入table标签；2.设置display:inline(变为行内元素，进行不定宽元素的属性设置)；3.①设置position:relative;Transform:translate(-50%,0%);left:50%;(利用相对定位)②对父元素设置float:left;position:relative;left:-50%;在对子元素设置position:relative;left:50%;
+对父元素高度确定的单行文本设置垂直居中：设置父元素的height和line-height高度一致
+对父元素高度确定的多行文本设置垂直居中：插入table标签同时设置vertical-align:middle(td标签默认设置了)
+设置背景图片：background-image:url(...);
+background-size:cover;背景图拉伸铺满
+设置一张图作为背景{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  min-width: 1000px;
+  z-index:-10;
+  zoom: 1;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-position: center 0;
+}

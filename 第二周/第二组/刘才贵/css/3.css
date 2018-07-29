@@ -1,0 +1,96 @@
+.thi{
+    width: 100%;height: 1100px;padding-top: 200px;background: url("../images/bg.jpg") 100% 1000px;background-attachment: fixed;color: #fff;
+}
+.thi .head{ text-align: center;}
+        
+.thi .head h1{font-size: 50px;}
+.thi .head p{margin-top: 20px; font-family: Calisto MT;font-size: 20px;font-weight: bold;}
+        .thi .head::after{content: '' ;position: absolute; height: 5px;left: calc(50% - 30px);width: 60px;background: orange;margin-top: 20px;}
+/*===*/
+.thi .con{
+    width: 1020px;
+    margin: 0 auto;margin-top: 100px;
+}
+.thi .con .zleft{
+    width: 360px;float: right;
+}
+.thi .con .zleft .header{
+    border-left: 3px solid orange;
+}
+
+.thi .con .zleft a{
+    color: #fff;
+    text-decoration: none;
+}
+.thi .con .zleft .one:hover{
+    text-decoration:underline;
+}
+.thi .con .zleft .two:hover{
+    color: grey;
+}
+.thi .con li{
+   list-style: none;height: 90px;margin-bottom: 20px;
+}
+.thi .con li .left{margin-right: 20px;float: left;}
+.thi .con li .right{
+   vertical-align:middle;line-height: 25px;
+}
+.thi .con li .right span{
+   display: inline-block;width: 210px;line-height: normal;
+}
+/*=======*/
+.thi .con .zright{
+   width: 620px;height: 880px;
+   float: left;
+}
+.thi .con .zright .lim{
+   width: 295px;height: 260px;overflow: hidden;
+}
+.thi .con .zright .top{
+width: 600px;height: 400px;margin-bottom: 40px;transition: 0.3s;overflow: hidden;position: relative;
+}
+.thi .con .zright .top .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+   margin-left: 5%;
+   padding-top: 40%;
+}
+
+.thi .con .zright .left{
+   float: left;
+}
+
+.thi .con .zright .right{
+   float: right;
+}
+.thi .con .zright span{
+   display: inline-block;width: 260px;
+}
+.thi .con .zright img{
+   transition: 0.5s;
+}
+.thi .con .zright img:hover{
+transform: scale(1.3);
+}
+
+.thi .con .zleft .footer{
+    position: relative;
+    text-decoration: none;
+    border-bottom: 2px solid orange;z-index: 0;
+    background: orange;
+    float: left;
+    transition:1s;
+}
+.thi .con .zleft .footer::after{
+    content: '';
+    width: 100%;  
+    height: 100%;
+    position: absolute;top: 0px;
+    left: 0px;z-index: -1;
+    background: black;
+    transition:.3s;
+}
+.thi .con .zleft .footer:hover:after{
+    height:0;
+}

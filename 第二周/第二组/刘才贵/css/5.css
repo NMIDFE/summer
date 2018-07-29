@@ -1,0 +1,76 @@
+        .fif{
+            width: 100%;height: 750px;background: white;padding-top: 50px;
+        }
+        .fif .head{   
+            text-align: center;width: 1000px;margin: 0 auto;
+        }
+        .fif .line{
+            display: inline-block;border-bottom: orange 5px solid;line-height: 0;
+        }
+        .fif .head{ text-align: center;width: 1000px;margin: 0 auto;}
+        .fif .head h1{font-size: 50px;}
+        .fif .head p{margin-top: 20px; font-family: Calisto MT;font-size: 20px;font-weight: bold;}
+        .fif .head::after{content: '' ;position: absolute; height: 5px;left: calc(50% - 30px);width: 60px;background: orange;margin-top: 20px;}
+        .fif .con{
+            width: 1040px;height: 500px;margin: 0 auto;margin-top: 100px;
+        }
+        .fif .con .box{
+            height: 420px; float: left;margin-right: 20px;position: relative;width: 320px;text-align: center;color: white;overflow: hidden;transition: .5s;
+        }
+        
+        .fif .con .box span{
+            position: absolute;
+            top: 20%;
+            left: 0;right: 0;
+        }
+        .fif .con .box h3{
+            font-size: 24px;
+            display: block;
+            max-width: 200px;
+            position: absolute;
+            top: 30%;
+            left:20%;
+        }
+        .fif .con .box .but{
+            position: absolute;
+            left: 0;right: 0;
+            bottom: 10%;
+        }
+        
+        .fif .con .box a{
+            text-decoration: none;
+        margin-top: 10px; position: relative; background-color:gold; color: black; z-index: 0; display: inline-block;
+        width: 220px; height:45px; line-height: 45px; text-align: center; vertical-align: middle;margin-left: 15%;
+         }
+        .fif .con .box a:after {
+        content: ''; position: absolute; z-index: -1; top: 0px; left: 0px; display: inline-block; width: 0; height: 100%;
+        background-color:black; transition: width .3s ,color .3s;
+        }
+        .fif .con .box a:hover {
+            color: #fff;
+        }
+        .fif .con .box a:hover:after {
+            width: 100%;  
+        }
+        .fif .con .foot{
+            float: left;display: inline-block;margin-left: 45%;margin-top: 5%; color: black;
+            position: relative;
+            text-decoration: none;
+            border-bottom: 2px solid orange;z-index: 0;
+            background: orange;
+            transition:1s;
+
+        }
+       
+        .fif .con .foot::after{
+            content: '';
+            width: 100%;  
+            height: 100%;
+            position: absolute;top: 0px;
+            left: 0px;z-index: -1;
+            background: white;
+            transition:.3s;
+        }
+        .fif .con .foot:hover:after{
+            height:0;
+        }

@@ -6,7 +6,6 @@ padding: 0px;
 a{
 	text-decoration:none;
 }
-
 #head{
 	background-image:url(images/images/webpages_02.png);
 	background-size: 100% 100%;
@@ -27,19 +26,20 @@ margin:15px 20px 0%;
 }
 #zuo1 a{
 	color:white;}
-.lo{
-	font-size:44px;
-	}
 .you{
 	width: 20%;
 	display:inline-block;
 	margin:0% 0% 0% 6%;
+	float:right;
 }
 .you img{
-	margin:15px 5px 0px;}
+	margin:15px 5px 0px;
+}
 	
 .daohang{width:100%;
-height:83px;}
+height:83px;
+margin: 0 auto;
+}
 
 .daohang a{color:black;}
 
@@ -50,6 +50,7 @@ height:83px;}
 .zuo2{margin:0% 0% 0% 10%;
 	width: 60%;
 display:inline-block;
+float:left;
 
 }
 .zuo2 li{color:black;
@@ -141,7 +142,9 @@ margin:15px 20px 0px;
 #footer{
 	background-color:black;
 	width:100%;
-	height:628px;
+	min-height:628px;
+	max-height: 1000px;
+	overflow: hidden;
 }
 #our{
 	margin-right: 21.7%;
