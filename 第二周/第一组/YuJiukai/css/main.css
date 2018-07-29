@@ -1,0 +1,438 @@
+ /*
+- * @description: 第二周练习
+- * @author: 喻九凯
+- * @update: 喻九凯 (2018-07-28)
+- */
+    body{
+        margin: 0%;
+        padding: 0%;
+        width: 1319px;
+    }
+    a {
+        text-decoration: none;
+    }
+    ul {
+        list-style-type: none;
+    }
+    hr {
+        height: 5px;
+        width: 100px;
+        border: none;
+        background-color: yellow;
+        margin-bottom: 80px;
+
+    }
+    /*导航栏*/
+    .header {
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        background-color: white;
+    }
+    .hide {
+        top: -70px;
+    }
+    .show {
+        top: 0;
+    }
+    .logo_1 {
+        float: left;
+    }
+    .logo2-4 {
+        position: absolute;
+        right: 5px;
+        top: 0px;
+    }
+        .logo2-4 li {
+            display: inline;
+        }
+    /*模块一*/
+    .module_1 {
+        width: 100%;
+        height: 800px;
+        background: url(../img/bg_1.jpg)no-repeat;
+        background-size: cover;
+        padding: 100px;
+    }
+        .module_1 h1 {
+            font-family: sans-serif;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+        }
+        .module_1 h5 {
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+        .left {
+            margin-left: 50px;
+            height: 450px;
+            width: 450px;
+            float: left;
+        }
+            .left h2 {
+                margin-left: 40px;
+            }
+            .left a {
+                color: white;
+            }
+            .left img {
+                float: left;
+                padding: 10px;
+            }
+        .right {
+            margin-left: 100px;
+            width: 450px;
+            float: left;
+        }
+    /*模块二*/
+    .module_2 {
+        width: 100%;
+        height: 1400px;
+        background: rgba(243, 242, 242, 0.945);
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 0%;
+        text-align: center;
+    }
+        .module_2 h1 {
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: center;
+        }
+        .module_2 h5 {
+            font-family: sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+        .module_2 hr {
+            height: 5px;
+            width: 100px;
+            border: none;
+            background-color: yellow;
+            margin-bottom: 80px;
+
+        }
+        .unit {
+            width: 70%;
+            height: 950px;
+            margin-left: 15%;    
+        }
+            .part_1 {
+                height: 350px;
+                text-align: left;
+                padding-top: 250px;
+                background:url(../img/Picasso.jpg);
+                background-size: 100% 100%;
+            }
+                .part_1 button {
+                    height: 50px;
+                    font-family: sans-serif;
+                    font-weight: bold;
+                    border: 1px solid yellow;
+                    background-color: yellow;
+                }
+            .part_2 {
+                height: 100px;
+            }
+                .part_2 h2 {
+                    margin-top:0px;
+                    padding-top: 30px; 
+                    float: left;
+                }
+            .part_3 {
+                height: 250px;
+            }
+                .part_3 img {
+                    height: 240px;
+                    margin-right: 10px;
+                }
+                .part_3 li {
+                    display: inline;
+                }
+    /*模块三*/
+    .module_3 {
+        width: 100%;
+        height: 800px;
+        background: url(../img/moutain.jpg)no-repeat;
+        background-size: cover;
+        padding: 100px;
+    }
+        .module_3 h1 {
+            font-family: sans-serif;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+        }
+        .module_3 h5 {
+            font-family: sans-serif;
+            color: white;
+            font-size: 15px;
+            text-align: center;
+        }
+        .module_3 hr {
+            height: 5px;
+            width: 100px;
+            border: none;
+            background-color: yellow;
+            margin-bottom: 80px;
+
+        }
+        .left2 {
+            margin-left: 250px;
+            height: 450px;
+            width: 450px;
+            float: left;
+        }
+            
+        .right2 {
+            margin-left: 100px;
+            width: 450px;
+            float: left;
+        }
+            .right2 h2 {
+                margin-left: 40px;
+            }
+            .right2 a {
+                color: white;
+            }
+            .right2 img {
+                float: left;
+                padding: 10px;
+            }
+    /*模块四*/
+    .module_4 {
+        width: 100%;
+        height: 1320px;
+        background: rgba(243, 242, 242, 0.945);
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 0%;
+        margin-top: 0%;
+        text-align: center;
+    }
+        .module_4 h1 {
+            margin-top: 0px;
+            font-family: sans-serif;
+            font-size: 50px;
+            text-align: center;
+        }
+        .module_4 h5 {
+            font-family: sans-serif;
+            font-size: 15px;
+            text-align: center;
+        }
+        .module_4 hr {
+            height: 5px;
+            width: 100px;
+            border: none;
+            background-color: yellow;
+            margin-bottom: 80px;
+
+        }
+        .part1 {
+            width: 70%;
+            height: 650px;
+            background: url(../img/bridge.jpg);
+            background-size: 100% 100%;
+            margin-left: 15%;
+        }
+            .part1 h1 {
+                color: white;
+                font-size: 30px;
+                
+            }
+        .part2 {
+            width: 70%;
+            margin-left: 15%;
+        }
+            .part2 img {
+                width:200px; 
+                height: 220px;
+                float: left;
+                margin-top: 30px;
+                margin-right: 30px;
+               
+            }
+            .left3 {
+                margin-left: 50px;
+                height: 200px;
+                width: 250px;
+                float: left;
+            }
+                .left3 h2 {
+                    margin-left: 40px;
+                }
+                .left3 a {
+                    color: rgba(53, 52, 52, 0.178);
+                    font-size: 10px;
+                }
+                .left3 img {
+                    float: left;
+                    width: 100px;
+                    height: 60px;
+                }
+    /*模块五*/
+    .module_5 {
+        height: 1000px;
+        width: 1519px;
+        text-align: center;
+        background-color: white;
+    }
+        .module_5 h1 {
+            margin-top: 0px;
+            padding-top: 80px;
+            font-family: sans-serif;
+            font-size: 50px;
+            
+        }
+        .module_5 li {
+            display: inline;
+            margin-left: 10px;
+        }
+    /*模块六*/
+    .module_6 {
+        height: 800px;
+        width: 1519px;
+        
+    }
+    #float {
+        height: 800px;
+        width: 1519px;
+        background-color: rgb(242, 242, 242)
+    }
+        #float img {
+            margin-left: 350px;
+        }
+    /*模块七*/
+    .module_7 {
+        height: 1100px;
+        width: 1319px;
+        background: url(../img/sleep.jpg);
+        background-size: 100% 100%;
+        padding-left: 200px;
+        color: white;
+    }
+        .module_7 h2 {
+            color: rgba(255, 255, 0, 0.911);
+            margin-top: 0%;
+            padding-top: 50px;
+        }
+        .module_7 h3 {
+            font-size: 15px;
+            width: 100px;
+            border-bottom: 2px solid rgba(255, 255, 0, 0.911);
+        }
+        .module_7 h4 {
+            font-size: 20px;
+        }
+        .module_7 ul {
+            padding-left: 0px;
+        }
+        .module_7 ul img {
+            float: left;
+            margin-right: 20px;
+        }
+        .module_7 li a {
+            color: white;
+        }
+    /*模块八*/
+    .module_8 {
+        height: 1000px;
+        width: 1519px;
+        background-color: white;
+        text-align: center;
+    }
+        .module_8 h1 {
+            margin-top: 0px;
+            padding-top: 80px;
+            font-family: sans-serif;
+            font-size: 50px;
+            
+        }
+        .module_8 li {
+            display: inline;
+            margin-left: 10px;
+        }
+    /*END*/
+    .end {
+        height: 1000px;
+        width: 1519px;
+        background-color: black;
+    }
+        .level_1 {
+            height: 400px;
+            width: 1519px;
+            background: url(../img/yan.jpg);
+            background-size: 100% 100%;
+        }
+            .level_1 h1 {
+                text-align: center;
+                color: white;
+                padding-top: 50px;
+                margin-top: 0px;
+            }
+            .level_1 p {
+                text-align: center;
+                color: white;
+            }
+            .shuru {
+                text-align: center;
+                height: 200px;
+                padding-top: 30px;
+                display: block;
+            }
+                .shuru input {
+                    height: 70px;
+                    width: 200px;
+                    display: block;
+                    margin-left: 600px;
+                    font-size: 20px;
+                    float: left;
+                }
+                .shuru img {
+                    margin-left: 0%;
+                    float: left;
+                    padding-right:500px;
+                }
+                .shuru p {
+                    height: 200px; 
+                    width: 900px;
+                    margin-top: 100px;
+                    margin-left: 300px;
+                    color: grey;
+                }
+        .level_2 {
+            height: 400px;
+            
+            padding-top: 100px;
+            
+        }
+            .level_2 ul {
+                text-decoration: none;
+                float: left;
+            }
+            .level_2 li {
+                color: white;
+                margin-bottom: 20px;
+            }
+            .level_2 a {
+                color: white;
+                font-size: 15px;
+            }
+            .level_2 img {
+                float: left;
+            }
+            .level_2 hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                background-color: rgb(172, 172, 172);
+                margin-bottom: 10px;
+            }
+        .footer {
+            float: left;
+            padding-left: 60px;
+        }
