@@ -1,0 +1,73 @@
+@media screen and(max-width：300px) { 
+    body { 
+        font-size: 10px;
+    } 
+}
+@media screen and(max-width：540px) { 
+    body { 
+        font-size: 12px;
+    } 
+}
+@media screen and(max-width：720px) { 
+    body { 
+        font-size: 16px;
+    } 
+}
+.wrapForm{
+	position: fixed;
+	width: 17.5rem;
+	background: #6cb2e4;
+	left: 33%;
+	margin: 7.5rem auto;
+}
+.myForm{
+	width: 15.0rem;
+	height: 25.0rem;
+	margin: 0 auto;
+}
+h2.title{
+	text-align: center;
+	margin-top: 3.5rem;
+}
+.form-grounp{
+	width: 15.0rem;
+	margin:0.5rem auto;
+	border-bottom: 0.05rem solid #fff;
+	padding: 0.5rem 0.25rem;
+}
+.myForm input[type='text']{
+	border:none;
+	background: #6cb2e4;
+	color: #fff;
+	width: 12.5rem;
+	padding: 0.25rem;
+	outline: none;
+}
+.myForm input[type='submit']{
+	padding: 0.5rem 2.0rem;
+	border:none;
+	outline: none;
+	background: #fff;
+	margin: 0.50rem auto;
+	border-radius: 1rem;
+	margin-left: 4.0rem;
+}
+.myForm .submitgroup{
+	border-bottom: none;
+}
+.myForm #close{
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+	color: #fff;
+}
+h2#findSecret{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+/*找回密码*/
+#findSecrectForm{
+	display: none;
+}
