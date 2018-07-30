@@ -1,0 +1,162 @@
+/*全局初始化*/
+
+
+* {margin: 0px;padding: 0px;}
+html {overflow-x: hidden;}/*隐藏滚动条*/
+ul {list-style: none;}
+body {min-width: 1920px;}/*设置最小宽度，防止浏览器缩放造成错位*/
+a {text-decoration: none;}
+.navtop {height: 84px;}
+.navtop a {float: left;display: block;}
+.top {font-family: "Arial Narrow Bold";font-size: 29px;margin: auto 102px auto 360px;letter-spacing: -2px;line-height: 84px;font-weight: bold;color: #000000;}
+.word a {font-family: "Arial Narrow Bold";font-size: 13px;line-height: 84px;margin-right: 42px;font-weight: bold;color: #000000;}
+.word a:hover {color: #bd3838;}
+.contact { margin-left: 220px;margin-right: 300px;float: left;height: 84px;}
+.contact div {float: left;}
+.quote {width: 116px;line-height: 84px;font-family: "Arial Narrow Bold";font-size: 14px;color: #ffffff;font-weight: bold;}
+.call-number {width: 85px;line-height: 14px;font-family: "Arial Narrow Bold";font-size: 2px;color: #000000;margin-top: 29px;margin-left: 11px;font-weight: bold;}
+.webpic {margin-top: 45px;}
+.quote span {background-image: url("images/yuanjiao2.png");padding: 8px 5px 5px 8px;color: #ffffff;}
+
+
+
+    /*web1*/
+
+
+.web1 {height: 1080px;background: url("images/web1-bac_02.png");}
+.web1 .navtop {height: 84px;background: rgba(145,145,145,0.26);}
+.web1 .navtop a {color: white;}
+.web1 .word a:hover {color: #000000;}
+.web1 .navtop .contact span {color: #bd3838;}
+.web1 .navtop .quote span {background-image: url("images/yuanjiao.png" );}
+.web1 .text1 span {color: white;font-size: 69px;font-family: "Bell MT Regular"}
+.web1 .text1 {height: 55px;width: 762px;margin: 228px auto 33px auto;}
+.web1 .text2 span {color: white;font-size: 69px;font-family: "Bell MT Regular"}
+.web1 .text2 {height: 55px;width: 697px;margin: 0px auto 89px auto;}
+.web1 .text3 span {color: white;font-size: 29px;font-family: "Bell MT Regular"}
+.web1 .text3 {height: 42px;width: 310px;margin: 0px auto 0 auto;border-bottom: 3px solid white;}
+.p1 {margin: -23px 5px 17px -15px;}
+.p2 {margin: 0 0 0 5px;}
+
+
+
+    /*web2*/
+
+
+.web2 {height: 957px;}
+.web2 .navtop {height: 85px;}
+.web2 .web2-1 {background: url("images/web2-bac_03.png");height: 872px;}
+.web2 .web2-1 .web2-part1 {height: 181px;}
+.web2-text1 {height: 61px;width: 1099px;margin-left: 440px;padding-top: 23px;margin-bottom: 23px;float: top;}
+.web2-text2 {height: 24px;width: 807px;margin: 0 534px 0 579px;float: top;}
+.web2-text3 {height: 15px;width: 275px;margin: 24px 537px 17px 853px;float: top;}
+.t1 {color: #565656;font-size: 66px;font-family: "Bell MT Regular"}
+.t2 {color: #4d4d4e;font-size: 20px;font-family: "Bell MT Regular"}
+.t3 {color: #db679e;font-size: 13px;font-family: "Bell MT Regular"}
+.web2-icon1 {width: 121px;height: 121px;margin: 0 878px 35px 922px;}
+.web2-text4 {height: 15px;width: 201px;margin: 61px 13px 185px 388px;float: left;}
+.web2-icon2 {width: 121px;width: 121px;margin: 0 0 138px 0;float: left;}
+.web2-text5 {height: 14px;width: 121px;margin: 58px 418px 172px 12px;float: right;}
+.web2-icon3 {width: 121px;width: 121px;margin: 0 0 138px 0;float: right;}
+.t4 {color: #fdc758;font-size: 13px;font-family: "Bell MT Regular"}
+.t5 {color: #14ced1;font-size: 12px;font-family: "Bell MT Regular"}
+.web2-text6 {height: 15px;width: 116px;margin: 55px 9px 0 404px;float: left;}
+.web2-icon4 {width: 121px;width: 121px;margin: 0 116px 0 0;float: left;}
+.t6 {color: #b5d092;font-size: 13px;font-family: "Bell MT Regular"}
+.web2 .web2-1 .web2-part2 .web2-part2-2 .web2-part2-2-1 {width: 438px;height: 438px;float: left;background-image: url("images/yuan-bac.png");
+margin-top: -210px;}
+.web2-text7 {height: 15px;width: 32px;margin: 62px 420px 0 18px;float: right;}
+.web2-icon5 {width: 121px;width: 121px;margin: 0 0 0 105px;float: right;}
+.web2-icon6 {margin: 70px 156px 23px 143px;}
+.t7 {color: #92b7f6;font-size: 12px;font-family: "Bell MT Regular"}
+.t8 {margin: 0px 217px 20px 178px;}
+.t9 {margin: 0px 87px 0px 37px;}
+
+
+
+   /*web3*/
+
+
+.web3-text1 {width: 779px;height: 46px;margin: 0px 574px 21px 567px;padding-top: 43px;}
+.t3-1 {color: #565656;font-size: 46px;font-family: "Arial Regular";word-spacing: 18px;}
+.web3-text2 {width: 1044px;height: 24px;margin: 0px 442px 0px 434px;}
+.t3-2 {color: #565656;font-size: 18px;font-family: "Arial Regular";}
+
+
+
+   /*web4*/
+
+
+.web4 {height: 871px;}
+.web4 .web4- {background: url("images/web4-bg.png")no-repeat;padding-top: 84px;height: 788px;}
+.web4-text1 {width: 855px;margin: 0px 513px 0 532px;}
+.t4-1 {color: #ffffff;font-size: 50px;font-family: "Arial Regular";word-spacing: 12px;}
+.web4-text2 {width: 970px;height: 24px;margin: 0px 474px 70px 476px;}
+.t4-2 {color: #676761;font-size: 19px;font-family: "Arial Regular";}
+.web4-text3 {width: 260px;height: 44px;margin: 0 843px 67px 831px;background: url("images/web4-k2.png")no-repeat;}
+.web4-text3-1 {width: 136px;height:44px;background: url("images/web4-k1.png")no-repeat;float: left;}
+.web4-text3-2 {width: 110px;height:44px;float: right;}
+.t4-3-1 {color: #ffffff;font-family:"Arial Regular";font-size: 15px;display: block;margin-top: 10px;margin-left: 20px;}
+.t4-3-2 {color: #ffffff;font-family:"Arial Regular";font-size: 15px;display: block;margin-top: 10px;}
+.t4-3-1:hover{color: #bd3838;}
+.t4-3-2:hover{color: #bd3838;}
+.web4-icon {width: 1115px;height: 132px;margin: 0 363px 19px 400px;}
+.p4-1 {margin-right: 116px;}
+.p4-2 {margin-right: 116px;}
+.p4-3 {margin-right: 110px;}
+.p4-4 {margin-right: 110px;}
+.web4-text4 {width: 616px;height: 22px;margin: 27px 850px 278px 404px;}
+.t4-4-1 {float: left;color: #525657;font-family:"Arial Regular";font-size: 16px;}
+.t4-4-2 {float: left;color: #525657;font-family:"Arial Regular";font-size: 16px;}
+.t4-4-3 {float: left;color: #525657;font-family:"Arial Regular";font-size: 16px;}
+.t4-4-1 span {margin-right: 150px;margin-left: 38px;text-align: center;}
+.t4-4-2 span {margin-right: 150px;margin-left: 45px;text-align: center;}
+.t4-4-3 span {margin-right: 0px;margin-left: 55px;text-align: center;}
+
+
+
+
+    /*web5*/
+
+
+.web5 {height: 1186px;}
+.web5- {background: url("images/web5-bg.png");height: 1102px;}
+.web5-1 {width: 1187px;height: 169px;margin: 0px 365px 52px 370px;padding-top: 81px;}
+.p5-1 span {color: #ffffff;font-family:"Arial Regular";font-size: 48px;text-align: center;}
+.p5-2 span {color: #ffffff;font-family:"Arial Regular";font-size: 48px;text-align: center;}
+.p5-3 span {color: #ffffff;font-family:"Arial Regular";font-size: 18px;text-align: center;}
+.p5-1 {padding-left: 290px;padding-right: 348px;padding-bottom: 22px;}
+.p5-3 {padding-left: 113px;padding-right: 127px;}
+.p5-2 {padding-bottom: 19px;}
+.web5-2 {width: 388px;height: 441px;margin: 0 70px 0 436px;float: left;}
+.web5-2 .pic5 {margin: 0 55px 0 28px;width: 305px;height: 305px;}
+.p5-2-1{color: #1c1c1e;font-family:"Arial Narrow";font-size: 14px;text-align: center;margin-top: 16px;margin-bottom: 14px;}
+.p5-2-2{color: #1c1c1e;font-family:"Arial Narrow";font-size: 14px;text-align: center;margin-bottom: 17px;}
+.p5-2-3{color: #ffffff;font-family:"ErasITC Medium";font-size: 14px;text-align: center;margin-bottom: 17px;}
+.web5-3 {width: 600px;height: 569px;margin: 0 auto 0 0;float: left;}
+.web5-3 ul li {float: left;width: 292px;height: 79px;}
+.web5-3 ul li input{border: none;width: 287px;height: 38px;background-image: url("images/web5yuanjiao.png");font-size: 25px;}
+.web5-3 ul li p,.web5-3 p {color: #ffffff;font-family: "Arial Regular";font-size: 16px;}
+.ln {margin-left: 11px;}
+.state {margin-left: 11px;}
+.phone {margin-left: 11px;}
+#ym {width: 585px;height: 214px;background-image: url("images/web5textareabg.png");resize: none;max-width: 585px;max-height: 214px;margin-bottom: 5px;}
+#submit {width: 220px;height: 54px;border: none;background: url("images/button.png")no-repeat;color: white;font-family: "Arial Regular";font-size: 18px;margin: 0 188px 0 184px}
+#submit:hover {background-color: #4d4d4e;color: #000000;}
+
+
+    /*final*/
+
+
+.final {background: url("images/footer-bg_03.png");height: 637px;}
+.final .final- dl dd a{font-family: "Arial Regular";font-size: 12px;color: #77757a;}
+.final .final- dl dd a:hover {color: #bd3838;text-decoration: underline;}
+.final .final- dl dt {font-family: "Arial Regular";font-size: 14px;color: #ffffff;margin-bottom: 15px;}
+.final .final- dl {float: left;width: 172px;margin-top: 55px;}
+.final .final- dl dd {margin-bottom: 4px;}
+.final .final- .dl-1 {margin-left: 365px;}
+.final .final- .dl-2 {margin-left: 127px;}
+.final .final- .dl-3 {margin-left: 135px;}
+.final- {height: 449px;}
+.final .final- .dl-4 {margin-left: 135px;margin-right: 450px;}
+.cr {width: 587px;height: 101px;margin: 0 659px auto 666px;}

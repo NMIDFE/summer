@@ -1,0 +1,829 @@
+a{
+	text-decoration: none;
+}
+
+.part2{
+	position: absolute;
+	left: 0px;
+	top: 1079px;
+}
+
+.part3{
+	position: absolute;
+	left: 0px;
+	top: 2060px;
+}
+
+.part3_2{
+	position: absolute;
+	left: 0px;
+	top: 2300px;
+}
+
+.part4{
+	position: absolute;
+	left: 0px;
+	top: 3115px;
+}
+
+.part4_2{
+	position: absolute;
+	left: 0px;
+	top: 3200px;
+}
+
+.part5{
+	position: absolute;
+	left: 0px;
+	top: 3985px;
+}
+
+.part5_2{
+	position: absolute;
+	left: 0px;
+	top: 4070px;
+}
+
+.part6{
+	position: absolute;
+	left: 0px;
+	top: 5156px;
+}
+
+.back1{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    left: 0px;
+    top: 0px;	
+}
+
+.back2{
+	width: 1920px;
+	height: 700px;
+	background: black;
+}
+
+
+.矩形1{
+  background-color: rgb(0, 0, 0);
+  opacity: 0.431;
+  position: absolute;
+  left: 0px;
+  top: -15px;
+  width: 1920px;
+  height: 86px;
+
+}
+
+.矩形2{
+  background-color: rgb(255, 255, 255);
+  opacity: 0.431;
+  position: absolute;
+  left: 0px;
+  top: -15px;
+  width: 1920px;
+  height: 86px;
+  border-bottom: 1px solid rgb(193,193,193);
+
+}
+
+.dreamconsultancy_ {
+  font-size: 44px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.364;
+  position: absolute;
+  left: 240px;
+  top: -8px;
+  width: 316px;
+  height: 40px;
+  z-index: 170;
+}
+
+.dreamconsultancy_2 {
+  font-size: 44px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 0.364;
+  position: absolute;
+  left: 240px;
+  top: -8px;
+  width: 316px;
+  height: 40px;
+  z-index: 170;
+}
+
+.services{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 685px;
+  top: 35px;
+  z-index: 171;
+}
+
+.services2{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 685px;
+  top: 35px;
+  z-index: 171;
+}
+
+.portfolio{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 800px;
+  top: 35px;
+  z-index: 171;
+}
+
+.portfolio2{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 800px;
+  top: 35px;
+  z-index: 171;
+}
+
+.about{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 930px;
+  top: 35px;
+  z-index: 171;
+}
+
+.about2{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 930px;
+  top: 35px;
+  z-index: 171;
+}
+
+.contact{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 1030px;
+  top: 35px;
+  z-index: 171;
+}
+
+.contact2{
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1;
+  position: absolute;
+  left: 1030px;
+  top: 35px;
+  z-index: 171;
+}
+
+.圆角矩形1_{
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 8px;
+  position: absolute;
+  left: 1331px;
+  top: 15px;
+  width: 106px;
+  height: 28px;
+  z-index: 167;
+}
+
+.圆角矩形2_{
+  border-width: 2px;
+  border-color: rgb(255, 134, 39);
+  border-style: solid;
+  border-radius: 8px;
+  position: absolute;
+  left: 1331px;
+  top: 15px;
+  width: 106px;
+  height: 28px;
+  z-index: 167;
+  background: rgb(255,134,39);
+}
+
+
+.GET_A_QUOTE {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(189, 56, 56);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  left: 1337px;
+  top: 28px;
+  width: 95px;
+  height: 13px;
+  z-index: 172;
+}
+
+.GET_A_QUOTE2 {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  left: 1337px;
+  top: 28px;
+  width: 95px;
+  height: 13px;
+  z-index: 172;
+}
+
+.CALL_1300_783_483 {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(189, 56, 56);
+  font-weight: bold;
+  line-height: 1.143;
+  text-align: left;
+  position: absolute;
+  left: 1450px;
+  top: 23px;
+  z-index: 174;
+}
+
+.CALL_1300_783_4832 {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.143;
+  text-align: left;
+  position: absolute;
+  left: 1450px;
+  top: 23px;
+  z-index: 174;
+}
+
+._1_rectangle {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1540px;
+  top: 49.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+._2_rectangle {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1540px;
+  top: 52.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+._3_rectangle {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1540px;
+  top: 55.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+._1_rectangle2 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1540px;
+  top: 36.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+._2_rectangle2 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1540px;
+  top: 39.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+._3_rectangle2 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 1540px;
+  top: 42.5px;
+  width: 15px;
+  height: 2px;
+  z-index: 168;
+}
+
+
+.We_build{
+  font-size: 72px;
+  font-family: "Bell MT";
+  color: rgb(255, 255, 255);
+  line-height: 0.222;
+  text-align: left;
+  position: absolute;
+  left: 557px;
+  top: 260px;
+  z-index: 162;
+}
+
+.Made_with {
+  font-size: 28px;
+  font-family: "Bell MT";
+  color: rgb(255, 255, 255);
+  line-height: 0.571;
+  position: absolute;
+  left: 795px;
+  top: 520px;
+  z-index: 161;
+  text-decoration:underline;
+}
+
+.WE_DESIGN__DEVELOP___DELIVER {
+  font-size: 70px;
+  font-family: "Bell MT";
+  color: rgb(86, 86, 86);
+  line-height: 0.229;
+  -moz-transform: matrix( 0.93975893729173,0,0,1,0,0);
+  -webkit-transform: matrix( 0.93975893729173,0,0,1,0,0);
+  -ms-transform: matrix( 0.93975893729173,0,0,1,0,0);
+  position: absolute;
+  left: 396px;
+  top: 1140px;
+  z-index: 132;
+}
+
+.We_create_exceptional_web_designs__ecommerce_si {
+  font-size: 20px;
+  font-family: "Bell MT";
+  color: rgb(77, 77, 78);
+  line-height: 0.8;
+  -moz-transform: matrix( 0.98963659784493,0,0,1,0,0);
+  -webkit-transform: matrix( 0.98963659784493,0,0,1,0,0);
+  -ms-transform: matrix( 0.98963659784493,0,0,1,0,0);
+  position: absolute;
+  left: 570px;
+  top: 1260px;
+  z-index: 138;
+}
+
+.WEBSITE_DESIGN {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(181, 208, 146);
+  line-height: 1.231;
+  position: absolute;
+  left: 404px;
+  top: 1817.499px;
+  z-index: 133;
+}
+
+.WEBSITE_DESIGNMOBILE_APPS {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(253, 199, 88);
+  line-height: 1.231;
+  position: absolute;
+  left: 387px;
+  top: 1557.499px;
+  z-index: 134;
+}
+
+.ECOMMERCE___MAGENTO_DEVELOPMENT {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(219, 103, 158);
+  line-height: 1.231;
+  position: absolute;
+  left: 845px;
+  top: 1316px;
+  z-index: 137;
+}
+
+.DIGITAL_STRATEGY {
+  font-size: 13px;
+  font-family: "Arial";
+  color: rgb(20, 206, 209);
+  line-height: 1.231;
+  position: absolute;
+  left: 1377px;
+  top: 1554.499px;
+  z-index: 136;
+}
+
+.CMS {
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(255,255,255);
+  line-height: 1.231;
+  position: absolute;
+  left: 950px;
+  top: 1780px;
+  z-index: 135;
+}
+
+.Our__simpie{
+  font-size: 16px;
+  font-family: "Arial";
+  color: red;
+  line-height: 0.938;
+  position: absolute;
+  left: 830px;
+  top: 1873px;
+}
+
+.HERE__IS{
+  font-size: 48px;
+  font-family: "Arial";
+  color: rgb(86, 86, 86);
+  line-height: 0.313;
+  position: absolute;
+  left: 565px;
+  top: 2174.988px;
+  z-index: 100;
+}
+
+.We_work{
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(86, 86, 86);
+  line-height: 0.833;
+  -moz-transform: matrix( 0.98375560171563,0,0,1,0,0);
+  -webkit-transform: matrix( 0.98375560171563,0,0,1,0,0);
+  -ms-transform: matrix( 0.98375560171563,0,0,1,0,0);
+  position: absolute;
+  left: 434.212px;
+  top: 2243.189px;
+  z-index: 101;
+}
+
+.ToFind_1{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(221, 227, 219);
+  line-height: 1.714;
+  position: absolute;
+  left: 359px;
+  top: 3703.519px;
+  z-index: 73;
+}
+
+.ToFind_2{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(221, 227, 219);
+  line-height: 1.714;
+  position: absolute;
+  left: 606px;
+  top: 3703.519px;
+  z-index: 74;
+}
+
+.ToFind_3{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(221, 227, 219);
+  line-height: 1.714;
+  position: absolute;
+  left: 851px;
+  top: 3703.519px;
+  z-index: 75;
+}
+
+.ToFind_4{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(221, 227, 219);
+  line-height: 1.714;
+  position: absolute;
+  left: 1093px;
+  top: 3703.519px;
+  z-index: 76;
+}
+
+.ToFind_5{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(221, 227, 219);
+  line-height: 1.714;
+  position: absolute;
+  left: 1339px;
+  top: 3703.519px;
+  z-index: 77;
+}
+
+.WHY__YOU__SHOULD__CHOOSE__US_{
+  font-size: 49px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 0.307;
+  -moz-transform: matrix( 1,0,0,1.00214337564497,0,0);
+  -webkit-transform: matrix( 1,0,0,1.00214337564497,0,0);
+  -ms-transform: matrix( 1,0,0,1.00214337564497,0,0);
+  position: absolute;
+  left: 539.845px;
+  top: 3246.995px;
+  z-index: 68;
+}
+
+.We__are{
+  font-size: 19px;
+  font-family: "Arial";
+  color: rgb(103, 103, 97);
+  line-height: 0.791;
+  -moz-transform: matrix( 0.9705736022554,0,0,1.00214337564497,0,0);
+  -webkit-transform: matrix( 0.9705736022554,0,0,1.00214337564497,0,0);
+  -ms-transform: matrix( 0.9705736022554,0,0,1.00214337564497,0,0);
+  position: absolute;
+  left: 480px;
+  top: 3310px;
+  z-index: 69;
+}
+
+.Our_Process{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.071;
+  position: absolute;
+  left: 861px;
+  top: 3386.003px;
+  z-index: 70;
+  border:3px  solid black;
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  background: rgb(0,0,0);
+  padding:16px 26px;
+}
+
+.About_Us{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.071;
+  position: absolute;
+  left: 999px;
+  top: 3386.003px;
+  z-index: 70;
+  border:3px  solid black;
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px;
+  padding:16px 26px;
+}
+
+.LETS__TALK__BUSINESS {
+  font-size: 48px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+  position: absolute;
+  left: 693px;
+  top: 4108.5px;
+  z-index: 37;
+}
+
+.TELL__US__ABOUT {
+  font-size: 48px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 0.5;
+  position: absolute;
+  left: 376px;
+  top: 4178.5px;
+  z-index: 38;
+}
+
+.Please__take {
+  font-size: 18px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.333;
+  position: absolute;
+  left: 485px;
+  top: 4262.822px;
+  z-index: 39;
+}
+
+.MELBOURNE_1 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(28, 28, 30);
+  line-height: 1;
+  position: absolute;
+  left: 451px;
+  top: 4680px;
+  z-index: 47;
+}
+
+.MELBOURNE_2 {
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(28, 28, 30);
+  line-height: 1;
+  position: absolute;
+  left: 438px;
+  top: 4730px;
+  z-index: 48;
+}
+
+.facebook_twitter {
+  font-size: 14px;
+  font-family: "Eras Medium ITC";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  position: absolute;
+  left: 552px;
+  top: 4790px;
+  z-index: 49;
+}
+
+.form1{
+  font-size: 16px;
+  font-family: "Arial";
+  line-height: 1.5;
+  position: absolute;
+  left: 894px;
+  top: 4400px;
+  z-index: 40;
+}
+
+.form2{
+  font-size: 16px;
+  font-family: "Arial";
+  line-height: 1.5;
+  position: absolute;
+  left: 1194px;
+  top: 4400px;
+  z-index: 41;
+}
+
+.form3{
+  font-size: 16px;
+  font-family: "Arial";
+  line-height: 1.5;
+  position: absolute;
+  left: 894px;
+  top: 4610px;
+  z-index: 46;
+}
+
+input{
+	height: 40px;
+	width: 286px;
+	background: rgb(255,255,255);
+}
+
+.submit {
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  color: rgb(255, 255, 255);
+  line-height: 0.778;
+  position: absolute;
+  left: 200px;
+  top: 270px;
+  z-index: 50;
+  background: rgb(243,100,83);
+  height: 60px;
+  border:3px solid white;
+}
+
+.Our_Services1{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.286;
+  position: absolute;
+  left: 359px;
+  top: 50px;
+  z-index: 11;
+}
+
+.Web_afdffhgbvb1{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 117, 122);
+  line-height: 2.167;
+  position: absolute;
+  left: 362px;
+  top: 80px;
+  z-index: 6;
+}
+
+.Our_Services2{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.286;
+  position: absolute;
+  left: 659px;
+  top: 50px;
+  z-index: 11;
+}
+
+.Web_afdffhgbvb2{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 117, 122);
+  line-height: 2.167;
+  position: absolute;
+  left: 662px;
+  top: 80px;
+  z-index: 6;
+}
+
+.Our_Services3{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.286;
+  position: absolute;
+  left: 959px;
+  top: 50px;
+  z-index: 11;
+}
+
+.Web_afdffhgbvb3{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 117, 122);
+  line-height: 2.167;
+  position: absolute;
+  left: 962px;
+  top: 80px;
+  z-index: 6;
+}
+
+.Our_Services4{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  line-height: 1.286;
+  position: absolute;
+  left: 1259px;
+  top: 50px;
+  z-index: 11;
+}
+
+.Web_afdffhgbvb4{
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 117, 122);
+  line-height: 2.167;
+  position: absolute;
+  left: 1262px;
+  top: 80px;
+  z-index: 6;
+}
+
+.Web_af {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(119, 117, 122);
+  line-height: 1.5;
+  position: absolute;
+  left: 667px;
+  top: 500px;
+  z-index: 10;
+}

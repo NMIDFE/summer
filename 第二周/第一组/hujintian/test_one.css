@@ -1,0 +1,301 @@
+#header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.header_img{
+    height: 100%;
+}
+.header_menu{
+    height: 100%;
+    position: relative;
+    left: 74%;
+}
+.header_touxiang{
+    position: relative;
+    left: 72%;
+    margin-top: 22px;
+}
+.header_research{
+    position: relative;
+    left: 73%;
+    margin-top: 22px;
+}
+.header_subscribe{
+    display: block;
+    color: dimgray;
+    text-decoration-line: none;
+    font-family: Microsoft JhengHei;
+    position: relative;
+    left: 70%;
+    margin-top: 20px;
+}
+/*第二部分*/
+#flesh{
+
+}
+.first_one{
+    height: 1200px;
+}
+.first_bgp{
+    width: 98.9%;
+    height: 900px;
+    position: fixed;
+    top: 60px;
+    z-index: -1;
+}
+.first_text_big{
+    text-align: center;
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 10%;
+}
+.first_text_little{
+    text-align: center;
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    font-size: 18px;
+}
+.yellow_line{
+    width: 70px;
+    height: 5px;
+    background-color: gold;
+    margin: 0 auto;
+}
+.yellow_block{
+    height: 20px;
+    width: 5px;
+    background-color: gold;
+    float: left;
+    margin-right: 15px;
+    margin-top: 24px;
+}
+/*first部分中的内容部分*/
+.first_center{
+    margin: 50px auto 0;
+    width: 72%;
+}
+.first_left{
+    float: left;
+    width: 30%;
+}
+.first_left_one{
+    font-family: "Microsoft YaHei UI";
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.first_jpg1{
+    width: 42%;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.first_text_1{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.first_text_1:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.first_text_2{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+}
+.first_text_2:hover{
+    cursor: pointer;
+    color: dimgray;
+}
+.left_seemore{
+    border-bottom: 2px gold solid;
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    width: 80px;
+}
+.left_seemore:hover{
+    background-color: gold;
+    transition: all 0.6s;
+    color: black;
+}
+.first_right{
+    width: 65%;
+    height: 900px;
+    float: right;
+    overflow: hidden;
+    padding-top: 24px;
+}
+.first_tiger1{
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+}
+.first_tiger1{
+    cursor: pointer;
+}
+.first_tiger{
+    width: 100%;
+    height: 100%;
+}
+.first_tiger:hover{
+    transform: scale(1.3);
+    transition: all 0.8s;
+}
+.tiger_1{
+    position: relative;
+    bottom: 50%;
+    font-family: "Microsoft YaHei UI";
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 3%;
+}
+.tiger_2{
+    font-family: "Microsoft YaHei UI";
+    color: white;
+    position: relative;
+    bottom: 47%;
+    font-size: 40px;
+    margin-left: 3%;
+}
+.first_tiger2{
+    width: 45%;
+    margin-top: 48px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.tiger_3{
+    width: 100%;
+    height: 60%;
+    transition: all 0.6s;
+}
+.tiger_3:hover{
+    transform: scale(1.3);
+}
+.tiger_4{
+    color: black;
+    font-family: "Microsoft YaHei UI";
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+}
+.tiger_5{
+    color: black;
+    font-family: "Microsoft YaHei UI";
+    padding: 20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+.first_tiger3{
+    width: 45%;
+    margin-top: 45px;
+    position: relative;
+    bottom: 48%;
+    left: 45%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.first_tiger3{
+    cursor: pointer;
+}
+/*body第二部分*/
+.second{
+    background-color: white;
+    height: 1400px;
+    width: 100%;
+}
+.atment{
+    color: darkgrey;
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    letter-spacing: 2px;
+    position: relative;
+    top: 20px;
+}
+.adphoto{
+    position: relative;
+    top: 20px;
+    width: 728px;
+    margin: 0 auto;
+}
+.second_watch{
+    font-size: 50px;
+    font-family: "Microsoft YaHei UI";
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 120px;
+}
+.second_go{
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    margin-top: 25px;
+}
+.second_yl{
+    width: 70px;
+    height: 5px;
+    background-color: gold;
+    margin: 15px auto 80px;
+}
+#second_video{
+    width: 100%;
+}
+.second_video_div{
+    margin: 0 auto;
+    width: 1000px;
+}
+.second_text1{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+    bottom: 23%;
+    left: 20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.second_text2{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+    bottom: 22%;
+    left: 20%;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.second_text3{
+    color: white;
+    font-family: "Microsoft YaHei UI";
+    position: relative;
+    bottom: 20%;
+    left: 20%;
+}
+.second_text4{
+    color: black;
+    font-family: "Microsoft YaHei UI";
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    bottom: 16%;
+    left: 20%;
+    background-color: gold;
+    padding: 20px;
+    width: 14.6%;
+    transition: all 0.6s;
+}
+.second_text4:hover{
+    color: #ffffff;
+    background-color: black;
+    cursor: pointer;
+}
+
