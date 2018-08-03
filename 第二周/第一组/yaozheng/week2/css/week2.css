@@ -1,0 +1,1912 @@
+/*
+总体基础样式
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 链接标签 */
+a {
+    text-decoration: none;
+}
+/* 无序list样式*/
+ul {
+    list-style-type: none;
+}
+
+/* 
+导航栏
+*/
+.nav{
+    height: 49px;
+    width: 100%;
+}
+.box1_title{
+    height: 49px;
+    padding: 0 17px;
+}
+.box1_container{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background: white;
+    z-index: 1000;
+}
+#img1{
+    width: 137px;
+    height: 40px;
+}
+#img1 img{
+    width: 137px;
+    height: 48px;
+}
+.box1_title1{
+    height: 49px;
+    float: left;
+}
+.box1_title2{
+    height: 49px;
+    box-sizing: inherit;
+}
+.box1_title2_content{
+    box-sizing: inherit;
+    height: 49px;
+}
+.box1_title2 ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.box1_title2_content_contact_tu>img{
+    width: 41px;
+    height: 42px;
+}
+.box1_title2_content_contact_tu{
+    vertical-align: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.box1_title2_content_search_tu{
+    vertical-align: center;
+    position: relative;
+    top: 9.5px;
+}
+.box1_title2_content_search_tu_1{
+    width: 35px;
+    height: 34px;
+    display: block;
+    padding-right: 15px;
+}
+.box1_title2_content_subscribe{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+    transition: color .3s ease;
+}
+.box1_title2_content_subscribe a{
+    line-height: 48px;
+}
+.box1_title2_content_menu_tu{
+    height: 48px;
+}
+.box1_title2_content_menu_tu_1{
+    display: block;
+    width: 100px;
+    height: 42px;
+    position: relative;
+    top: 2px;
+    margin-right: -10px;
+}
+
+/* box1 下 */
+
+.box1_contain{
+    position: relative;
+    height: 1259px;
+}
+.box1_contain1{
+    background-image: linear-gradient(180deg, transparent 0%, black 100%);
+    box-sizing: inherit;
+    height: 1259px;
+}
+.box1_contain2{
+	background-image: url('../image/nationalgeographic_2444018.adapt.1900.1.jpg');
+    background-size: cover;
+    box-sizing: inherit;
+}
+.box1_contain3{
+	color: white;
+	text-align: center;
+}
+.box1_contain3 h1{
+    padding-top: 100px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    margin: 0;
+}
+.box1_contain3 p{
+    padding-top: 30px;
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box1_line{
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    width: 60px;
+}
+.box1_body{
+    margin: 0 auto;
+	overflow: hidden;
+	width: 1080px;
+	margin-top: 100px;
+}
+.box1_body_content{
+	color: white;
+    width: 400px;
+    height: 876px;
+    margin-left: 50px;
+	float: left;
+}
+.box1_body_content_top::before{
+    background-color: #fc0;
+	content: "";
+    width: 5px;
+    display: block;
+    height: 17px;
+    float: left;
+    margin-right: 25px;
+    margin-top: 5px;
+}
+.box1_body_content_contain-list{
+	padding: 0;
+}
+.box1_body_content_contain-list a{
+	color: white;
+}
+.box1_body_content_l{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box1_body_content_l_word{
+	float: left;
+	color: white;
+    width: 200px;
+    margin-left: -10px;
+}
+.box1_body_content_l_word>a{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 3px;
+}
+#content{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 2px solid transparent;
+    display: block;
+    min-width: 200px;
+}
+.box1_body_content_l_img{
+	float: left;
+    margin-right: 30px;
+}
+.box1_body_content_l_img img{
+    width: 90px;
+    height: 80px; 
+}
+.box1_body_content_l_word{
+	float: left;
+    color: white;
+}
+.box1_body_content_l_word1{
+	color: #fc0;
+	line-height: 25px;
+    text-align: center;
+    margin-left: -80px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+
+}
+.box1_body_content_l_word1::before{
+	background-color: #fc0;
+	display: inline-block;
+	height: 10px;
+	width: 3px;
+    content: '';
+    margin-right: 10px;
+}
+.box1_body_content_l_word1::after{
+	background-color: #fc0;
+	display: inline-block;
+	height: 10px;
+	width: 3px;
+    content: '';
+    margin-left: 10px;
+}
+.box1_body_content_l_word a:hover{
+	text-decoration: underline;
+}
+.box1_body_content_l_word span:hover{
+	color: gray;
+}
+.box1_body_content_bottom{
+    font-size: 14px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    transition: all 0.6s;
+    font-weight: 700;
+    width: 85px;
+    float: left;
+    border-bottom: 2px solid #fc0;
+}
+.box1_body_content_bottom:hover{
+	 background-color: #fc0;
+	 color: black;
+}
+.penn{
+	position: relative;
+	overflow: hidden;
+}
+.pen{
+	width: 660px;
+	height: 423px;
+	background-image: url('../image/01-og-tiger-farm-illegal-trade-gettyimages-536245132.adapt.1190.1.jpg');
+	transition: all 0.6s;
+	background-size: cover;
+}
+.pen:hover{
+	transform: scale(1.4)
+}
+.box1_card_list1{
+    width: 310px;
+	height: 280px;
+    margin-top: -280px;
+    float: right;
+}
+.box1_card{
+    overflow: hidden;
+}
+.box1_list_photo1{
+	background-image: url('../image/727-potw-04.adapt.536.1.jpg');
+	background-size: cover;
+	background-position: center;
+	widows: 310px;
+	height: 262px;
+	transition: all 0.6s;
+}
+.box1_list_photo1:hover{
+	transform: scale(1.4);
+}
+.box1_list_photo2{
+	background-image: url('../image/01-jaylyn-gough.adapt.536.1.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 310px;
+	height: 227px;
+    transition: all 0.6s;
+}
+.box1_list_photo2:hover{
+	transform: scale(1.4);
+}
+.box1_text_1{
+    width: 310px;
+    height: 166px;
+    background: white;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.box1_text_2{
+    width: 310px;
+    height: 201px;
+    background: white;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+}
+.box1_list{
+    overflow: hidden;
+}
+
+.box1_card_list2{
+    width: 310px;
+	height: 280px;
+	margin-top: 30px;
+}
+.box1_card_list{
+    position: relative;
+    height: 800px;
+}
+.box1_body_content_top1{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+    color: rgb(255, 255, 255);
+}
+
+/* box3 */
+.box3{
+    height: 123px;
+    background: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+.box3_title::before{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    content: 'Advertisement';
+    line-height: 1.5;
+    color: #999;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    top: -10px;
+}
+.box3_content img{
+    width: 728px;
+    height: 90px;
+}
+
+/* box4 */
+.box4{
+    height: 1204px;
+    background-color: #f2f2f2;
+    padding-bottom: 40px;
+}
+.box4_content{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 1164.55px;
+}
+.box4_title{
+    width: 100%;
+    height: 262.4px;
+    width: 1020px;
+}
+.box4_title_content{
+    height: 262.4px;
+    width: 1020px;
+    color: #000;
+    padding: 67px 0 60px;
+    text-align: center;
+}
+.box4_p_1{
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 1000;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.box4_title_content_2{
+    height: 26.4px;
+    width: 1020px;
+    margin: 14px 0 23px;
+}
+.box4_title_content_2>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+}
+.box4_p_2{
+    width: 60px;
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+}
+/* vedio */
+.box4_TV{
+    height: 528.75px;
+    width: 940px;
+    padding: 0 40px;
+}
+.box4_TV_content{
+    height: 528.75px;
+    margin: 0 auto;
+    max-width: 1120px;
+    overflow: hidden;
+    position: relative;
+}
+.box4_TV_show{
+    height: 528.75px;
+    width: 940px;
+    position: absolute;
+    min-width: 100%;
+}
+.box4_TV_show video{
+    height: 528.75px;
+    width: 940px;
+    position: absolute;
+    min-width: 100%;
+}
+/* box4 图内文字 */
+.box4_text{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    padding: 0 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.box4_text_1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 1000;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    color: #fff;
+}
+.box4_text_2{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 42px;
+    letter-spacing: 2px;
+    line-height: 1.19;
+    color: #fff;
+    margin: 0 0 6px;
+    max-width: 728px;
+}
+.box4_text_3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 24px;
+    max-width: 650px;
+    width: 100%;
+}
+.huadong{
+    color: #000;
+    justify-content: center;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 45px;
+    border: 0;
+    cursor: pointer;
+    height: 45px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    transition: width .3s, color .3s;
+    vertical-align: middle;
+}
+.huadong::after{
+    content: '';
+}
+.yfill{
+    background-color: #fc0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.bfill{
+    background: #000;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: width .3s, color .3s;
+    width: 0%;
+}
+.fill_content{
+    position: relative;
+    z-index: 2;
+    color: #000;
+}
+.box4_text_4{
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box4_tvpr{
+    height: 308.4px;
+    width: 1020px;
+    padding: 25px 2px 40px;
+}
+.box4_tvpr_container{
+    height: 308.4px;
+    width: 1016px;
+}
+.box4_tvpr_container_title{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 38px 24px;
+}
+.box4_tvpr_container_title_content{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #000;
+    font-size: 18px !important;
+
+}
+.box4_tvpr_container_title_right{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    background-image: linear-gradient(120deg, #fc0 0%, #fc0 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    border-bottom: 2px solid #fc0;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .125s ease-in;
+    white-space: nowrap;
+}
+
+
+.box4_tvpr_container_middle{
+    height: 258px;
+    width: 940px;
+    position: relative;
+    padding: 0 38px;
+}
+.box4_tvpr_container_middle_content{
+    height: 258px;
+    width: 940px;
+    overflow: hidden;
+}
+.box4_tu1{
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	width: 172px;
+	height: 258px;
+}
+.box4_tu1 img{
+	width: 172px;
+	transition: all 0.4s ease-in;
+}
+.box4_tu1 img:hover{
+	transform: scale(1.1);
+}
+.box4_tu2{
+	float: left;
+	width: 172px;
+	height: 258px;
+	overflow: hidden;
+}
+.box4_tu2 img{
+	width: 172px;
+	transition: all 0.4s ease-in;
+}
+.box4_tu2 img:hover{
+	transform: scale(1.1);
+}
+
+
+/* box5 */
+.box5{
+	background-image: url('../image/nationalgeographic_2641466.adapt.1900.1.jpg');
+    background-size: cover;
+    height: 1349px;
+}
+.box5_bg{
+    background-image: linear-gradient(180deg, transparent 0%, black 100%);
+    height: 1349px;
+}
+.box5_contain{
+    margin: 0 auto;
+	padding: 40px 60px;
+	width: 1080px
+}
+.box5_top{
+	color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+.box5_top1{
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 4.2px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    line-height: 1.19;
+}
+.box5_top2{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 16px 0 23px;
+}
+.box5_top3{
+	background-color: #fc0;
+	width: 60px;
+	height: 4px;
+	margin: 21px auto 0px;
+}
+.box5_body{
+	margin-top: 170px;
+	overflow: hidden;
+}
+.box5_body_show{
+	float: left;
+}
+.show1{
+	overflow: hidden;
+    width: 660px;
+    height: 423px;
+	position: relative;
+	color: white;
+}
+.show1>img{
+    width: 660px;
+    height: 423px;
+}
+.show-photo{
+	transition: all 0.6s;
+	position: absolute;
+}
+.show-photo:hover{
+	transform: scale(1.1);
+}
+.show_1_word{
+	position: absolute;
+	bottom: 30px;
+    left: 20px;
+}
+.show_1_word1{
+	padding-bottom: 30px;
+}
+.show_1_word2{
+    font-weight: 800;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.show2{
+    margin-top: 40px;
+	overflow: hidden;
+}
+.show_2_list1{
+	position: relative;
+    width: 310px;
+    height: 413px;
+	color: white;
+    float: left;
+    overflow: hidden;
+}
+.show_2_list1 img{
+    width: 310px;
+    height: 413px;
+	transition: all 0.6s;
+	position: absolute;
+}
+.show_2_list1 img:hover{
+	transform: scale(1.1);
+}
+.show_2_list1{
+	margin-right: 20px;
+}
+
+
+.show_2_list2{
+    position: relative;
+	overflow: hidden;
+	color: white;
+    float: left;
+    width: 310px;
+    height: 413px;
+    margin-left: 20px;
+}
+.show_2_list2 img{
+    width: 310px;
+    height: 413px;
+	transition: all 0.6s;
+	position: relative;
+}
+.show_2_list2 img:hover{
+	transform: scale(1.1);
+}
+.show_2_word1{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    position: absolute;
+    text-align: center;
+    margin-top: 145px;
+}
+.show_2_word2{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+    position: absolute;
+    text-align: center;
+    margin-top: -215px;
+}
+.show_2_button{
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+    width: 149.5px;
+    height: 45px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    text-align: center;
+    background-color: #fc0;
+    line-height: 50px;
+    color: #000;
+    margin-top: 50px;
+    transition: all 0.6s;
+    bottom: 25px;
+
+}
+.show_2_button:hover{
+	background-color: #000;
+	color: white;
+}
+.box5_body_list{
+	float: left;
+	color: white;
+	margin-left: 40px;
+}
+.box5_body_list_top{
+	overflow: hidden;
+}
+.box5_body_list_top::before{
+	content: "";
+	display: block;
+	background-color: #fc0;
+	height:20px;
+	width: 4.5px;
+    float: left;
+    margin-top: 3.5px;
+}
+.box5_body_list_top1{
+	float: left;
+    margin-left: 20px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.box5_body_list_contain img{
+    width: 90px;
+    height: 90px;
+}
+.box5_body_list_contain_menu{
+	overflow: hidden;
+	margin-top: 30px;
+}
+.box5_body_list_contain_menu:hover{
+	color: grey;
+}
+.box5_body_list_contain_photo{
+	float: left;
+}
+.box5_body_list_contain_word{
+	float: left;
+	width: 200px;
+    padding-left: 20px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box5_body_list_bottom{
+    margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	border-bottom: 2px solid #fc0;
+	font-size: 10px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    transition: all 0.6s;
+    cursor: pointer;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+}
+.box5_body_list_bottom b{
+    font-weight: 800;
+}
+.box5_body_list_bottom:hover{
+	background-color: #fc0;
+	color: black;
+}
+
+/* box6 */
+.box6{
+    height: 1442.39px;
+    background-color: #f2f2f2;
+}
+.box6_content{
+    width: 1020px;
+    height: 1442.39px; 
+    margin: 0 auto;
+    max-width: 1020px;
+}
+.box6_content_title{
+    width: 1020px;
+    height: 262.4px;
+    max-width: 1020px;
+    margin: 0 auto;
+    width: 100%;
+}
+.box6_content_title_container{
+    width: 1020px;
+    height: 135.4px;
+    padding: 67px 0 60px;
+    color: #000;
+    text-align: center;
+}
+.box6_title_head1{
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.19;
+}
+.box6_title_head2{
+    margin: 14px 0 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.box6_head_line{
+    width: 60px;
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    text-align: center;
+}
+
+.box6_body{
+    height: 680px;
+    width: 1020px;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.box6_body_tu{
+    height: auto;
+    position: relative;
+    height: 680px;
+    width: 1020px;
+    background-image: url('../image/download.jpg');
+    background-size: cover;
+}
+.box6_tu_title{
+    min-height: 25%;
+    background: linear-gradient(0deg, transparent 16%, rgba(0,0,0,0.22) 81%);
+    color: #fff;
+    min-height: 20%;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    text-decoration: none;
+}
+.box6_tu_text{
+    position: relative;
+    display: inline-block;
+    margin: 40px auto 0;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+    cursor: pointer;
+}
+.box6_tu_title>a{
+    border-bottom: 0 !important;
+    pointer-events: none;
+}
+.box6_tu_title>a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.box6_tu_title>a:link{
+    color: #fff;
+}
+.box6_tu_title>a:hover{
+    color: #fff;
+}
+.box6_tu_footer{
+    position: absolute;
+    background: linear-gradient(180deg, transparent 19%, rgba(0,0,0,0.64) 84%);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    left: 0;
+    min-height: 20%;
+    padding: 0 29px 24px;
+    right: 0;
+    z-index: 2;
+}
+.box6_tu_footer_text{
+    width: 962px;
+    height: 28.4px;
+    flex: 0;
+}
+.box6_footer_left{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    color: #fff;
+    display: inline-block;
+    margin-right: 15px;
+}
+.box6_footer_right{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box6_bottom{
+	overflow: hidden;
+	margin-top: 40px;
+}
+.box6_bottom_left{
+	overflow: hidden;
+	float: left;
+}
+.box6_bottom_left_1{
+	width: 300px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.box6_bottom_left_1 img{
+    width: 300px;
+    height: 400px;
+	transition: all 0.6s;
+    position: absolute;
+    overflow: hidden;
+}
+.box6_bottom_left_1 img:hover{
+	transform: scale(1.1);
+}
+.box6_bottom_left_2_1{
+    width: 240px;
+    height: 67.2px;
+    margin-left: 30px;
+	position: absolute;
+	text-align: center;
+	top: 60px;
+    color: white;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: .1px;
+    font-size: 17px;
+    line-height: 1.273;
+}
+.box6_bottom_left_2_2{
+    width: 240px;
+    height: 67.2px;
+    margin-left: 30px;
+    position: absolute;
+	text-align: center;
+	top: 100px;
+    color: white;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 20px;
+    line-height: 1.214;
+}
+.box6_bottom_left_3_1{
+    margin-left: 75.25px;
+	color: #000;
+	position: absolute;
+    background-color: #ffffff;
+	border: 0;
+	transition: all 0.6s;
+	text-transform: uppercase;
+    width: 149.5px;
+    height: 45px;
+    bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+}
+.box6_bottom_left_3_2{
+    margin-left: 75.25px;
+	color: #000;
+	position: absolute;
+	background-color: #fc0;
+	border: 0;
+	transition: all 0.6s;
+	text-transform: uppercase;
+    width: 149.5px;
+    height: 45px;
+    bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+}
+.box6_bottom_left_3_1:hover{
+	background-color: #000;
+	color: white;
+}
+.box6_bottom_left_3_2:hover{
+	background-color: #000;
+	color: white;
+}
+.box6_bottom_left_4{
+	margin-right: 20px;
+}
+.box6_bottom_right{
+	float: left;
+	width: 300px;
+	margin-left: 85px;
+}
+.box6_bottom_right_top{
+	overflow: hidden;
+}
+.box6_bottom_right_top::before{
+    content: "";
+    margin-top: 3px;
+	display: block;
+	background-color: #fc0;
+	height: 40px;
+	width: 4px;
+	float: left;
+}
+.box6_bottom_right_top1{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    padding-left: 20px;
+    position: relative;
+}
+.box6_bottom_right_contain{
+	padding: 0;
+}
+.box6_bottom_right_contain_list1 img{
+    width: 112px;
+    height: 112px;
+}
+.box6_bottom_right_contain_list1{
+	float: left;
+}
+.box6_bottom_right_contain_list2{
+	float: left;
+	font-size: 13px;
+	width: 135px;
+	height: 92px;
+	margin-left: 10px;
+}
+.box6_bottom_right_contain_list2_1{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000;
+    display: inline;
+    text-decoration: none;
+}
+.box6_bottom_right_contain_list2_2{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 14px;
+    line-height: 1.429;
+    color: rgb(141, 136, 136);
+    display: block;
+    margin: 5px 0 0;
+    text-decoration: none;
+}
+.box6_bottom_right_contain_list2_2{
+    color: rgb(141, 136, 136);
+}
+.box6_bottom_right_contain_list2_2 a:hover{
+    border-bottom: 1px solid;
+    border-bottom-color: #fc0;
+}
+.box6_bottom_right_contain_list2_1 a{
+	color: black;
+}
+.box6_bottom_right_contain_list{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box6_bottom_right_contain{
+	margin-top: 20px;
+}
+.box6_bottom_right_footer{
+	border-bottom: 2px solid #fc0;
+	text-transform: uppercase;
+	transition: all 0.6s;
+	width: 72px;
+	float: left;
+    margin-top: 20px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    display: inline-block;
+}
+.box6_bottom_right_footer:hover{
+	background-color: #fc0;
+}
+
+
+/* box7 */
+.box7{
+    height: 123px;
+    background: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+.box7_title::before{
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    content: 'Advertisement';
+    line-height: 1.5;
+    color: #999;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    top: -10px;
+}
+.box7_content img{
+    width: 728px;
+    height: 90px;
+}
+
+/* box8 */
+.box8{
+    height: 870px;
+    background-color: #fff ;
+    padding-bottom: 40px;
+}
+.box8_content{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 870px;
+}
+.box8_title{
+    width: 100%;
+    height: 262.4px;
+    width: 1020px;
+}
+.box8_title_content{
+    width: 1020px;
+    color: #000;
+    padding: 67px 0 60px;
+    text-align: center;
+}
+.box8_p_1{
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 1000;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.box8_title_content_2{
+    height: 26.4px;
+    width: 1020px;
+    margin: 14px 0 23px;
+}
+.box8_title_content_2>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+}
+.box8_p_2{
+    width: 60px;
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    margin-top: 50px;
+}
+
+
+
+.watch-contain{
+	overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 466.6px;
+}
+.watch-contain1{
+	position: relative;
+	overflow: hidden;
+    width: 320px;
+    height: 426.6px;
+	color: white;
+}
+.watch-contain1 img{
+    width: 320px;
+    height: 426.6px;
+	transition: all 0.6s;
+	position: absolute;
+}
+.watch-contain1 img:hover{
+	transform: scale(1.1);
+}
+.watch-contain2{
+	position: absolute;
+	font-size: 25px;
+    width: 300px;
+    text-align: center;
+    margin-left: 15px;
+    top: 100px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.watch-contain3{
+    margin-left: 7px;
+    height: 45px;
+    text-align: center;
+	background-color: #fc0;
+    letter-spacing: 3.5px;
+    width: 163.98px;
+	position: absolute;
+	bottom: 50px;
+	left: 73px;
+	line-height: 45px;
+	transition: all 0.6s;
+    color: black;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: 0;
+    cursor: pointer;
+}
+.watch-contain3:hover{
+	color: white;
+	background-color: #000;
+}
+
+.box8_footter a:visited{
+    background-image: linear-gradient(120deg, #fc0 0%, #fc0 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    border-bottom: 2px solid #fc0;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .125s ease-in;
+}
+.box8_footter{
+    border-bottom: 3px solid #fc0;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    display: table;
+    margin: 50px auto 0;
+}
+.box8_footter a:hover{
+    background-size: 100% 100%;
+    color: #000;
+}
+.box8_footter a:link{
+    color: #000;
+}
+
+/* maga */
+.box9 {
+    height: 600px;
+    }
+#mgz {
+    height: 600px;
+    width: 1519px;
+    background-color: rgb(242, 242, 242);
+}
+#mgz img {
+    height: 500px;
+    width: 700px;
+    margin-left: 400px;
+}
+
+
+/* box10 */
+.box10{
+    height: 976.4px;
+    background: black;
+}
+.box10_content{
+    height: 976.4px;
+    width: 70%;
+    float: right;
+    overflow: hidden;
+}
+.box10_content img{
+    z-index: -1;
+    width: 100%;
+    height: 1100px; 
+}
+.box10_left{
+    background: #000;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    height: 976.4px;
+    width: 355px;
+    margin-left: 60px;
+}
+.box10_text{
+    margin: 0 -90px 0 90px;
+    display: block;
+    min-height: 100vh;
+    padding: 60px 0;
+    width: 355px;
+    align-items: flex-start;
+    flex-direction: row;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: .1px;
+    font-size: 15px;
+    line-height: 1.429;
+    position: relative;
+    z-index: 2
+}
+.box10_title{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 15px;
+    line-height: 1.429;
+    color: #fff;
+}
+.box10_title_1{
+    width: 230px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border-left: 4px solid #fc0;
+    border-right: 4px solid #fc0;
+    color: #fc0;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+.box10_title_1 a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    width: 230px;
+    margin-left: 10px;
+}
+.box10_title_2{
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 28px;
+    line-height: 1.214;
+    margin-bottom: 17px;
+}
+.box10_title_2 h2{
+    font-size: 38px;
+}
+.box10_title_3{
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 11px;
+}
+.box10_title_3 p{
+    display: block;
+}
+.box10_title_4{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.box10_title_4 a:visited{
+    background-image: linear-gradient(120deg, #fc0 0%, #fc0 100%);
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 0;
+    border-bottom: 2px solid #fc0;
+    color: #fff;
+    text-decoration: none;
+    transition: background-size .125s ease-in;
+    
+}
+.box10_title_4 a:link{
+    color: white;
+    border-bottom: 2px solid #fc0;
+}
+
+.box10_body{
+    margin-top: 100px;
+}
+.box10_body_list{
+	padding: 0;
+}
+.box10_body_f{
+	color: white;
+	overflow: hidden;
+	margin-top:-50px;
+}
+.box10_body_photo{
+	float: left;
+    height: 90px
+}
+.box10_body_photo img{
+    width: 90px;
+    height: 90px;
+}
+.box10_body_word{
+	float: left;
+    width: 170px;
+    font-size: 17px;
+    height: 170px;
+    margin-left: 20px;
+}
+.box10_body_word:hover{
+	color: grey;
+}
+.box10_foot{
+	color: #000;
+    text-transform: uppercase;
+    background-color: #fc0;
+    transition: all 0.6s;
+    letter-spacing: 3px;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 0;
+    margin-top: -30px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.box10_foot:hover{
+	background-color: white;
+}
+.box10_text::after{
+    background: linear-gradient(to left, transparent 0%,#000 100%, rgba(0,0,0,0.972) 88.1%,rgba(0,0,0,0.896) 77.5%, rgba(0,0,0,0.784) 67.8%, rgba(0,0,0,0.648) 58.8%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.352) 41.2%,  rgba(0,0,0,0.216) 32.2%, rgba(0,0,0,0.104) 22.5%,rgba(0,0,0,0.028) 11.9%, #000 0);
+    height: 976.4px;
+    left: 300px;
+    top: 0;
+    width: 400px;
+    content: ' ';
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+/* box 11 */
+.box11{
+    height: 870px;
+    background-color: #fff ;
+}
+.box11_content{
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1020px;
+    height: 870px;
+}
+.box11_title{
+    width: 100%;
+    height: 262.4px;
+    width: 1020px;
+}
+.box11_title_content{
+    width: 1020px;
+    color: #000;
+    padding: 67px 0 60px;
+    text-align: center;
+}
+.box11_p_1{
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 1000;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+}
+.box11_title_content_2{
+    height: 26.4px;
+    width: 1020px;
+    margin: 14px 0 23px;
+}
+.box11_title_content_2>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    text-align: center;
+}
+.box11_p_2{
+    width: 60px;
+    background-color: #fc0;
+    height: 4px;
+    line-height: 0;
+    margin: 21px auto 0;
+    margin-top: 50px;
+}
+
+
+
+.box11_contain{
+	overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 500.6px;
+}
+.box11_contain1{
+	position: relative;
+    width: 313.3px;
+    height: 313.3px;
+    color: black;
+}
+.box11_contain1 img{
+    width: 313.3px;
+    height: 313.3px;
+	transition: all 0.6s;
+    position: absolute;
+}
+.box11_contain1 img:hover{
+	transform: scale(1.1);
+}
+.box11_contain2{
+    margin-top: 240px;
+	position: absolute;
+	font-size: 20px;
+    width: 300px;
+    text-align: center;
+    margin-left: 15px;
+    top: 100px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.box11_contain3{
+    margin-left: 7px;
+    height: 45px;
+    text-align: center;
+	background-color: #fc0;
+    letter-spacing: 3.5px;
+    width: 163.98px;
+	position: absolute;
+	bottom: -180px;
+	left: 73px;
+	line-height: 45px;
+	transition: all 0.6s;
+    color: black;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: 0;
+    cursor: pointer;
+}
+.box11_contain3:hover{
+	color: white;
+	background-color: #000;
+}
+  /* box 12 */
+.box12{
+    height: 330 px;
+}
+.box12_content{
+    background: url(https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/MonetateTests/EmailBackgrounds/MossForest.adapt.1900.1.jpg) no-repeat, url(https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/EmailSignupsBeta/email-mapping.png) no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: 0 65% !important;
+    padding: 55px;
+    min-height: 347px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    margin: 0 auto;
+}
+.box12_text1{
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    letter-spacing: .06em;
+}
+.box12_text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.box12_text3{
+    width: 50%;
+    height: 55px;
+    border: 0;
+    padding-left: 20px;
+    border-radius: 0 !important;
+}
+#box12_is{
+    background: #ffcc00 url(https://www.nationalgeographic.com/content/dam/ngdotcom/rights-exempt/EmailSignupsBeta/submit-arrow.png) 15px 18px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    width: 55px;
+    height: 55px;
+    left: -4px;
+    top: 8px;
+    position: relative;
+    border: 0;
+    border-radius: 0 !important;
+}
+.box12_text4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255,255,255,.8) !important;
+    font-size: 14px !important;
+    margin: 35px auto 0 auto;
+    width: 54%;
+}
+.box12_text4 a{
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7) !important;
+    text-decoration: none;
+}
+.box12_text4 a:hover{
+    color: white;
+}
+.box12_text4 a:link{
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7) !important;
+    text-decoration: none;
+}
+.box12_text4 a:visited{
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    color: rgba(255,255,255,.7) !important;
+    text-decoration: none;
+}
