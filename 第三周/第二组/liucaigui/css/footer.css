@@ -1,0 +1,7 @@
+.footer{width: 700px;height: 100%; margin: 30px auto;overflow: hidden;font-size: 0.8em}
+        .footer span{float: left;}
+        .footer span a{color: green;text-decoration: none;}
+        .footer span a:hover{color: darkcyan;}
+        .footer li{list-style: none;float: right;margin-left: 10px;}
+        .footer li a{color: black;text-decoration: none;}
+        .footer li a:hover{color: darkcyan;}

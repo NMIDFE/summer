@@ -1,0 +1,11 @@
+    .bg{ width: 980px;height: 100%;background: white;margin: 0 auto;box-shadow: 3px  3px 3px 3px #888;overflow: hidden;}
+    .fir{padding-top: 3%;line-height: 30px;vertical-align: middle;position: relative;}
+    .fir .con{width: 500%;height: 360px;overflow: hidden;margin: 0 auto;overflow: hidden;position: relative;transition: .5s;}  
+    .fir .con li{float: left;list-style: none;margin-left: 20px;} 
+    .fir .bot {width: 80%;margin-left: 3%;font-size: 18px;margin-top: 20px;margin-bottom: 20px;}
+    .contrl{position: absolute;right: 3%;bottom: 3%;}
+    .contrl a{text-decoration: none;color: white;background: black;display: inline-block; width: 30px;height: 30px;text-align: center;}
+    .contrl a:hover{background: grey;}
+    .fir .points li{float: left; width: 10px;height: 10px;border-radius: 50%;border: solid 1px #858585;   background: white;list-style: none;margin-left: 10px;}
+    .fir .points{position: absolute;bottom: 20%;left:3%;}
+    .fir .points a{color: rgba(0, 0, 0, 0);text-decoration: none; }

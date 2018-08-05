@@ -1,0 +1,8 @@
+.fou{background: #000;width: 980px;height: 100%;color:#fff;margin: 20px auto;padding-bottom: 20px; box-shadow: 3px  3px 3px 3px #888;overflow: hidden;}
+        .fou .box2 h5{line-height: 50px;border-bottom: 3px solid #239CC3; max-width: 15%;}
+        .fou .box2{width: 22%;float: left;margin-left: 3%;padding-top: 30px;}
+        .fou .box2 p{margin-top: 30px;font-size: 14px;}
+        .fou .box2 ul{margin-top: 20px;}
+        .fou .box2 li{list-style: none;}
+        .fou .box2 a{color: white;text-decoration: none;line-height: 35px;font-size: 14px;display: inline-block; border-bottom: 1px dashed grey;width: 90%;}
+        .fou .box2 a:hover{text-decoration: underline;}
