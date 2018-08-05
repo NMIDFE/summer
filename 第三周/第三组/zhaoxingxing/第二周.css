@@ -1,0 +1,1208 @@
+* {
+	margin:0 auto;
+	padding:0;
+	text-decoration: none;
+	list-style:none;
+	text-align: center;
+}
+a {
+	color: black;
+}
+#root {
+	background: white;
+	position: fixed;
+	top: 0px;
+	height: 48px;
+	width: 100%;
+	line-height: 48px;
+	display: block;
+	overflow: hidden;
+	z-index: 999;
+	
+}
+#root a {
+	float: left;
+	margin-left: 10px;
+}
+#root ul {
+	float: right;
+}
+#root img {
+	float: left;
+}
+#root li {
+	float: left;
+}
+#root ul img {
+	padding-top: 10px;
+}
+#root span:hover{
+	border-bottom: 2px solid #ffcc00;
+}
+.EXPLORE {
+	background-image: url(imgs/老人背景.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	color: white;
+	background-size: cover;
+	text-align: center;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+	overflow: hidden;
+}
+.EXPLORE h1 {
+	padding-top:105px; 
+	font-weight: 400;
+	font-size: 54px;
+	letter-spacing: 4.2px;
+	font-weight: bold;
+}
+.EXPLORE h2 {
+	padding-top: 30px;
+	font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 21px;
+}
+.EXPLORE .tiaoall {
+	height: 5px;
+	width: 60px;
+	background: #F8D92B;
+	margin-bottom: 60px;
+}
+.EXPLORE .main {
+	padding-bottom: 100px;
+	width: 1020px;
+}
+.EXPLORE .main .left {
+	width: 320px;
+	float: left;
+}
+.EXPLORE .main .left .top {
+	margin-bottom: 30px;
+	height: 28px;
+}
+.EXPLORE .main .left .top div {
+	float: left;
+}
+.EXPLORE .main .left .tiao{
+	height: 20px;
+	width: 5px;
+	background: #F8D92B;
+	margin-right: 20px;
+}
+.EXPLORE .main .left .text {
+	    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.EXPLORE .main .left .leftline {
+	margin-bottom: 30px;
+	height: 95px;
+	width: auto;
+}
+.EXPLORE .main .left .leftline .set {
+	float: left;
+}
+.EXPLORE .main .left .leftline .sett {
+	float: left;
+}
+.EXPLORE .main .left img {
+	margin-right: 20px;
+}
+.EXPLORE .main .left .animals {
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.EXPLORE .main .left .animals:hover {
+	text-decoration: underline;
+}
+.EXPLORE .main .left .textow {
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    width: 170px;
+}
+.EXPLORE .main .left .textow:hover {
+	color: lightgrey;
+
+}
+.EXPLORE .main .left .seemore {
+	position: relative;
+	margin-bottom: 190px;
+}
+.EXPLORE .main .left .seemore a{
+	margin-top: 10px;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border-bottom: 2px solid #F8D92B; 
+    color: white;
+    float: left;
+}
+.EXPLORE .main .left .seemore a:hover {
+	color: black;
+	background: white;
+}
+.EXPLORE .right {
+	float: right;
+	width: 660px;
+}
+.EXPLORE .right .top {
+	height: 432px;
+	width: 660px;
+	background: url(imgs/夕阳山谷.jpg);
+	background-size: cover;
+	position: relative;
+	margin-bottom: 30px;
+}
+.EXPLORE .right .top .lb {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	color: white;
+}
+.EXPLORE .right .top p {
+	display: block;
+	margin-bottom:5px; 
+	text-align: left;
+}
+.EXPLORE .right .sp {
+	letter-spacing: 2px;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.EXPLORE .right .bp {
+	font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 40px;
+    line-height: 1.211;
+}
+.EXPLORE .p {
+	letter-spacing: 2px;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.EXPLORE #bottom .left {
+	width: 310px;
+	float: left;
+	margin-right: 20px;
+}
+.EXPLORE #bottom img {
+	height: 207px;
+}
+.EXPLORE #bottom .left .b {
+	padding-left: 10px;
+	background: white;
+	height: 100px;
+	text-align: left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.EXPLORE #bottom .text {
+	text-align: left;
+	color: #000;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 22px;
+    line-height: 1.273;
+}
+.EXPLORE #bottom .bt {
+	text-align: left;
+	letter-spacing: 2px;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.watch {
+	background:#D3D1D1;
+}
+.watch .LP {
+	font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    content: 'Advertisement';
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+.watch .title {
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    margin: 0;
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    padding: 60px 0;
+}
+.watch .ftitle {
+	font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 18px 0;
+}
+.watch .tiaoall {
+	height: 5px;
+	width: 60px;
+	background: #F8D92B;
+	margin-bottom: 60px;
+}
+.watch .genius {
+	width: 940px;
+	height: 529px;
+	position: relative;
+	background: white;
+	padding-bottom: 100px;
+	background-image: url(imgs/山谷背景.png);
+	background-size: cover;
+	color: white;
+}
+.watch .genius .lt {
+	/*text-align: left;只对button有用*/
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+	right: 200px;
+}
+.watch .genius .LPe{
+	text-align: left;
+	color: inherit;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    padding-bottom: 24px;
+}
+.watch .genius .titlee {
+	text-align: left;
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    padding-bottom: 5px;
+}
+.watch .genius .ftitlee {
+	font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 24px;
+    text-align: left;
+}
+.watch .genius button {
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    padding: 10px 0;
+}
+.watch .hhh {
+	width: 940px;
+}
+.watch  .hh {
+	font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #000;
+    font-size: 18px !important;
+    padding: 20px 0;
+    margin-left: 2px;
+	display: block;
+	text-align: left;
+}
+.watch .pic {
+    width: 940px;
+    height: 285px;
+}
+.watch .pic img{
+    float: left;
+    padding-left: 10px;
+    height: 258px;
+}
+.TRAVEL {
+    background-image: url(imgs/山谷背景.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    overflow: hidden;
+}
+.TRAVEL h1 {
+    padding-top:105px; 
+    font-weight: 400;
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    font-weight: bold;
+}
+.TRAVEL h2 {
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 21px;
+}
+.TRAVEL .tiaoall {
+    height: 5px;
+    width: 60px;
+    background: #F8D92B;
+    margin-bottom: 60px;
+}
+.TRAVEL .main {
+    padding-bottom: 100px;
+    width: 1020px;
+}
+.TRAVEL .main .left {
+    width: 320px;
+    float: right;
+}
+.TRAVEL .main .left .top {
+    margin-bottom: 30px;
+    height: 28px;
+}
+.TRAVEL .main .left .top div {
+    float: left;
+}
+.TRAVEL .main .left .tiao{
+    height: 20px;
+    width: 5px;
+    background: #F8D92B;
+    margin-right: 20px;
+}
+.TRAVEL .main .left .text {
+        font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.TRAVEL .main .left .leftline {
+    margin-bottom: 30px;
+    height: 95px;
+    width: auto;
+}
+.TRAVEL .main .left .leftline .set {
+    float: left;
+}
+.TRAVEL .main .left .leftline .sett {
+    float: left;
+}
+.TRAVEL .main .left img {
+    margin-right: 20px;
+}
+.TRAVEL .main .left .animals {
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.TRAVEL .main .left .animals:hover {
+    text-decoration: underline;
+}
+.TRAVEL .main .left .textow {
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    width: 170px;
+}
+.TRAVEL .main .left .textow:hover {
+    color: lightgrey;
+
+}
+.TRAVEL .main .left .seemore {
+    position: relative;
+    margin-bottom: 190px;
+}
+.TRAVEL .main .left .seemore a{
+    margin-top: 10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border-bottom: 2px solid #F8D92B; 
+    color: white;
+    float: left;
+}
+.TRAVEL .main .left .seemore a:hover {
+    color: black;
+    background: white;
+}
+.TRAVEL .right {
+    float: left;
+    width: 660px;
+}
+.TRAVEL .right .top {
+    height: 432px;
+    width: 660px;
+    background: url(imgs/夕阳山谷.jpg);
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+}
+.TRAVEL .right .top .lb {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.TRAVEL .right .top p {
+    display: block;
+    margin-bottom:5px; 
+    text-align: left;
+}
+.TRAVEL .right .sp {
+    letter-spacing: 2px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.TRAVEL .right .bp {
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 40px;
+    line-height: 1.211;
+}
+.TRAVEL .p {
+    letter-spacing: 2px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.TRAVEL #bottom .left {
+    width: 310px;
+    float: left;
+    margin-right: 20px;
+}
+.TRAVEL #bottom img {
+    height: 207px;
+}
+.TRAVEL #bottom .left .b {
+    padding-left: 10px;
+    background: white;
+    height: 100px;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.TRAVEL #bottom .text {
+    text-align: left;
+    color: #000;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 22px;
+    line-height: 1.273;
+}
+.TRAVEL #bottom .bt {
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+.BELONG {
+    background:#D3D1D1;
+}
+.BELONG .LP {
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    content: 'Advertisement';
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+}
+.BELONG .title {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    margin: 0;
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    padding: 60px 0;
+}
+.BELONG .ftitle {
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 18px 0;
+}
+.BELONG .tiaoall {
+    height: 5px;
+    width: 60px;
+    background: #F8D92B;
+    margin-bottom: 60px;
+}
+.BELONG .middle {
+    width: 1020px;
+    height: 680px;
+    background: url(imgs/海报.png);
+    background-size: cover;
+}
+.BELONG .middle p {
+    padding-top: 10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.BELONG .root {
+    padding-top: 30px;
+    height: 620px;
+    width: 1020px;
+}
+.BELONG .root  .sameo {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+    background: url(imgs/屋干树.jpg);
+    background-size: cover;
+    position: relative;
+}
+.BELONG .root  .sameo a {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    text-decoration: none;
+    transition: width .3s, color .3s;
+    vertical-align: middle;
+    bottom: 20px;
+    position: absolute;
+    padding: 10px 20px;
+    background: white;
+    left: 30%;
+}
+.BELONG .root  .sames {
+    width: 300px;
+    height: 400px;
+    float: left;
+    padding-right: 30px;
+    cursor: pointer;
+    background: url(imgs/屋干树.jpg);
+    position: relative;
+}
+.BELONG .root  .sames a {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    transition: width .3s, color .3s;
+    vertical-align: middle;
+     bottom: 20px;
+    position: absolute;
+    padding: 10px 20px;
+    background: white;
+    left: 30%;
+}
+.BELONG .root  .samet {
+    width: 300px;
+    height: 400px;
+    float: left;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.BELONG .root  .samet .left {
+    
+    float: right;
+}
+.BELONG .root  .samet .left .top {
+    margin-bottom: 30px;
+    height: 28px;
+}
+.BELONG .root  .samet .left .top div {
+    float: left;
+}
+.BELONG .root  .samet .left .tiao{
+    height: 20px;
+    width: 5px;
+    background: #F8D92B;
+    margin-right: 20px;
+}
+.BELONG .root  .samet .left .text {
+        font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 1.273;
+}
+.BELONG .root  .samet .left .leftline {
+    margin-bottom: 30px;
+    height: 95px;
+    width: auto;
+}
+.BELONG .root  .samet .left .leftline .set {
+    float: left;
+}
+.BELONG .root  .samet .left .leftline .sett {
+    float: left;
+}
+.BELONG .root  .samet .left img {
+    margin-right: 20px;
+}
+.BELONG .root  .samet .left .animals {
+    font-family: 'GeoBrandRegular', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #999;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.BELONG .root  .samet .left .animals:hover {
+    text-decoration: underline;
+}
+.BELONG .root  .samet .left .textow {
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    width: 170px;
+}
+.BELONG .root  .samet .left .textow:hover {
+    color: lightgrey;
+
+}
+.BELONG .root  .samet .left .seemore {
+    position: relative;
+    margin-bottom: 190px;
+}
+.BELONG .root  .samet .left .seemore a{
+    margin-top: 10px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border-bottom: 2px solid #F8D92B; 
+    color: white;
+    float: left;
+}
+.BELONG .root  .samet .left .seemore a:hover {
+    color: black;
+    background: white;
+}
+.WHAT .title {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    margin: 0;
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    padding: 60px 0;
+}
+.WHAT .ftitle {
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 18px 0;
+    width: 1000px;
+    display: inline-block;
+}
+.WHAT .tiaoall {
+    height: 5px;
+    width: 60px;
+    background: #F8D92B;
+    margin-bottom: 60px;
+}
+.WHAT .root {
+    width: 80%;
+    height: 500px;
+}
+.WHAT .root .l {
+    width: 320px;
+    height: 426px;
+    background: url(imgs/烟囱.jpg);
+    color: white;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.WHAT .root .photo {
+    padding-top: 100px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    padding-bottom: 19px;
+}
+.WHAT .root .big {
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 28px;
+    line-height: 1.214;
+    margin: 0;
+    padding-bottom: 19px;
+    width: 100%;
+    width: 200px;
+    display: inline-block;
+}
+.WHAT .root a {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+    text-decoration: none;
+    transition: width .3s, color .3s;
+    vertical-align: middle;
+    position: absolute;
+    bottom: 30px;
+    display: block;
+    background: white;
+    left: 20%;
+}
+.FROM {
+    background: #D3D1D1;
+    height: 400px;
+    position: relative;
+    background-attachment: scroll;
+}
+.FROM div {
+    width: 230px;
+    height: 350px;
+    border: 50px solid #FFE434;
+    background: white;
+    top: -50px;
+    position: absolute;
+    left: 40%;
+    background: #D3D1D1;
+}
+.FROM p {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 54px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-size: 54px;
+    position: absolute;
+    margin-top: 100px;
+    left:30%;
+}
+.Sleep {
+    background:url(imgs/夕阳山谷1.jpg);
+    height: 978px;
+}
+.Sleep .left {
+    width: 350px;
+    padding-left: 130px;
+    color: white;
+    float: left;
+    margin-top: 50px;
+}
+.Sleep .left .top {
+    height: 400px;
+}
+.Sleep .left .top .tp {
+    border-left:4px solid #fc0;;
+    border-right:4px solid #fc0;;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #fc0;
+}
+.Sleep .left .top .tp:hover {
+    color: white;
+}
+.Sleep .left .top .tm {
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.214;
+    font-weight: bold;
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+.Sleep .left .top .p {
+    text-align: left;
+    display: block;
+}
+.Sleep .left .top button {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    border-bottom: 2px solid #fc0;
+    text-align: left;
+    color: white;
+    background: black;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.Sleep .left .top button:hover {
+    color: #fc0;
+}
+.Sleep .left .root {
+    height: 120px;
+}
+.Sleep .left .root div{
+    float: left;
+}
+.Sleep .left .root img {
+    padding-right: 20px;
+}
+.Sleep .left .root .text a{
+    width: 245px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: white;
+}
+.Sleep .a {
+    color: black;
+    float: left;
+    padding:10px 20px;
+    background: #FFF200;
+}
+.BACK .title {
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    text-transform: uppercase;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 1.19;
+    margin: 0;
+    font-size: 54px;
+    letter-spacing: 4.2px;
+    padding: 60px 0;
+}
+.BACK .ftitle {
+    font-family: 'GeoEditRegular', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 18px 0;
+    width: 1000px;
+    display: inline-block;
+}
+.BACK .tiaoall {
+    height: 5px;
+    width: 60px;
+    background: #F8D92B;
+    margin-bottom: 60px;
+}
+.BACK .root {
+    width: 80%;
+    height: 500px;
+}
+.BACK .root .l {
+    width: 320px;
+    height: 250px;
+    background: url(imgs/烟囱.jpg);
+    color: white;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.BACK .root .b {
+    float: left;
+    width: 320px;
+    font-family: 'GeoEditMedium', 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Helvetica, Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    letter-spacing: 0;
+    letter-spacing: .1px;
+    font-size: 22px;
+    line-height: 1.273;
+    color: inherit;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.signIn {
+    height: 361px;
+    background: url(imgs/蝴蝶.jpg);
+}
+.signIn h1{
+    margin-top: 50px;
+    font-family: 'GeoBrandBold', 'CenturyGothic', AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    letter-spacing: .06em;
+    margin-bottom: 40px;
+}
+.signIn .p {
+    font-family: "Geograph Edit", 'GeoEditRegular','Franklin Gothic Medium','Franklin Gothic','ITC Franklin Gothic',Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.signIn .in .name {
+    width: 700px;
+}
+.signIn .in div div {
+    float: left;
+}
+.signIn input {
+    text-align: left;
+    padding-left: 10px;
+    width: 600px;
+    height: 50px;
+    margin-left: 20px;
+}
+.signIn .in img {
+    display: inline-block;
+    height: 53px;
+}
