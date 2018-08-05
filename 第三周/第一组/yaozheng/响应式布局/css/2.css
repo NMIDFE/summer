@@ -1,0 +1,198 @@
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+img {
+	border: 0;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+.container {
+	position: relative;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box_title_tu,
+.box_tu3,
+.box1_title_1 {
+	display: inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.box_title_tu {
+	width: 220px;
+}
+
+.box_tu3 {
+	width: 700px;
+}
+
+.box1_title_1 {
+	width: 940px;
+}
+
+.tab_tu_2, .tab_tu_1 {
+	float: left;
+	margin-left: 4%;
+}
+
+.tab_tu_2 {
+	width: 47.98%;
+}
+
+.tab_tu_1 {
+	width: 30.6666%;
+	*width: 30.64%;
+}
+
+.first {
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px;
+	}
+
+	.box_title_tu {
+		width: 172px;
+	}
+
+	.box_tu3 {
+		width: 556px;
+	}
+
+	.box1_title_1 {
+		width: 748px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 300px;
+	}
+
+	.box_title_tu,
+    .box_tu3,
+    .box1_title_1,
+    .tab_tu_2,
+    .tab_tu_1,
+    .two-thirds,
+    .one-fourth {
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 420px;
+	}
+
+	.box_title_tu,
+    .box_tu3,
+    .box1_title_1,
+    .tab_tu_2 {
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+}
+
+******************************/
+
+body {
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+	font-family: Georgia, Times, serif;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 46px;
+}
+
+h2 {
+	font-size: 34px;
+	line-height: 40px;
+}
+
+h3 {
+	font-size: 28px;
+	line-height: 34px;
+}
+
+h4 {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+h6 {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+p, form, table, ul, ol, dl {
+	margin-bottom: 20px;
+}
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+.fix:before,
+.fix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.fix:after {
+	clear: both;
+}
+
+.fix {
+	zoom: 1;
+}
