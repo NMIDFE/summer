@@ -1,0 +1,639 @@
+
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+body{
+	background-image: url(../images/1.png);
+	background-repeat: repeat;
+	font-size: 100%;
+}
+
+.header{
+	width: 100%;
+	background: white;
+	border-top: 4px solid #239CC3;
+	height: 40px;
+}
+
+.header_main{
+	width: 85%;
+	margin: 0 auto;
+	height: 40px;
+	
+}
+.header_main p{
+	color: grey;
+	float: left;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+.header_main img{
+	float: left;
+	padding-top: 10px;
+	padding-right: 8%; 
+
+}
+
+.img{
+	float: right;
+	width: 10%;
+	height: 40px;
+}
+
+
+.banner,.gallery,.company,.footer{
+	margin: 0 auto;
+	width: 85%;
+}
+
+.nav{
+	height: 100px;
+	margin: 0 auto;
+	width: 85%;
+	position: relative;
+}
+.nav img{
+	margin-top: 40px;
+    float: left;
+    width: 15%;
+}
+
+.search_icon{
+	float: right;
+	margin-top: 30px;
+	background-image: url(../images/2.png);
+	width: 40px;
+	height: 40px;
+    background-size: 100% 100%;
+}
+
+.search_icon:hover{
+	margin-top: 30px;
+	float: right;
+    background-image: url(../images/3.png);
+    
+}
+
+.nav-pointer{
+	font-size: 12px;
+	color: grey;
+	line-height: 1px;
+
+}
+#nav{
+	width:70%;
+	height:40px;
+	float: right;
+	margin-top: 30px;
+	padding-right: 0;
+	position: absolute;
+	right: 5%;
+	z-index: 3;
+
+}
+
+#nav ul{
+	list-style:none;
+}
+
+#nav ul li{
+	float:right;
+	line-height:40px;
+	text-align:center;
+	font-size: 13px;
+}
+            /*
+                text-decoration:nono;————实现了<a>标签的默认样式为零
+                text-align:center;实现了<a>标签的样式文字居中
+                display:block;————一定一定一定要设置，因为只有把<a>标签的display属性设置为block，才能对<a>标签进行样式的设置
+            */
+#nav a{
+	text-decoration: none;
+	display: block;
+	padding:0 10px;
+	color: #858585;
+} 
+
+#nav a:hover{
+	color: #000;
+}
+            /*一级菜单样式设置结束*/
+ 
+            /*二级菜单设置样式开始*/
+                /*
+                    肯定肯定肯定要设置ul li ul的position属性值为absolute,这样一级菜单的宽度将二级菜单的不受影响
+                    ul li ul li{margin-top设置值导致的问题是，当鼠标滑到二级菜单下面时会退出二级菜单,所以应该用border-top来代替}
+                */
+#nav ul li ul li{
+	float: none;
+	margin-top: 0px;
+	border-bottom: 2px solid grey;
+	font-size: 12px;
+	background: white;
+}
+
+#nav ul li ul li ul li{
+	float: none;
+	margin-top: 0px;
+	border-bottom: 2px solid grey;
+}
+
+#nav ul li ul li ul li ul li{
+	float: none;
+	margin-top: 0px;
+	border-bottom: 2px solid grey;
+}
+
+#nav ul li{
+	position: relative;
+}
+
+#nav ul li ul{
+	position: absolute;
+}
+
+#nav ul li ul li{
+	position: relative;
+}
+
+#nav ul li ul li ul {
+	position: absolute;
+	left: 130px;
+	top: 0;
+}
+
+#nav ul li ul li ul li{
+	position: relative;
+}
+
+#nav ul li ul li ul li ul {
+	position: absolute;
+	left: 130px;
+	top: 0;
+}
+
+#nav ul li ul li a:hover{
+	color: black;
+}
+
+#nav ul li ul li ul li a:hover{
+	color: black;
+}
+
+#nav ul li ul li ul li ul li a:hover{
+	color: black;
+}
+            /*二级菜单设置样式结束*/
+            /*静态页面设置样式结束*/
+            /*CSS方法实现二级菜单的显示和隐藏开始*/
+#nav ul li ul{
+	display: none;
+}
+
+#nav ul li:hover ul{
+	display: block;
+}
+
+#nav ul li:hover ul ul{
+	display: none;
+}
+
+#nav ul li ul li ul{
+	display: none;
+}
+
+#nav ul li ul li ul li ul{
+	display: none;
+}
+
+#nav ul li:hover ul li:hover ul{
+	display: block;
+}
+
+#nav ul li:hover ul li:hover ul ul{
+	display: none;
+}
+
+#nav ul li:hover ul li:hover ul li:hover ul{
+	display: block;
+}
+
+            /*CSS方法实现二级菜单的显示和隐藏结束*/
+            /*浏览器兼容性测试开始*/
+#nav a{
+	height: 40px;
+}
+#nav ul li ul li a{
+	width: 120px;
+}
+#nav ul li ul li ul li a{
+	width: 120px;
+}
+            /*浏览器兼容性测试结束*/
+
+.select{
+	display: none;
+}
+.banner{
+    background: white;
+    height: 650px;
+}
+
+
+
+.div1{
+	height: 50px;
+	width: 85%;
+	background: white;
+	margin:0 auto;
+}
+
+.div1_main{
+	height: 50px;
+	width: 85%;
+	margin:0 auto;
+}
+
+.div2{
+	float: left;
+	color: grey;
+	font-weight: 300;
+	border-left: 2px solid #239CC3;
+	text-align: center;
+	padding:7px 1%;
+	width: 10%;
+	background: white;
+
+}
+
+.div3{
+	float: right;
+	background: url(../images/bg.png);
+	background-repeat: repeat-x;
+	width: 86.6%;
+	height:35px;
+}
+.gallery{
+	background: white;
+	height: 350px;
+}
+
+.company{
+    background: white;
+    height: 300px;
+}
+
+.company p{
+	color: grey;
+	font-size: 12px;
+	margin: 10px 0;
+	margin-right: 5%;
+}
+
+.company a{
+	text-decoration: none;
+	color: #239CC3;
+}
+
+.company a:hover{
+	color: #1A749E;
+}
+
+.div5{
+	height: 100px;
+	width: 21%;
+    float: left;
+    margin: 10px 0;
+    margin-right: 2%; 
+
+}
+
+.div5 p{
+	font-size: 12px;
+	color: grey;
+	float: left;
+	display: block;
+	padding-left: 2%;
+	width: 78%;
+}
+
+.div5 img{
+	float: left;
+	display: block;
+	margin-top: 10px; 
+}
+
+.left{
+	width: 20%;
+	padding-top: 20px;
+	margin-left: 5%;
+	margin-right: 2%;
+	float: left;
+    height: 200px;
+}
+
+.left a{
+	text-decoration: none;
+	color: #909090;
+
+}
+
+.left a:hover{
+	color: #1A7490;
+}
+
+.left ul{
+	list-style: none;
+	text-decoration: none;
+	display: block;
+	
+}
+
+.left ul li{
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.left ul li:hover{
+	color: #239CC3;
+	background: #F9F9F9;
+
+}
+.div4{
+    width: 23%;
+    height: 300px;
+    margin: 3% 5px;
+    background: white;
+    float: left;
+}
+
+.div4:hover{
+	background: #F7F7F7;
+	cursor: pointer;
+}
+
+.div4 a{
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 8% 5%;
+	margin-bottom: 0;
+	display: block;
+}
+
+.div4 a:hover{
+	color: #1A7490;
+}
+
+.div4 p{
+	color: #555555;
+	font-size: 12px;
+	margin: 0 5%;
+	display: block;
+}
+.div4 img{
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 5%;
+
+
+}
+.footer{
+	background: black;
+	height: 380px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.div6{
+	width: 25%;
+	float: left;
+	height: 350px;
+}
+
+.div6 p{
+	font-size: 12px;
+	color: grey;
+	margin: 10px 10%;
+}
+
+.div6 hr{
+	width: 15%;
+	margin: 20px 10%;
+	border:none;border-top:4px solid #1A7490;
+}
+
+.div6 h3{
+	color: white;
+	margin: 20px 10%;
+}
+
+.div6 ul li{
+	list-style: none;
+	margin: 10px 10%;
+	border-bottom: 1px solid grey;
+
+}
+
+.div6 a{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+.div6 a:hover{
+	text-decoration: underline;
+}
+
+
+.div7{
+	width: 25%;
+	float: left;
+	height: 350px;
+}
+.div7 hr{
+	width: 15%;
+	margin: 20px 10%;
+	border:none;border-top:4px solid #1A7490;
+}
+.div7 p{
+	font-size: 12px;
+	color: grey;
+	margin: 10px 10%;
+}
+
+.div7 h3{
+	color: white;
+	margin: 20px 10%;
+}
+
+
+ @-webkit-keyframes 'left-in'{
+    0% {
+        visibility:visible;
+        left: -100%;
+    }
+    100% {
+        visibility:visible;
+        left: 0%;
+    }
+    
+}
+@-webkit-keyframes 'right-out'{
+    0% {
+        visibility:visible;
+        left: 0%;
+    }
+    100% {
+        visibility:visible;
+        left: 100%;
+    }
+}
+@-webkit-keyframes 'left-out'{
+    0% {
+        visibility:visible;
+        left: 0%;
+    }
+    100% {
+        visibility:visible;
+        left: -100%;
+    }
+    
+}
+@-webkit-keyframes 'right-in'{
+    0% {
+        visibility:visible;
+        left: 100%;
+    }
+    100% {
+        visibility:visible;
+        left: 0%;
+    }
+}
+.right-in{
+    visibility:visible;
+    -webkit-animation-name: 'right-in';
+    -webkit-animation-duration: 1s;
+}
+.left-out{
+    visibility:hidden;
+    -webkit-animation-name: 'left-out';
+    -webkit-animation-duration: 1s;
+}
+.left-in{
+    visibility:visible;
+    -webkit-animation-name: 'left-in';
+    -webkit-animation-duration: 1s;
+}
+.right-out{
+    visibility:hidden;
+    -webkit-animation-name: 'right-out';
+    -webkit-animation-duration: 1s;
+    
+}
+.slide{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    z-index:1;
+}
+.slide-container{
+    position: relative;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 1px;
+    overflow: hidden;
+    z-index:1;
+
+}
+.slide-img{
+    width: 100%;
+    height: 80%;
+    z-index:1;
+}
+.slide-dec{
+    width: 80%;
+    position: relative;
+    top:2%;
+    color: #000;
+    font-size: 23px;
+    float: left;
+    z-index:1;
+}
+
+.slide-dec a{
+	text-decoration: none;
+	color: #239CC3;
+	cursor: pointer;
+}
+
+.slide-dec a:hover{
+	text-decoration: none;
+	color: #1A7490;
+}
+#slide-tabs{
+    position: absolute;
+    top: 78%;
+    width: 100%;
+    height: 3%;
+    left: 1%;
+    z-index:1;
+    
+}
+.button{
+	background: #333333;
+	width: 2.5%;
+	height: 3%;
+	border: none;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	left: 90%;
+	top: 85%;
+	z-index:1;
+	
+	
+}
+
+.button:hover{
+	background: black;
+}
+.slide-tab{
+    position: relative;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    margin-right: 2%;
+    z-index:1;
+}
+.slide-tab:hover{
+    background-color: #FFFFFF;
+}
+.slide-tab-acitve{
+    background-color: #FFFFFF;
+}
+@media only screen and (max-width: 500px) {
+    .slide-tab{
+        height: 10px;
+        width: 10px;
+    }
+    .slide-container{
+        height: 200px;
+    }
+    .slide-dec{
+        font-size: 11px;
+    }
+}

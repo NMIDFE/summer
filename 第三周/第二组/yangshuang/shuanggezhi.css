@@ -1,0 +1,259 @@
+html{
+	font-size: 20px;
+}
+body{
+	border-top-width:0.2rem;
+	border-top-color:#239cc3;
+	border-top-style: solid;
+	background-image:url(images/2.png);
+	margin: 0px;
+	padding: 0px;
+}
+#tou{
+	height: 1.3rem;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 0.8rem;
+	background-color: white;
+}
+#touu{
+	width: 60%;
+	margin: auto;
+}
+#touu p{
+	letter-spacing: -0.6px;
+      display: inline;
+      font-size: 0.7rem;
+      color: gray;
+      font-family: sans-serif;
+      float: left;
+}
+#touu img{
+	display: inline-block;
+	float: right;
+}
+#wrapper{
+	height: 2rem;
+	margin-top: 1rem;
+	width: 60%;
+	margin-left: auto;
+	margin-right :auto;
+}
+#wra{
+	padding-top: 1rem; 
+	display: inline-block;
+	float: left;
+}
+#wrapper>ul{
+    float: right;
+    display: inline-block;
+}
+#wrapper ul li
+{
+color: gray;
+}
+#wrapper ul li:hover{
+color: black;
+}
+#wrapper>ul>li{
+	display: inline-block;
+	margin-right: 1.2rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+#wrapper>ul>li ul li{
+	display:none;
+	padding-bottom: 0.5rem;
+	padding-top:0.5rem;
+	border-bottom-style: solid;
+	border-bottom-width: 0.02rem;
+	list-style-type: none;
+}
+#wrapper>ul>li ul{
+	background-color: white;
+	border:1px solid #d0d0d0;
+		margin:0px;
+	padding:0px;
+		z-index: 999;
+	position: absolute;
+}
+#wrapper ul li:hover ul li{
+	display: list-item;
+}
+#wrapper ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+#main{
+	background-color: white;
+	width: 60%;
+	margin:2rem auto;
+}
+#up{
+	width: 94%;
+	margin: auto;
+}
+#up img{
+	margin-top: 1rem;
+	width: 100%;
+	height: 100%;
+}
+#up p{
+font-size: 1.2rem;
+float: left;
+display: inline-block;
+width: 90%;
+}
+#up p a{
+	text-decoration: none;
+}
+#control{
+	float: right;
+	margin-top: 1.5rem;
+	display: inline-block;
+}
+#control a{
+	display: inline-block;
+	width: 1.5rem;
+	height: 1.5rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+#middle{
+	margin-top: 6rem;
+	width: 100%;
+}
+.title{
+	display: inline-block;
+	margin-bottom: 1rem;
+	line-height: 1.5rem;
+	padding-left: 3%;
+	height: 1.5rem;
+	width: 100%;
+	font-size: 0.8rem;
+	color: gray;
+	z-index: 2;
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	background-image: url(images/6.png);
+	border-left-style: solid;
+	border-left-color: #239CC3;
+	border-left-width: 0.2rem;
+}
+#contain ul{
+	margin: 0px;
+	padding: 0px;
+}
+#contain ul li{
+    display: inline-block;
+    float: left;
+    width: 22.5%;
+    margin-left: 2%;
+}
+#contain ul li img{
+	width: 100%;
+}
+#contain ul li p{
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 0.6rem;
+	line-height: 1.2rem;
+}
+#company{
+	margin-top: 1.5rem;
+}
+#about ul{
+	vertical-align: top;
+display: inline-block;
+width: 20%;
+}
+#about ul li{
+	margin-top: 0.5rem;
+	list-style-type: none;
+}
+#tab{
+	display: inline-block;
+	width: 70%;
+}
+.au{
+	float: left;
+	width: 30%;
+}
+.au h5,p{
+	width: 80%;
+	display: inline-block;
+}
+#foot{
+	margin-top: 1rem;
+	width: 60%;
+	background-color: black;
+	margin:auto;
+	height: 20rem;
+}
+#foot>ul>li{
+	color: white;
+    display: inline-block;
+    float: left;
+    width: 23%;
+    margin-left: 2%;
+    list-style-type: none;
+}
+#foot>ul>li ul li{
+	list-style-type: none;
+	font-size: 0.8rem;
+	border-bottom-style: dotted;
+	border-bottom-width: 0.03rem;
+	border-bottom-color: gray;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+#foot ul li ul{
+	margin:0px;
+	padding: 0px;
+}
+#foot ul li h5{
+	color: white;
+}
+#foot ul li p{
+	font-size: 0.7rem;
+	color: white;
+}
+#foot ul li hr{
+	color: 
+	width: 1.5rem;
+	text-align: left;
+}
+#foot>ul>li ul li a{
+text-decoration: none;
+color: white;
+}
+#foot>ul>li ul li a:hover{
+	border-bottom-style:solid;
+	border-bottom-color:white;
+	border-bottom-width:0.1rem;
+}
+#footest{
+	width: 60%;
+	margin:auto;
+}
+#footest a{
+	text-decoration: none;
+	color: black;
+}
+#footest p{
+	width: 50%;
+float: left;
+}
+#footest ul{
+	float: right;
+}
+#footest ul li{
+	display: inline-block;
+
+}
+#footest a:hover{
+	color: blue;
+}
+.hov1:hover + .hov2{
+	opacity: 0.3;
+}

@@ -2,6 +2,10 @@ a{
 	text-decoration: none;
 	outline: none;
 }
+body{
+	margin: 0px;
+	padding: 0px;
+}
 ul{
 	direction: none;
 }
@@ -35,7 +39,14 @@ ul{
 	float: right;
 }
 #explore{
-	background-image:url(images/i34.jpg);
+		background: linear-gradient(
+ to top, 
+ rgba(0,0,0,1) 0%, 
+ rgba(0,0,0,0.9) 15%, 
+ rgba(0,0,0,0.8) 40%, 
+ rgba(0,0,0,0) 50%, 
+ rgba(0,0,0,0) 90%, 
+ rgba(0,0,0,0) 100%), url(images/i34.jpg);
 	width: 100%;
 	height: 1268px;
 }
@@ -87,6 +98,7 @@ ul{
 	padding-bottom:30px;
 	cursor: pointer;
 	transition: all 0.5s;
+	z-index: -1;
 }
 #righthead img:hover
 {
@@ -140,6 +152,7 @@ color: gray;
 #firstline{
 	position: absolute;
 	top:720px;
+	z-index: 999;
 	color: white;
 	letter-spacing: 1.5px;
 	font-family: "GeoBrandBold","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
@@ -147,6 +160,7 @@ color: gray;
 #secondline{
 	position: absolute;
 	top:740px;
+	z-index: 999;
 	color: white;
 	letter-spacing: 1.5px;
 	font-size: 44px;
@@ -156,6 +170,7 @@ color: gray;
 	position: absolute;
 	top:800px;
 	color: white;
+	z-index: 999;
 	letter-spacing: 1.5px;
 	font-weight: bold;
 	font-family: "GeoBrandBold","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
@@ -318,9 +333,16 @@ button:hover{
 	transform: scale(1.1);
 }
 #travel{
-	background-image: url(images/i34.jpg);
 	width: 100%;
 	height: 1268px;
+		background: linear-gradient(
+ to top, 
+ rgba(0,0,0,1) 0%, 
+ rgba(0,0,0,0.9) 15%, 
+ rgba(0,0,0,0.8) 40%, 
+ rgba(0,0,0,0) 50%, 
+ rgba(0,0,0,0) 90%, 
+ rgba(0,0,0,0) 100%), url(images/i34.jpg);
 }
 #travel1{
 	padding-top: 90px;
@@ -334,11 +356,22 @@ button:hover{
 	float: left;
 	width: 60%;
 }
+#traleftup p{
+	position: absolute;
+	margin-left: 2%;
+	color: white;
+    margin-top:13%; 
+    z-index: 999;
+}
+#traleftup p span{
+	font-size: 28px;
+}
 #traleftup{
 	height: 45%;
 	width: 100%;
 }
 #traleftup img{
+	z-index: -1;
 		cursor: pointer;
 	transition:0.6s;
 	width: 100%;
@@ -351,6 +384,36 @@ button:hover{
 	padding-top: 50px;
 	width: 100%;
 	height: 45%;
+}
+#traleftdowm span{
+	position: absolute;
+	margin-top: 14%;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding-right: 10px;
+	font-family:  "GeoBrandBold","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+}
+#traleftdowm button{
+	position: absolute;
+	margin-top: 20%;
+}
+.tldl{
+	margin-left: -19%;
+	z-index: 999;
+
+}
+#tdrb{
+	margin-left: -36%;
+	z-index: 999;
+}
+#tdlb{
+	margin-left: 7%;
+	z-index: 999;
+}
+.tldr{
+	margin-left: -15%;
+	z-index: 999;
 }
 #traleftdowm img{
 	width: 44%;
@@ -502,13 +565,25 @@ font-family:  "GeoBrandBold","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,
 	width: 15%;
 	margin:auto;
 }
+#diaera{
+	height: 800px;
+	width: 100%;
+}
 #sleep{
 	margin-top:120px;
 	width: 100%;
 	height: 1200px;
-	background-image: url(images/i40.jpg);
 	background-size: 100%;
+	background: linear-gradient(
+ to right, 
+ rgba(0,0,0,1) 0%, 
+ rgba(0,0,0,0.9) 15%, 
+ rgba(0,0,0,0.8) 40%, 
+ rgba(0,0,0,0) 50%, 
+ rgba(0,0,0,0) 90%, 
+ rgba(0,0,0,0) 100%), url(images/i40.jpg);
 }
+
 #leftsleep{
 	margin-left: 15%;
 	width: 25%;
@@ -606,17 +681,22 @@ float: left;
 	width: 60%;
 	margin:auto;
 }
-#tijiao form{
+#forms{
 	width: 100%;
+	margin: 0px;
+	padding: 0px;
 }
-#tijiao form input{
+#forms input{
 	display: inline-block;
-	width: 95%;
+	width: 90%;
+		margin: 0px;
+		border: none;
+	padding-left:20px;
 	height:40px;
 }
-#tijiao form button{
+#forms button{
 	display: inline-block;
-	margin-left:0px;
+	margin-left:-8px;
 }
 #zi{
 	margin-top:50px;
