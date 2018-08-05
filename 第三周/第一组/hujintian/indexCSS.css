@@ -1,0 +1,346 @@
+body{
+    border: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+}
+.erweimaoutput{
+    width: fit-content;
+    width: -moz-fit-content;
+    color: white;
+    border: 1px white solid;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-left: 500px;
+    padding: 3px;
+    border-radius: 4px;
+}
+.erweimaoutput:hover{
+    cursor: pointer;
+}
+.erweima{
+    width: -moz-fit-content;
+    margin-left: 500px;
+    display: none;
+}
+.erweima p{
+    text-align: center;
+}
+#header a{
+    color: white;
+    text-decoration-line: none;
+    letter-spacing: 1px;
+    margin-left: 600px;
+    position: relative;
+    bottom: 24px;
+}
+#header a:hover{
+    text-decoration-line: underline;
+}
+#header i{
+    float: right;
+    color: aliceblue;
+    position: relative;
+    right: 20px;
+    bottom: 26px;
+}
+#header i:hover{
+    cursor: pointer;
+    color: gold;
+}
+#middle{
+    margin-top: 60px;
+    height: 1400px;
+}
+.first{
+    height: 44px;
+    width: 100%;
+    background-color: white;
+    border-top: 5px aqua solid;
+    border-bottom: 3px darkgrey solid;
+}
+.first_center{
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
+.first_center p{
+    float: left;
+    margin-top: 14px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 12px;
+    color: darkgray;
+}
+.first_center i{
+    float: right;
+    margin-top: 14px;
+    margin-left: 5px;
+}
+.first_center i:hover{
+    cursor: pointer;
+}
+
+.flesh{
+    height: 1000px;
+    width: 100%;
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat;
+}
+.flesh_header{
+    width: 60%;
+    height: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.flesh_header_menu{
+    float: right;
+    font-family: "Microsoft YaHei UI";
+    margin-left: 40px;
+    color: gray;
+    width: 84px;
+    overflow: visible;
+}
+.flesh_header_menu:hover{
+    cursor: pointer;
+}
+.flesh_header_menu li{
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px gray dashed;
+    width: 90%;
+}
+.flesh_header_menu li:hover{
+    color: black;
+}
+.overview{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px #d0d0d0 solid;
+    width: 100px;
+    display: none;
+}
+.flesh_body{
+    background-color: white;
+    width: 1000px;
+    height: 1180px;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 3px rgb(111,111,111,0.3) solid;
+}
+/*轮播*/
+#box{
+    width: 940px;
+    height: 360px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#mylist{
+    width: 3760px;
+    height: 360px;
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+}
+#box ul li{
+    float: left;
+}
+ul#underNum{
+    width: 150px;
+    height: 30px;
+    list-style-type: none;
+    background-color: black;
+}
+ul#underNum li{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    background-color: black;
+
+}
+ul#underNum li a{
+    text-decoration: none;
+    background-color: black;
+}
+.flesh_body_word{
+    font-size: 25px;
+    width: 940px;
+    margin: 20px auto;
+}
+.flesh_body_word a{
+    color: aqua;
+}
+.flesh_body_word a:hover{
+    cursor: pointer;
+}
+.flesh_body_gallery{
+    height: 40px;
+    width: 100%;
+}
+.flesh_body_gallery1{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    border-left: 3px aqua solid;
+}
+.flesh_body_gallery1 p{
+    display: block;
+    padding-top: 10px;
+}
+.flesh_body_gallery2{
+    width: 90%;
+    height: 100%;
+    background: darkgrey;
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+.flesh_body_4img{
+    width: 94%;
+    height: 286px;
+    margin: 38px auto 30px;
+}
+.img1{
+    width: 24%;
+    height: 100%;
+    color: gray;
+    font-family: "Microsoft YaHei UI";
+    font-size: 12px;
+    float: left;
+    padding: 4.5px;
+}
+.img1:hover{
+    cursor: pointer;
+}
+.img1 p{
+    color: black;
+}
+.flesh_body_4img img{
+    width: 100%;
+    height: 50%;
+}
+.flesh_body_company{
+    height: 40px;
+    width: 100%;
+}
+.flesh_body_company1{
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    border-left: 3px aqua solid;
+}
+.flesh_body_company1 p{
+    display: block;
+    padding-top: 10px;
+}
+.flesh_body_company2{
+    width: 90%;
+    height: 100%;
+    background: darkgrey;
+    float: right;
+    position: relative;
+    bottom: 40px;
+}
+.flesh_body_last{
+    width: 92%;
+    height: 236px;
+    margin: 30px auto 10px;
+}
+.last1{
+    width: 30%;
+    height: 196px;
+    float: left;
+}
+.last2{
+    width: 70%;
+    height: 196px;
+    float: right;
+}
+.last2 h2{
+    margin-top: 0;
+}
+.earth{
+    width: 30%;
+    float: left;
+    margin-left: 5px;
+}
+.aboutus{
+    width: 70%;
+    background-color: gray;
+}
+#footer{
+    height: 340px;
+    width: 1000px;
+    background-color: black;
+    margin: 0 auto;
+}
+.footer1{
+    width: 23%;
+    height: 90%;
+    padding-top: 3.4%;
+    margin-left: 20px;
+    float: left;
+}
+.footer1_1{
+    color: white;
+}
+.underline{
+    width: 40px;
+    height: 4px;
+    background-color: aqua;
+}
+.last_word{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.footer2{
+    width: 23%;
+    height: 90%;
+    padding-top: 3.4%;
+    margin-left: 20px;
+    float: left;
+}
+.footer2_1{
+    color: white;
+}
+.footer2 p{
+    color: white;
+    border-bottom: 1px white dashed;
+}
+.footer3{
+    width: 23%;
+    height: 90%;
+    padding-top: 3.4%;
+    margin-left: 20px;
+    float: left;
+}
+.footer3_1{
+    color: white;
+}
+.footer3 p{
+    color: white;
+}
+.footer4{
+    width: 23%;
+    height: 90%;
+    padding-top: 3.4%;
+    margin-left: 20px;
+    float: left;
+}
+.footer4 p{
+    color: white;
+}
+.footer4_1{
+    color: white;
+}
