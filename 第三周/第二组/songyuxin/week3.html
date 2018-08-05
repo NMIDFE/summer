@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" media="(min-width: 768px)" href="css/main.css">
+	<link rel="stylesheet" media="(max-width: 767px)" href="css/mobile.css">
+	
+	<title>响应式</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header_main">
+			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+			<div class="img">
+		    <a href="javascript:;">
+			<img src="images/Facebook.png">	</a>
+			<a href="javascript:;">
+			<img src="images/Twitter.png"></a>	
+			<a href="javascript:;">
+			<img src="images/Google+.png"></a>
+			
+			
+			</div>	
+		</div>	
+	</div>
+
+	<div class="nav">
+		<a href="javascript:;">
+		<img src="images/logo.png"></a>
+		<a href="javascript:;">
+			<div class="search_icon">
+
+			</div> 
+		</a>
+        <div class="select" >
+        	<select>
+            <option >Home</option>
+            <option>About us </option>
+            <option >Services</option>
+            <option >Portfolio</option>
+            <option >Blog</option>
+            <option >Contact us</option>
+</select>
+        </div>
+
+
+		<div id="nav">  
+    <ul> 
+         <li><a href="javascript:;">Contact us</a>
+        </li>
+
+         <li><a href="javascript:;">Blog »</a>
+            <ul>
+                
+                <li><a href="javascript:;">Layout 1</a></li>
+                <li><a href="javascript:;">Layout 2</a></li>
+                <li><a href="javascript:;">Blog entry</a></li>
+            </ul>
+        </li>
+        
+
+        <li><a href="javascript:;">Portfolio »</a>
+            <ul>
+                <li><a href="javascript:;">2 Columns</a></li>
+                <li><a href="javascript:;">3 Columns</a></li>
+                <li><a href="javascript:;">4 Columns</a></li> 
+            </ul>
+        </li>
+
+        <li><a href="javascript:;">Services</a>
+        </li>
+
+    	<li><a href="javascript:;">About us »</a>    
+            <ul>
+                <li><a href="javascript:;">Overview</a></li>
+                <li><a href="javascript:;">Elements & Styles</a></li>
+                <li><a href="javascript:;">404 Page</a></li>
+                <li><a href="javascript:;">Dummy link »</a>
+                    <ul>
+                    	<li><a href="javascript:;">Dummy link »</a>
+                    		<ul>
+                    			<li><a href="javascript:;">Dummy link</a></li>
+                    			<li><a href="javascript:;">Dummy link</a></li>
+                    		</ul>
+                    	</li>
+                    	<li><a href="javascript:;">Dummy link</a></li>
+                    	<li><a href="javascript:;">Dummy link</a></li>
+                    	<li><a href="javascript:;">Dummy link</a></li>
+                    </ul>
+                 </li>   
+                <li><a href="javascript:;">Dummy link</a></li>
+                <li><a href="javascript:;">Dummy link</a></li>
+            </ul>
+        </li>
+    	
+    	
+    	<li><a href="javascript:;">Home</a>
+        </li>
+    	
+	</ul>
+	</div>  
+	</div>
+
+    <div class="banner">
+		<div class="slide-container" onmouseenter="pInterval()" onmouseleave="cInterval()">
+            <!-- 轮播组件  最后一个不用加right-out类-->
+            <div class="slide right-out">
+                <img src="images/4.jpg" class="slide-img">
+                <div class='slide-dec'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <a href="javascript:;">Get the chance to win brand new iPad!</a></div>
+            </div>
+            <div class="slide right-out">
+                <img src="images/5.jpg" class="slide-img">
+                <div class='slide-dec'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.<a href="javascript:;"> Get the chance to win brand new iPad!</a></div>
+            </div>
+            <div class="slide right-out">
+                <img src="images/6.jpg" class="slide-img">
+                <div class='slide-dec'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. <a href="javascript:;">Get the chance to win brand new iPad!</a></div>
+            </div>
+            <div class="slide">
+                <img src="images/7.jpg" class="slide-img">
+                <div class='slide-dec'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.<a href="javascript:;"> Get the chance to win brand new iPad!</a></div>
+            </div>
+            
+            <!-- 导航点 -->
+            <div id="slide-tabs"></div>
+            <input type="button" name="" class="button" value="<<"  onclick="slide_last()"/>
+        <input type="button" name="" class ="button" value=">>"  onclick="slide_next()"/>
+        </div>
+        <!-- 轮播结束 -->
+        
+</div>
+
+	
+	<div class="div1">		
+	    <div class="div2">
+	        GALLERY
+		</div>
+		<div class="div3">				
+		</div>
+	</div>
+
+	<div class="gallery">
+		<div class="div4">
+			<img src="images/9.jpg">
+			<a href="javascript:;">Lorem ipsum dolor »</a><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			
+		</div> 
+		<div class="div4">
+			<img src="images/10.jpg">
+			<a href="javascript:;">Lorem ipsum dolor »</a><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			
+		</div> 
+		<div class="div4">
+			<img src="images/11.jpg">
+			<a href="javascript:;">Lorem ipsum dolor »</a><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			
+		</div> 
+		<div class="div4">
+			<img src="images/12.jpg">
+			<a href="javascript:;">Lorem ipsum dolor »</a><br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			
+		</div> 
+    </div>
+
+        <div class="div1">		
+	        <div class="div2">
+	            COMPANY
+	        </div>
+	        <div class="div3">				
+	        </div>
+	    </div>
+
+		<div class="company">
+			<div class="left">
+			 <ul>
+			 	<li style="background: #F0F0F0;"><a style="color: black;" href="javascript:;">About Us »</a></li>
+			 	<li><a href="javascript:;">Our Services »</a></li>
+			 	<li><a href="javascript:;">Our Clients »  </a></li>
+			 </ul> 
+			</div>
+			 <h2 style="padding-top: 20px;"> About Us</h2>
+			<p>Lorem ipsum dolor sit amet,<a href="javascript:;">consectetur adipisicing </a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<div class="div5">
+				<img src="images/13.png">
+				<p><strong> Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.</p>
+			</div>
+			<div class="div5">
+				<img src="images/14.png">
+				<p><strong> Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.</p>
+			</div>
+			<div class="div5">
+				<img src="images/15.png">
+				<p><strong> Global operation.</strong> Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus.</p>
+			</div>
+		</div>
+		
+	
+
+	<div class="footer">
+		<div class="div6">
+			<h3>HELLO</h3>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+		</div>
+		<div class="div6">
+			<h3>LINKS</h3>
+			<hr >
+			<ul>
+				<li><a href="javascript:;">Home»</a></li>
+				<li><a href="javascript:;">About»</a></li>
+				<li><a href="javascript:;">Service»</a></li>
+				<li><a href="javascript:;">Works»</a></li>
+				<li><a href="javascript:;">Blog»</a></li>
+				<li><a href="javascript:;">Contact»</a></li>
+			</ul>
+			
+		</div>
+		<div class="div7">
+			<h3>TWITTER</h3>
+			<hr >
+			<p>envato,4</p>
+		</div>
+		<div class="div7">
+			<h3>FLICKR</h3>
+			<hr >
+			<p>10133335@N08,8,s</p>
+		</div>
+	</div>
+
+	  
+<script type="text/javascript">
+                window.onload = function(){
+                    init_tabs();
+                }
+        </script>
+        <script type="text/javascript">
+            var slide;
+var tabs;
+var slide_index;
+var interval;
+function init_tabs(){
+    slide = document.getElementsByClassName("slide");
+    slide_index = slide.length-1;
+    var tabc = document.getElementById("slide-tabs");
+    var html = "";
+    for(var i=0;i<slide.length;i++){
+        html+='<span class="slide-tab" onclick="slide_x('+i+')" > </span>';
+    }
+    tabc.innerHTML=html;
+    tabs=tabc.childNodes;
+    tabs[slide_index].className = addCls(tabs[slide_index].className,"slide-tab-acitve");
+    cInterval();
+}
+function pInterval(){
+    clearInterval(interval);
+    interval = -1;
+}
+function cInterval(){
+    if(interval!=-1)clearInterval(interval);
+    interval = setInterval("auto_next()",8000);
+}
+function auto_next(){
+    slide_out(slide_index);
+    slide_index=(slide_index-1+slide.length)%slide.length;
+    slide_in(slide_index);
+}
+function slide_out(i){
+    slide[i].className=remCls(slide[i].className,'right-in');
+    slide[i].className=remCls(slide[i].className,'left-in');
+    slide[i].className=addCls(slide[i].className,'right-out');
+    tabs[i].className = remCls(tabs[i].className,"slide-tab-acitve");
+}
+function slide_in(i){
+    slide[i].className=remCls(slide[i].className,'left-out');
+    slide[i].className=remCls(slide[i].className,'right-out');
+    slide[i].className=addCls(slide[i].className,'left-in');
+    tabs[i].className = addCls(tabs[i].className,"slide-tab-acitve");
+}
+function slide_x(x){
+    pInterval();
+    x=x%slide.length;
+    slide_out(slide_index);
+    slide_in(x);
+    slide_index=x;
+    cInterval();
+}
+function remCls(o,n){
+    if(o==null||typeof(o)!='string')return o;
+    var x = o.indexOf(n);
+    if(x>-1){
+        if(x>0) o=o.replace(n,'');
+        else o=o.replace(" "+n,'');
+    }
+    return o;
+}
+function addCls(o,n){
+    if(o==null||typeof(o)!='string')return o;
+    if(o.length>0) o+=' '+n;
+    else o+=n;
+    return o;
+}
+function slide_next(){
+    var x=(slide_index-1+slide.length)%slide.length;
+    slide_x(x);
+}
+function slide_last(){
+    pInterval();
+    slide[slide_index].className=remCls(slide[slide_index].className,'left-in');
+    slide[slide_index].className=remCls(slide[slide_index].className,'right-in');
+    slide[slide_index].className=addCls(slide[slide_index].className,'left-out');
+    tabs[slide_index].className = remCls(tabs[slide_index].className,"slide-tab-acitve");
+    
+    slide_index=(slide_index+1)%slide.length;
+    
+    slide[slide_index].className=remCls(slide[slide_index].className,'left-out');
+    slide[slide_index].className=remCls(slide[slide_index].className,'right-out');
+    slide[slide_index].className=addCls(slide[slide_index].className,'right-in');
+    tabs[slide_index].className = addCls(tabs[slide_index].className,"slide-tab-acitve");
+    cInterval();
+}
+        </script>
+
+</body>
+</html>
