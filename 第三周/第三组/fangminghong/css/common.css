@@ -1,0 +1,290 @@
+/*样式重置*/
+*{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.left{float: left;}
+.right{float: right;}
+body{background: #fff url(../images/bodybg.png) center center repeat;font-family: Helvetica, Arial, sans-serif;line-height: 20px;} /*背景*/
+.relative{position: relative;}
+.absolute{position: absolute;}
+/*header start*/
+.header{
+	background-color: #fff;
+	border-top: 3px solid #239CC3;
+}
+.header p{
+	font-size: 11px;
+    color: #858585;
+}
+/*header end*/
+
+/*navBar start*/
+.navBar .secondMenu{
+	z-index: 10;
+}
+/*navBar end*/
+
+/*mainContent start*/
+.mainContent{
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+/*mainContent end*/
+
+
+/*wrapper start*/
+#wrapper{
+	position: relative;
+}
+#imgs{
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+#imgs ul li{
+	float: left;
+}
+#imgs ul{
+	position: absolute;
+    z-index: 1;
+}
+#nav{
+	float: left;
+	position: absolute;
+	z-index: 5;
+}
+
+#nav ul li a{
+	display: inline-block;
+	background: #fff;
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 24px;
+  	line-height: 32px;
+	color: #333;
+	position: absolute;
+	top: 0;
+}
+#nav ul li a span{
+	cursor: pointer;
+	color: #239cc3;
+}
+#nav ul li a span:hover{
+	color: #1A7472;
+}
+#preous,#next{
+	width: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	z-index: 3;
+	position: absolute;
+	cursor: pointer;
+}
+#nav ul li a.current{
+	display: block;
+}
+#nav ul li a.hidden{
+	display: none;
+}
+/*wrapper end*/
+
+/*gallery start*/
+.gallery .top{
+	width: 100%;
+	height: 32px;
+	background: #fff url(../images/pattern.png) center center repeat;
+	border-left: 2px solid #239CC3;
+	box-sizing: border-box;
+}
+.gallery .top p{
+	width: 110px;
+	line-height: 32px;
+	background: #fff;
+    color: #858585;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.gallery .main h2{
+	color: #333;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.gallery .main p{
+	color: #555;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.gallery .main .photo:hover{
+	background-color: #f7f7f7;
+}
+.gallery .main .photo:hover h2{
+	color: #239cc3;
+}
+.transparency1{
+	opacity: 1;
+}
+.transparency2{
+	opacity: .3;
+}
+/*gallery end*/
+
+/*company start*/
+.company .top{
+	width: 100%;
+	height: 32px;
+	background: #fff url(../images/pattern.png) center center repeat;
+	border-left: 2px solid #239CC3;
+	box-sizing: border-box;
+}
+.company .top p{
+	width: 110px;
+	line-height: 32px;
+	background: #fff;
+    color: #858585;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.company .lawer .choice li{
+	background-color: #fff;
+    color: #858585;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 30px;
+    cursor: pointer;
+    padding-left: 5px;
+}
+.company .lawer .choice li:hover{
+	color: #239CC3;
+}
+.company .lawer .choiceInfo h2{
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.company .lawer .choiceInfo p{
+	font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: #555;
+}
+.company .lawer .choiceInfo .infoOne p>span{
+	color: #239CC3;
+	cursor: pointer;
+}
+.company .lawer .choiceInfo .infoOne p>span:hover{
+	color: rgb(26,116,144);
+}
+.company .lawer .choiceInfo .infoIcon span{
+	color: #333 !important;
+	font-weight: bold;
+}
+.company .lawer .choiceInfo .infoTwo .infoBar h3{
+	color: #239cc3;
+	font-weight: bold;
+	font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 20px;
+}
+.company .lawer .choiceInfo .infoTwo .infoBar:hover h3{
+	color: #1A7490;
+}
+.company .lawer .choiceInfo .infoTwo .infoBar:hover {
+	background-color: #F5F5F5;
+}
+.company .lawer .choiceInfo .infoThree .infoImg img{
+	float: left;
+}
+
+
+
+#choiceTwo li{
+	display: none;
+}
+.show{
+	display: inline-block !important;
+}
+.active{
+	background-color: #F0F0F0 !important;
+	color: #333 !important;
+}
+.activeInfo{
+	display: block;
+}
+/*company end*/
+
+/*footer start*/
+.footer{
+	border-radius: 4px;
+	background: #fff url(../images/footer-bg.png) center center repeat;
+	box-sizing: border-box;
+}
+.footer .info{
+	width: 220px;
+	height: 309px;
+	margin-right: 20px;
+}
+.footer .info h2{
+	color: #fff;
+	font-size: 12px;
+    font-weight: bold;
+    font-family: 'Droid Serif', Georgia, Times, serif;
+    line-height: 28px;
+}
+.footer .info span{
+	display: block;
+	background-color: #239cc3;
+	width: 30px;
+	height: 3px;
+	margin-bottom: 23px;
+}
+.footer .info p{
+	font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 20px;
+    color: #ccc;
+}
+.footer .info li{
+	width: 220px;
+	line-height: 31px;
+	border-bottom: 1px solid #222;
+}
+.footer .info li a{
+	color: #fff;
+}
+.footer .info li a:hover{
+	border-bottom: 1px solid #fff;
+}
+/*footer end*/
+
+/*copyright start*/
+.copyright p{
+	color: #555;
+	font-size: 11px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 30px;
+	margin-left: 30px;
+}
+.copyright p span{
+	color: #239CC3;
+	cursor: pointer;
+}
+.copyright p span:hover{
+	color: #1A7CAE;
+}
+/*copyright end*/

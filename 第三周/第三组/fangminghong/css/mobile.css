@@ -1,0 +1,211 @@
+/*header start*/
+.header{
+	width: 100%;
+	height: 91px;
+}
+.header .main{
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header p{
+	width: 300px;
+	height: 40px;
+	padding-top: 20px;
+}
+.header img{
+	margin-right: 10px;
+	margin-top: 5px;
+}
+/*header end*/
+
+/*navBar start*/
+.navBar{
+	width: 300px;
+	height: 60px;
+	margin: 20px auto;
+}
+.navBar .logo{
+	width: 300px;
+	height: 21px;
+
+}
+.navBar .navInfo{
+	display: none;
+}
+.navBar select{
+	margin-top: 20px;
+	width: 300px;
+}
+/*navBar end*/
+
+/*mainContent start*/
+.mainContent{
+	width: 320px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+/*mainContent end*/
+
+/*wrapper start*/
+#wrapper{
+	width: 320px;
+	height: 270px;
+	box-sizing: border-box;
+	position: relative;
+}
+#imgs{
+	width: 300px;
+	height: 114px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin: 10px 10px 0 10px;
+}
+#imgs ul li{
+	float: left;
+}
+#imgs img{
+	width: 300px;
+}
+#imgs ul{
+	position: absolute;
+    z-index: 1;
+    width: 1920px;
+    height: 114px;
+   	left: -300px;
+}
+#nav{
+	width: 300px;
+	height: 136px;
+	float: left;
+	position: absolute;
+	left: 10px;
+	top: 150px;
+	z-index: 5;
+}
+
+#nav ul li a{
+	width: 300px;
+	height: 114px;
+	display: inline-block;
+	background: #fff;
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 16px;
+  	line-height: 24px;
+	color: #333;
+	position: absolute;
+	top: 0;
+}
+#nav ul li a span{
+	cursor: pointer;
+	color: #239cc3;
+}
+#nav ul li a span:hover{
+	color: #1A7472;
+}
+#preous,#next{
+	display: none;
+}
+#nav ul li a.current{
+	display: block;
+}
+#nav ul li a.hidden{
+	display: none;
+}
+/*wrapper end*/
+
+/*gallery start*/
+.gallery{
+	width: 320px;
+	height: 1365px;
+}
+.gallery .main{
+	padding: 20px 10px 10px 10px;
+}
+.gallery .photo{
+	width: 300px;
+	height: 316px;
+}
+.gallery .photo img{
+	width: 300px;
+}
+.gallery .photo p{
+	
+}
+/*gallery end*/
+
+/*company start*/
+.company .lawer{
+	width: 320px;
+	min-height: 450px;
+	padding: 20px 10px 10px 10px;
+	box-sizing: border-box;
+}
+.company .lawer .choice{
+	width: 300px;
+	height: 90px;
+}
+.company .lawer .choice li{
+	width: 300px;
+}
+.company .lawer .choiceInfo{
+	width: 300px;
+	margin-top: 10px;
+}
+.company .lawer .choiceInfo .infoIcon{
+	width: 300px;
+	height: 32px;
+	float: left;
+	position: relative;
+	margin-top: 20px;
+}
+.company .lawer .choiceInfo .infoIcon p{
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+.company .lawer .choiceInfo .infoOne .infoIcon{
+	margin-bottom: 10px;
+}
+.company .lawer .choiceInfo .infoTwo .infoBar{
+	margin-bottom: 20px;
+	width: 300px;
+	height: 70px;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+}
+.company .lawer .choiceInfo .infoThree .infoImg{
+	width: 300px;
+	height: 80px;
+	margin-top: 20px;
+}
+/*company end*/
+
+/*footer start*/
+.footer{
+	width: 320px;
+	height: 749px;
+	margin: 40px auto;
+	padding: 40px 10px 0 10px;
+}
+.footer .info{
+	width: 300px;
+	height: 250px;
+}
+.footer .info3{
+	height: 100px;
+}
+/*footer end*/
+
+/*copyright start*/
+.copyright{
+	width: 320px;
+	height: 20px;
+	margin: 10px auto;
+}
+.copyright ul{
+	display: none;
+}
+/*copyright end*/

@@ -1,0 +1,303 @@
+/*header start*/
+.header{
+	width: 100%;
+	height: 42px;
+	background-color: #fff;
+	border-top: 3px solid #239CC3;
+}
+.header .main{
+	width: 936px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header .main p{
+	font-size: 11px;
+    color: #858585;
+    line-height: 42px;
+    float: left;
+}
+.header .main img{
+	margin-left: 10px;
+
+}
+.header .main .icon{
+	float: right;
+}
+.header .main a{
+	line-height: 42px;
+}
+/*header end*/
+
+/*navBar start*/
+.navBar{
+	width: 936px;
+	height: 80px;
+	margin: 0 auto;
+}
+.navBar a{
+	line-height: 84px;
+}
+.navBar .search{
+	width: 18px;
+	height: 17px;
+	display: inline-block;
+	overflow: hidden;
+	cursor: pointer;
+}
+.navBar .navInfo li{
+	display: inline-block;
+	margin-right: 30px;
+}
+.navBar .navInfo a{
+	color: #858585;
+	font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 1px 1px #fff;
+}
+.navBar .navInfo .black{
+	color: #333;
+}
+.navBar .search:hover .searchImg{
+	left: -18px;
+}
+.navBar .search .searchImg{
+	width: 36px;
+	height: 17px;
+}
+.navBar .secondMenu{
+	width: 100px;
+	border-radius: 3px;
+	background-color: #fff;
+	top: 60px;
+	left: 0px;
+	display: none;
+}
+.navBar .secondMenu li{
+	width: 100px;
+	color: #858585;
+	font-size: 12px;
+	line-height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+.navBar .secondMenu li:hover{
+	color: #000;
+}
+.navBar .navInfo li:hover a{
+	color: #000;
+}
+.navBar .navInfo li:hover .secondMenu{
+	display: block;
+}
+.mobileSelect{
+	display: none;
+}
+/*navBar end*/
+
+/*mainContent start*/
+.mainContent{
+	width: 1000px;
+	background-color: #fff;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+/*mainContent end*/
+
+
+/*wrapper start*/
+#wrapper{
+	width: 1000px;
+	height: 510px;
+	position: relative;
+}
+#imgs{
+	width: 940px;
+	height: 360px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	margin: 30px 30px 0 30px;
+}
+#imgs ul li{
+	float: left;
+}
+#imgs ul{
+	position: absolute;
+    z-index: 1;
+    width: 5460px;
+    height: 360px;
+   	left: -940px;
+}
+#nav{
+	width: 843px;
+	height: 122px;
+	float: left;
+	position: absolute;
+	left: 30px;
+	top: 400px;
+	z-index: 5;
+}
+
+#nav ul li a{
+	width: 843px;
+	height: 100px;
+	display: inline-block;
+	background: #fff;
+	font-family: 'Droid Serif', Georgia, Times, serif;
+	font-size: 24px;
+  	line-height: 32px;
+	color: #333;
+	position: absolute;
+	top: 0;
+}
+#nav ul li a span{
+	cursor: pointer;
+	color: #239cc3;
+}
+#nav ul li a span:hover{
+	color: #1A7472;
+}
+#preous,#next{
+	width: 30px;
+	line-height: 30px;
+	border-radius: 5px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	z-index: 3;
+	position: absolute;
+	cursor: pointer;
+}
+#preous{
+	top:420px;
+	right: 70px;
+}
+#next{
+	top:420px;
+	right: 30px;
+}
+#nav ul li a.current{
+	display: block;
+}
+#nav ul li a.hidden{
+	display: none;
+}
+/*wrapper end*/
+
+/*gallery start*/
+.gallery{
+	width: 1000px;
+	height: 366px;
+}
+.gallery .main{
+	padding: 30px 20px 0 20px;
+}
+.gallery .main .photo{
+	width: 240px;
+	height: 286px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.gallery .main .photo img{
+	width: 220px;
+}
+
+/*gallery end*/
+
+/*company start*/
+.company .lawer{
+	width: 1000px;
+	min-height: 236px;
+	padding: 30px 20px 0 20px;
+	box-sizing: border-box;
+}
+.company .lawer .choice{
+	width: 240px;
+	height: 236px;
+}
+.company .lawer .choice li{
+	width: 220px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+.company .lawer .choiceInfo{
+	width: 720px;
+	min-height: 236px;
+}
+.company .lawer .choiceInfo .infoOne{
+	height: 196px;
+}
+.company .lawer .choiceInfo .infoIcon{
+	width: 200px;
+	height: 80px;
+	float: left;
+	position: relative;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.company .lawer .choiceInfo .infoIcon p{
+	position: absolute;
+	top: 0;
+	left: 40px;
+}
+.company .lawer .choiceInfo .infoTwo{
+	height: 400px;
+}
+.company .lawer .choiceInfo .infoTwo .infoinfo{
+	margin-bottom: 20px;
+}
+.company .lawer .choiceInfo .infoTwo .infoBar{
+	width: 336px;
+	height: 70px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+	margin-right: 15px;
+}
+
+.company .lawer .choiceInfo .infoThree .infoImg{
+	width: 700px;
+	height: 80px;
+	margin-top: 20px;
+}
+.company .lawer .choiceInfo .infoThree .infoImg img{
+	float: left;
+}
+
+/*company end*/
+
+/*footer start*/
+.footer{
+	width: 1000px;
+	height: 341px;
+	margin: 32px auto 0 auto;
+	padding: 30px 20px 0 20px;
+}
+.footer .info{
+	width: 220px;
+	height: 309px;
+	margin-right: 20px;
+}
+/*footer end*/
+
+/*copyright start*/
+.copyright{
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+}
+.copyright ul li{
+	display: inline-block;
+	line-height: 30px;
+}
+.copyright ul li a{
+	color: #555;
+	font-size: 11px;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-right: 30px;
+}
+.copyright ul li a:hover{
+	color: #239CC3;
+}
+/*copyright end*/
