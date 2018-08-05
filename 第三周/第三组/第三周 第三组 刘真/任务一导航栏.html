@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>任务一</title>
+<style>
+.n{margin-left:500px;
+
+
+    width:500px;
+    height:500px;
+position:relative;
+}
+.m{
+    margin-left:500px;
+
+
+    width:200px;
+    height:400px;
+
+}
+
+
+
+.g{margin-left:300px;
+
+margin-top:0px;
+
+    width:200px;
+    height:400px;
+    
+
+}
+li{
+list-style-type:none;}
+.d{ text-align:center;}
+.e{ text-align:center;
+padding-top: 400px;}
+.f{ text-align:center;
+padding-top: 300px;}
+.c{	position:absolute;
+
+	left: 50%;
+    transform:translate(-50%,-50%);  
+    font-size:30px;
+        }
+div{
+    width:200px;
+    height:900px;
+    margin-left:10px;
+    margin-top:10px;
+    border:1px solid red;
+    float:left;
+
+}
+.v{float:left;}
+
+#fix_nav{background-color: #aaa}
+.nav{width:980px; margin:0 auto;}
+.nav li{display:inline-block; *display:inline; *zoom:1; margin:0 20px;}
+.nav li a{display:block; padding:5px 10px;text-decoration: none;}
+.fixed-nav{
+position: fixed;
+width:100%;
+top:-40px; 
+-webkit-transition: top .5s;
+ -moz-transition: top .5s;
+ -o-transition: top .5s;
+ transition: top .5s;
+}
+.fixed-nav-appear{top:0;}
+.fix_sec{
+position: fixed;
+width:100%;
+top:0;
+z-index: 999;
+-webkit-transition: top .5s;
+-moz-transition: top .5s;
+-o-transition: top .5s;
+transition: top .5s;
+}
+
+
+</style>
+<script src="jquery.min.js"></script>
+</head>
+<body>
+
+<ul class="nav">
+<li><a href="#" >National Geographic</a></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<li><a href="#" class="b">Subscribe</a></li>
+<li><a href="#" class="b">MENU</a></li>
+</ul>
+<section>
+    <h1 class="d">EXPLORE TODAY</h1>
+<p class="d">Through the eyes of our Explorers, photographers, journalists, and filmmakers</p>
+
+
+<div class="content">
+    <ul>
+                        <li><h2>LATEST STORIES</h2></li>
+                        <li><h3>MAGAZINE</h3></li>
+ 						<li>Why Poison Is a Growing Threat to Africa's Wildlife</li>
+                     	 <li><h3>ANIMALS</h3></li>
+ 						<li>>How One Odd Bird Embodies the Endangered Speices Act Debate</li>
+
+ 						<li><h3>ANIMALS</h3></li>
+ 						<li>How One Odd Bird Embodies the Endangered Speices Act Debate</li>
+ 						<li><h3>ANIMALS</h3></li>
+ 						<li>How One Odd Bird Embodies the Endangered Speices Act Debate</li>
+ 						<li><h3>ANIMALS</h3></li>
+ 						<li>How One Odd Bird Embodies the Endangered Speices Act Debate</li>
+ 						<li><h3>ANIMALS</h3></li>
+ 						
+ 						
+ 						<li>How One Odd Bird Embodies the Endangered Speices Act Debate</li>
+ 						SEE MOREo
+						
+	</ul></div>
+<div class="n"><p class="e">Why Poison Is a Growing Threat to Africa's Wildlife</p></div>
+<div class="m"><p class="f">Why Poison Is a Growing Threat to Africa's Wildlife</p></div>
+
+
+
+
+</section>
+<script>
+
+var fix_length = 200;
+
+
+
+var $nav = $('#fix_nav');
+
+
+
+var navTop = $nav.offset().top; 
+
+
+
+var navH = $nav.outerHeight();
+
+
+
+var winTop_1=0;
+
+
+
+var winWidth=$(window).width();
+
+
+
+
+
+
+
+$(window).on('scroll',function(){
+
+var winTop_2 = $(window).scrollTop();
+
+if(winTop_2>navTop && winWidth>980){
+$nav.addClass('fixed-nav');
+if(winTop_2>winTop_1){
+$nav.addClass('fix_sec');
+if(winTop_2>fix_length){
+$nav.removeClass('fix_sec');
+}
+}
+}else{
+$nav.removeClass('fixed-nav');
+}
+
+if(winTop_2>winTop_1 && winWidth>980){
+$nav.removeClass('fixed-nav-appear');
+}else if(winTop_2<winTop_1){
+$nav.addClass('fixed-nav-appear');
+$nav.removeClass('fix_sec');
+}
+
+winTop_1 = $(window).scrollTop();
+})
+</script>
+</body>
+</html>
