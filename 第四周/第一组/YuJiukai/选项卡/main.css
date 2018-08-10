@@ -1,0 +1,14 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#box div{
+            width:200px;
+            height:200px;
+            background:#ccc;
+            display:none;
+        }
+        .on{
+            color:black;
+            background:yellow;
+        }
