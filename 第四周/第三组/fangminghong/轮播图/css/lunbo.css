@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0;}
+ul,li{list-style: none;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+#box{
+	width: 960px;
+	height: 380px;
+	margin: 100px auto;
+	box-sizing: border-box;
+	position: relative;
+	border: 1px solid #ccc;
+
+}
+#album{
+	width: 940px;
+	height: 360px;
+	overflow: hidden;
+	background-color: red;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+#box:hover span{
+	display: block;
+}
+#photos{
+	width: 4700px;
+	height: 360px;
+	position: absolute;
+}
+#photos li{
+	float: left;
+}
+#choice{
+	width: 130px;
+	height: 20px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+#choice li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+#move{
+	position: absolute;
+	width: 940px;
+	height: 360px;
+	background-color: red;
+	left: 10px;
+	top: 10px;
+}
+span{
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 26px;
+	width: 40px;
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	opacity: 0.7;
+}
+.left{
+	background-color: #000;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -20px;
+}
+.right{
+	background-color: #000;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -20px;
+}
+.current{
+	background-color: #fff;
+}
