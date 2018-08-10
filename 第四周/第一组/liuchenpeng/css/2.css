@@ -1,0 +1,33 @@
+*{
+  margin: 0 auto;
+}
+.all{
+  width: 363px;
+  border: 1px solid #999;
+  box-shadow:
+}
+.top{
+  width: 363px;
+  overflow: hidden;
+  background: grey;
+}
+.top div{
+  background: black;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  cursor: pointer;
+  margin: 10px 10px;
+  border-radius: 5px;
+  }
+.top .cg{
+  background: white;
+  color: black;
+  }
+.bottom{
+  padding: 20px 0;
+  text-align: center;
+}

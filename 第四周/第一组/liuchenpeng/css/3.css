@@ -1,0 +1,49 @@
+*{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+.all{
+  width: 500px;
+  overflow: hidden;
+  line-height: 100px;
+}
+.left{
+  width: 50px;
+  height: 100px;
+  float: left;
+  background-color: grey;
+  line-height: 100px;
+  border-radius: 50px 0 0 50px;
+  position: relative;
+  top: 75px;
+}
+.right{
+  width: 50px;
+  height: 100px;
+  float: left;
+  background-color: grey;
+  border-radius: 0 50px 50px 0;
+  position: relative;
+  top: 75px;
+}
+.all-img{
+  width: 400px;
+  height: 261px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+.imglong{
+  width: 2400px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+}
+.imglong img{
+  width: 400px;
+  display: block;
+  float: left;
+  height: 261px;
+}
