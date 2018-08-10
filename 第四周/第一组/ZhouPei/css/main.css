@@ -1,0 +1,15 @@
+.items{
+
+	width: 200px;
+	color: blue;
+	height: 50px;
+	border:2px solid red;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	width: 150px;
+	margin:auto;
+	height: 50px;
+}
