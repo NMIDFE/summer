@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+#tab{
+	width: 500px;
+	height: 80px;
+	border-color: block;
+	border-style: solid;
+	border-width: 1px;
+	margin: 200px auto;
+	padding: 0px;
+}
+#thead ul{
+	padding: 0px;
+	margin: 0px;
+	background-color: gray;
+	height: 19px;
+}
+#thead ul li{
+	list-style: none;
+	display: inline-block;
+	width: 93.5px;
+	text-align: center;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+#thead ul li span:hover{
+	font-weight: bolder;
+	color: orange;
+	cursor: pointer;
+}
+#tbody{
+	margin-top: 8px;
+}
+.con{
+	display: none;
+}
+.con a{
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+	height: 30px;
+}
+.con a:hover{
+	color: orange;
+}
+.selected{
+	background-color: white;
+}

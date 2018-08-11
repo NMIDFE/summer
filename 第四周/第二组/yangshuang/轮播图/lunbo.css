@@ -1,0 +1,28 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#lunbom{
+	background-color: gray;
+	padding: 30px;
+}
+#lunbom ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 160px;
+}
+#lunbom ul{
+	width: 100%;
+}
+.current{
+		background-color: red;
+}
+#lun{
+	width: 940px;
+	margin:auto;
+margin-top: 100px;
+}
+#luntop{
+	height: 360px;
+}
