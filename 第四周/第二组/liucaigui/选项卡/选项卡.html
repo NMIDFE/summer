@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.odiv{
+			width: 280px;
+			height: 200px;
+			display: none;
+		}
+		#div1{
+			 display: block;
+			 background: #111CEDFF;
+		}
+		#div2{
+			 background: #29A4D5FF;
+		}
+		#div3{
+			 background: #3EEA14FF;
+		}
+		#div4{
+			 background: #DA4924FF;
+		}
+		.active{
+			background: yellow;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+
+		var divx=document.getElementById('divx');
+		var buttons=divx.getElementsByTagName('input');
+		var divs=document.getElementsByName('odiv');
+			for (var i = 0; i < buttons.length; i++) 
+			{
+				buttons[i].index=i;
+				buttons[i].onclick=function()
+				{
+				/*alert(this.value);*/
+					for (var i = 0; i < buttons.length; i++)
+				 	{
+						buttons[i].className='';
+						divs[i].style.display='none';
+					}
+				this.className='active';
+				/*alert(this.index);*/
+				divs[this.index].style.display='block';
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="divx">
+		<input type="button" value="沉鱼落雁" class="active" >
+		<input type="button" value="闭月羞花">
+		<input type="button" value="上得厅堂">
+		<input type="button" value="下得厨房">
+	</div>
+	<br>
+	<div class="odiv" id="div1" name="odiv">111</div>
+	<div class="odiv" id="div2" name="odiv">2222</div>
+	<div class="odiv" id="div3" name="odiv">3333</div>
+	<div class="odiv" id="div4" name="odiv">44444</div>
+</body>
+</html>
