@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>无标题文档</title>
+	<style>
+		ul {
+			list-style: none;
+			border-bottom: solid 1px #ccc;
+			width: 100px;
+			padding: 0;
+			margin: 100px auto;
+		}
+		li {
+			width: 100px;
+			font-size: 14px;
+			text-align: center;
+			height: 30px;
+			line-height: 30px;
+			
+			position: relative;
+		}
+		li a{width:98px;height:28;position:absolute;left:0;top:0;z-index:1;border: solid 1px #ccc;
+			border-bottom: none; text-decoration:none;}
+		li a.hover{border-right-color: red;}
+		.content {
+			border: solid 1px #ccc;
+			width: 200px;
+			height: 200px;
+			text-align: center;
+			display: none;
+			position: absolute;
+			left: 99px;
+			top: -85px;
+		}
+	</style>
+	<script>
+        window.onload=function()
+        {
+            var oUl=document.getElementById("nav");
+            var aLink=oUl.getElementsByTagName('a');
+            var aDiv=oUl.getElementsByTagName('div');
+            for(var i=0;i<aLink.length;i++)
+            {
+                aLink[i].index=i;
+                aLink[i].onmouseover=function()
+                {
+                    this.className='hover';
+                    aDiv[this.index].style.display='block';
+                }
+                aLink[i].onmouseout=function()
+                {
+                    this.className='';
+                    aDiv[this.index].style.display='none';
+                }
+            }
+        }
+	</script>
+</head>
+
+<body>
+<ul id="nav">
+	<li> <a href="javascript:;">菜单1</a>
+		<div class="content"> 内容1 </div>
+	</li>
+	<li> <a href="javascript:;">菜单2</a>
+		<div class="content"> 内容2 </div>
+	</li>
+	<li> <a href="javascript:;">菜单3</a>
+		<div class="content"> 内容3 </div>
+	</li>
+	<li> <a href="javascript:;">菜单4</a>
+		<div class="content"> 内容4 </div>
+	</li>
+</ul>
+</body>
+</html>
