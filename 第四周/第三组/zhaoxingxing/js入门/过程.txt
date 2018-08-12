@@ -1,0 +1,5 @@
+1.每创建元素只能使用一次否则需要循环
+for(var i=0;i<3;i++){
+var td = document.createElement("td");
+trT[0].appendChild(td);
+}

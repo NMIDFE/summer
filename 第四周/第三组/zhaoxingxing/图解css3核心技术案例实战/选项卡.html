@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>选项卡</title>
+</head>
+<style type="text/css">
+* {
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+	margin:0;
+}
+	div {
+		margin:0 auto;
+		height: auto;;
+		width: 500px;
+		border: 1px solid red;
+	}
+	div ul {
+		position: relative;
+		height: 50px;
+	}
+	div li {
+		height: 50px;
+		position: relative;
+		float: left;
+	}
+	a {
+		position: relative;
+		line-height: 50px;
+		height: 50px;
+		background: lightblue;
+		height: 100%;
+		display: block;
+		border-radius: 5px
+	}
+	#first{
+		width: 100px;
+		height: 0;
+	}
+	#second {
+		width: 100px;
+		height: 0;
+	}
+	#first:target {
+		height: 100px;
+	}
+	#second:target {
+		height: 100px;
+	}
+</style>
+<body>
+	<div>
+		<ul>
+			<li class="firstq"><a href="#first">选项一</a>
+				<div id="first"></div>
+			</li>
+			<li class="secondq"><a href="#second">选项二</a>
+				<div id="second"></div>
+			</li>
+		</ul>
+		
+		
+	</div>
+</body>
+</html>

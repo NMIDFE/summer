@@ -1,0 +1,3 @@
+function filterspace(){
+return city.replace(/^\s+/,"").replace(/\s+$/,"");
+}

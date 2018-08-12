@@ -1,0 +1,2 @@
+target: 刚开始时，使用overflow：hidden 当target时overflow：auto；
+意思：当点击时出现效果

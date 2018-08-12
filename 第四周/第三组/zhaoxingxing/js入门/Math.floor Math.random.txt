@@ -1,0 +1,3 @@
+Math.floor(x):取整数
+Math.random()*x+y:取>=y <x+y的数
+Math.random(Math.floor(x)):对随机数取整

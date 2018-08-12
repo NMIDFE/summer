@@ -1,0 +1,1 @@
+text-shadow: h-shadow（水平阴影的距离） v-shadow（垂直阴影的距离） blur（模糊的程度） color;

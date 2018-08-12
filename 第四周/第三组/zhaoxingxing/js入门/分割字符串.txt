@@ -1,0 +1,11 @@
+1.split():功能：使用一个指定的分隔符把一个字符串分割存储到数组 
+例：str=”jpg|bmp|gif|ico|png”; 
+arr=theString.split(”|”); 
+2join(): 使用您选择的分隔符将一个数组合并为一个字符串 
+var myList=new Array(”jpg”,”bmp”,”gif”,”ico”,”png”); 
+var portableList=myList.join(”|”); 
+3.substring() 功能：字符串截取，
+比如想从"MinidxSearchEngine”中得到"Minidx”就要用到substring(0,6)
+如果是substring(0)则就有MinidxSearchEngine
+4.substr():返回一个从指定位置开始的指定长度的子字符串。  
+例：var str = "0123456789"; alert(str.substr(2,0));-------------"" 

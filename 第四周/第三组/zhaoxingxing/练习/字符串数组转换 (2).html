@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+		alert(myData);
+		var myArray = myData.split(',');
+		alert(myArray[0]);
+		// var myNewString = myArray.join(',');将数组颠倒
+		// var dogNames = ["Rocket","Flash","Bella","Slugger"];
+		// dogNames.toString(); //Rocket,Flash,Bella,Slugger
+		myArray.push(myArray[0]);
+		alert(myArray[0]);//添加到数组末尾
+		myArray.pop(myArray[0]);//删除末尾开始 与这两个相反的是shift和unshift
+	</script>
+</body>
+</html>

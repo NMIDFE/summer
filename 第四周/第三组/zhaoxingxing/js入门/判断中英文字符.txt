@@ -1,0 +1,8 @@
+var reg = /^[a-zA-Z]$/;// 这里是 正则表达式，大小写英文字母都可以
+		var ch = /^[\u4E00-\u9FA5]$/;
+		if (reg.test(city) != true || ch.test(city) != true) {
+		alert("请输入中英文字符");
+		}
+		if (reg.test(value) == true || ch.test(value) != true) {
+		alert("请输入中英文字符");
+		}

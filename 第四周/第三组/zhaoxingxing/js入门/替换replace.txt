@@ -1,0 +1,2 @@
+var name = 'aho haio ao h';
+name = name.replace('h','hao');//将name里面的h变成hao

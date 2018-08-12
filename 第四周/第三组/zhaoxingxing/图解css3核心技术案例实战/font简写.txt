@@ -1,0 +1,7 @@
+font:font-style fontvariant fontweight fontsize/lineheight fontfamily
+简写时,1.font-size和line-height只能通过斜杠/组成一个值，不能分开写。
+2、顺序不能改变.这种简写方法只有在同时指定font-size和font-family属性时才起作用。而且，如果你没有设定font-weight, font-style, 以及 font-varient ，他们会使用缺省值
+
+font-style:normal italic（斜体样式） oblique（倾斜样式） inherit(继承父级字体样式)
+font-variant：normal small-caps（小型小写字母 首字母比较大） inherit（继承父级）
+fontweight：normal bold bolder lighter 100~900;(400等同于normal 700等同于bold)

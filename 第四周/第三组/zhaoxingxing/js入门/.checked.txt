@@ -1,0 +1,2 @@
+对type等于radio的input框，当被点击的出现时候写函数：
+document.getElementById("矿的id").checked

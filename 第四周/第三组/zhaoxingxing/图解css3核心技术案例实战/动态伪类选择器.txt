@@ -1,0 +1,5 @@
+E:link :定义超链接没有被访问过
+E:visited :定义超链接已被访问
+E:active :匹配元素被激活   （onmousedown时触发 onmouseup时消失）
+E:hover :
+E:focus :匹配元素获得焦点 （被点击时触发，并在未点击其他元素一直出现）

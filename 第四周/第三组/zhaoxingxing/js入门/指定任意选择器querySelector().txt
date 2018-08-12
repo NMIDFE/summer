@@ -1,0 +1,10 @@
+querySelector() 方法仅仅返回匹配指定选择器的第一个元素。
+querySelectorAll() 指定所有
+例：
+document.querySelector("#demo")
+document.querySelector(".demo")
+document.querySelector("p")
+document.querySelector("p.example") //获取example中的第一个p元素
+document.querySelector("a[target]") //获取有target属性的第一个a元素
+document.querySelector("h1,h2")
+document.querySelector("#demo")

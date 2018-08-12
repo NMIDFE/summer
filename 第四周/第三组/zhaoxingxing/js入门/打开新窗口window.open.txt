@@ -1,0 +1,14 @@
+function Wopen(){
+      
+var toogle=window.open('http://www.imooc.com',打开网址的路径
+'_blank',
+'width=300,height=200,  //窗口的高度，宽度
+menubar=no,	//窗口有么有菜单
+toolbar=no, 	//有没有工具条
+status=no,	//有没有状态栏
+scrollbars=yes')
+
+  } 	//有没有滚动条
+	//其他的还有left top 距离浏览器的距离
+toogle.colse(); //关闭toogle这个相关联窗口
+

@@ -1,0 +1,7 @@
+:first-letter 
+:first-line
+£ºbefore
+£ºafter
+Àı 
+a[href^=http]::after {
+content:"(" attr(href) ")"

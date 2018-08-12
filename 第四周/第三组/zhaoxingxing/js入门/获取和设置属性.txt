@@ -1,0 +1,4 @@
+1.getAtrribute£º
+Àý£ºdocument.getElementsByTagName[i].getAtrribute("title");
+2.setAtrribute£º
+Àý£ºdocument.getElementsByTagName[i].setAtrribute("title","³öÏÖ")£»

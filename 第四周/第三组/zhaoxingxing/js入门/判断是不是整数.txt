@@ -1,0 +1,7 @@
+1.typeof obj === 'number' && obj%1 === 0
+先判断是不是数后面再判断是不是整数
+2.parseInt(obj, 10) === obj
+取整后是不是等于本身 有缺陷
+3.(obj | 0) === obj
+位运算符：但是只能是32位
+4.Number.isInteger(3)

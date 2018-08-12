@@ -1,0 +1,1 @@
+story.textContent = “好” //id为story的内容变成好

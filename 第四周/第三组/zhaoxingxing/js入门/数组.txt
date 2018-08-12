@@ -1,0 +1,13 @@
+数组：
+例：var bar = Array(1,2,3,4);
+      var bar = [1,2,3,4];
+对象：
+例：
+var mess={name："john",age:12}
+var mess=Object();
+mess.name="john";
+mess.age=12;
+合并：
+例：
+bar[0]=mess;
+相反同样可以

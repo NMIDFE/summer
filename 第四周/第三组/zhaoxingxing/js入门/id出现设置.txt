@@ -1,0 +1,1 @@
+story.style.visibility = 'visible'; //将id为story设置为可见的

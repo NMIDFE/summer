@@ -1,0 +1,5 @@
+1.getElementById
+2.getElementsByTagName
+例：for(var i=0;i<document.getElementsByTagName("li");i++);
+	alert(typeof document.getElementsByTagName("li")[i]);i可以用通配符*
+3.getElementClassName

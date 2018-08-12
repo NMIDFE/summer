@@ -1,0 +1,2 @@
+parseInt（）：整数
+parseFloat() :小数

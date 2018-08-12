@@ -1,0 +1,9 @@
+function (){
+var hoppy=confirm("你喜欢前端")；
+if (hoppy==true){
+	document.write("你是女孩")；
+}
+else {
+	document.write("你是男孩")；
+}
+{}

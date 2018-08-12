@@ -1,0 +1,22 @@
+function () {
+var how;
+how=prompt("你的成绩");  //与用户交互，会出现一个文本输入框
+if(score>=90)
+	{
+	   document.write("你很棒!");
+	}
+	
+else if(score>=75)
+    {
+	   document.write("不错吆!");
+	}
+	
+else if(score>=60)
+    {
+	   document.write("要加油!");
+    }
+    
+else
+	{
+       document.write("要努力了!");
+	}

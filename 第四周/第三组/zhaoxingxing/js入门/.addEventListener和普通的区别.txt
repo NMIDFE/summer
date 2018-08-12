@@ -1,0 +1,5 @@
+some.addEventListener(click,functionA)和
+some.onclick = functionA;区别：
+后者不能写两个函数而前者可以
+appear.bind(i,i)要进行绑定，不能直接进行传参
+function appear(i,e)
