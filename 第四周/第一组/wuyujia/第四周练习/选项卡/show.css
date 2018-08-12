@@ -1,0 +1,55 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+	font-size: 14px;
+}
+#tab{
+	width: 300px;
+	height: 110px;
+	margin: 100px;
+	margin-left: 40%;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+.tab-nav{
+	position: relative;
+	width: 300px;
+	height: 27px;
+}
+.tab-nav ul{
+	position: absolute;
+	width: 300px;
+	background-color: pink;
+}
+.tab-nav li{
+	float: left;
+	width: 58px;
+	padding: 0 1px;
+	height: 36px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #eee;
+	text-align: center;
+	line-height: 36px;
+}
+.tab-nav li.active{
+	background-color: pink;
+	border-bottom-color: pink;
+	border-left: 1px solid pink;
+	border-right: 1px solid pink;
+	padding: 0px;
+	font-weight: bold;
+}
+li a:link,li a:visited{
+	text-decoration: none;
+	color: #000;
+}
+#tab-contain .mod{
+	padding: 25px 18px;
+	background-color: pink;
+}
+#tab-contain .mod ul li{
+	width: 300px;
+	height: 25px;
+	overflow: hidden;
+}
