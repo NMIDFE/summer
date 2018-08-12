@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>选项卡</title>
+</head>
+<body>
+	<style type="text/css">
+	    #box1{
+
+	    }
+		#box1 li{
+			width: 100px;
+			height: 50px;
+			background-color:#d8d8d8;;
+			border:1px white solid;
+			list-style: none;
+			float: left;
+			text-align: center;
+			line-height: 50px;
+		}
+		 #box1 .active{
+		 	background: red;
+		 }
+		#box2{
+			width: 710px;
+			height: 400px;
+			border-width: 2px;
+			border-color:black;
+			border-style: solid;
+			position: relative;
+			left:40px;
+			top: 50px;
+		}
+
+	</style>
+	<script type="text/javascript">
+		
+		window.onload=function (){
+			var a=document.getElementById('box1');
+			var ali=a.getElementsByTagName('li');
+			var b=document.getElementById('box2');
+			var bdiv=b.getElementsByTagName('div');
+			  for(var i=0;i<ali.length;i++){
+              ali[i].index=i; //为每个li添加对应的索引index
+            ali[i].onclick=function(){   //循环为每个li添加onclick事件
+            for(var i=0;i<ali.length;i++){
+                ali[i].className=" ";  //循环清空li样式
+                bdiv[i].style.display='none';  //循环隐藏所有div
+            }
+            this.className='active';  //当前点击的元素样式变成active
+            bdiv[this.index].style.display='block';    //this.index 获取当前li对应的索引
+            }
+        }
+    }
+			</script>
+<div id="box1">
+	<ul>
+		<li class="active">周一</li>
+		<li>周二</li>
+		<li>周三</li>
+		<li>周四</li>
+		<li>周五</li>
+		<li>周六</li>
+		<li>周天</li>
+	</ul></div>
+	
+
+<div id="box2">
+	<div style="display: block;">想你</div>
+	<div>好想你</div>
+	<div>真的想你</div>
+	<div>真的好想你</div>
+	<div>吃饭睡觉都想你</div>
+	<div>一发不可收的想你</div>
+	<div>想你想你也能成为嗜好</div>
+</div>
+</body>
+</html>
