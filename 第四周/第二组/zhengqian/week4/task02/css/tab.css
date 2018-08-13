@@ -1,0 +1,14 @@
+#box div{
+    width:200px;
+    height:200px;
+    background:#ccc;
+    display:none;
+}
+
+#box input{
+	outline: none;
+}
+.on{
+    color:#fff;
+    background:green;
+}
