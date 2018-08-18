@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gallery</title>
+	<style>
+		img{
+			width: 940px;
+			height: 360px;
+			clear:both;
+		}
+		body{
+			font-family: "Helvetica","Arial";
+			color: #333;
+			background-color: #ccc;
+			margin: 1em 10%;
+		}
+		h1{
+			color: #333;
+			background-color: transparent;
+		}
+		a{
+			color: #c60;
+			background-color: transparent;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		ul{
+			padding: 0;
+		}
+		li{
+			float: left;
+			padding: 1em;
+			list-style: none;
+		}
+</style>
+</head>
+<body>
+	<h1>Snapshots</h1>
+	<ul>
+		<li><a href="images/banner1.jpg" onclick="showPic(this);return false;" title="Banner 1">Banner 1</a></li>
+		<li><a href="images/banner2.jpg" onclick="showPic(this);return false;" title="Banner 2">Banner 2</a></li>
+		<li><a href="images/banner3.jpg" onclick="showPic(this);return false;" title="Banner 3">Banner 3</a></li>
+		<li><a href="images/banner4.jpg" onclick="showPic(this);return false;" title="Banner 4">Banner 4</a></li>
+	</ul>
+	<img src="images/banner1.jpg" alt="My images gallery" id="placeholder">
+	<p id="description">Choose an image.</p>
+	<script>
+		function showPic (whichpic) {
+			var source = whichpic.getAttribute("href");
+			var placeholder = document.getElementById("placeholder");
+			placeholder.setAttribute("src", source);
+			var text = whichpic.getAttribute("title");
+			var description = document.getElementById("description");
+			description.firstChild.nodeValue = text;
+		}	
+	</script>
+</body>
+</html>

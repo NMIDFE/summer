@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>gallery</title>
+	<style>
+		img{
+			clear:both;
+		}
+		body{
+			font-family: "Helvetica","Arial";
+			color: #333;
+			background-color: #ccc;
+			margin: 1em 10%;
+		}
+		h1{
+			color: #333;
+			background-color: transparent;
+		}
+		a{
+			color: #c60;
+			background-color: transparent;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		ul{
+			padding: 0;
+		}
+		li{
+			float: left;
+			margin-right: 1em;
+			margin-bottom: 1em;
+			list-style: none;
+		}
+		ul li a img{
+			width: 150px;
+		}
+</style>
+</head>
+<body>
+	<h1>Snapshots</h1>
+	<ul id="gallery">
+		<li><a href="images/banner1.jpg" title="Banner 1"><img src="images/banner1.jpg" alt="banner1"></a></li>
+		<li><a href="images/banner2.jpg" title="Banner 2"><img src="images/banner2.jpg" alt="banner2"></a></li>
+		<li><a href="images/banner3.jpg" title="Banner 3"><img src="images/banner3.jpg" alt="banner3"></a></li>
+		<li><a href="images/banner4.jpg" title="Banner 4"><img src="images/banner4.jpg" alt="banner4"></a></li>
+	</ul>
+	<script src="gallery.js"></script>
+</body>
+</html>

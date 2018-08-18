@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="p">使用AJAX修改文本内容</p>
+	<button id="btn">修改</button>
+	<script>
+		function testAjax () {
+			var xmlhttp;
+			if (window.XMLHttpRequest){
+				xmlhttp=new XMLHttpRequest();
+			}else{
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.onreadystatechange = function(){
+				// readyState
+				// 0表示未初始化
+				// 1表示正在加载
+				// 2表示加载完毕
+				// 3表示正在交互
+				// 4表示完成
+				if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+				{
+					document.getElementById("p").innerHTML=xmlhttp.responseText;
+				}
+			}
+			xmlhttp.open("GET","test.txt",true);
+			xmlhttp.send();
+		}
+		document.getElementById("btn").onclick = testAjax;
+	</script>
+</body>
+</html>

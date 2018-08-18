@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>练习</title>
+</head>
+<body>
+	<div id="div">
+		<div class="newDiv"></div>
+	</div>
+	<div class="newDiv"></div>
+	<script>
+		/**
+		 * 通过class属性中的类名来访问属性
+		 * node : 表示DOM树中的搜索起点
+		 * className : 表示要搜索的类名
+		 */
+		function getElementsByClassName(node,className) {
+			if(node.getElementsByClassName){
+				return node.getElementsByClassName(className);
+			}else {
+				var results = new Array();
+				var elems = node.getElementsByTagName("*");
+				for(var i=0;i<elems.length;i++){
+					if(elems[i].className.indexOf(className)!=-1){
+						results[results.length] = elems[i];
+					}
+				}
+				return results;
+			}
+		}
+		/**
+		 * 测试
+		 */
+		var div = document.getElementById("div");
+		var newDiv=getElementsByClassName(div,"newDiv");
+		console.log(newDiv);
+		console.log(getElementsByClassName(document,"newDiv"))
+	</script>
+</body>
+</html>
