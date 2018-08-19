@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>queue ordering</title>
+    <style type="text/css">
+        td{
+            width: 20px;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            background-color: red;
+        }
+        #bt3{
+            margin-left: 20px;
+        }
+        #bt1,#bt2,#bt3,#bt4{
+            border-radius: 5px;
+            border-style: none;
+            border: 1px solid gray;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <input type="number" id="in" onclick="check()">
+    <button id="bt1" onclick="click1()">左侧入</button> 
+    <button id="bt2" onclick="click2()">右侧入</button>
+    <button id="bt3" onclick="click3()">左侧出</button>
+    <button id="bt4" onclick="click4()">右侧出</button>
+    <table id="myTable">
+        <tr id="queue">
+    <!--         <td></td>    -->     
+        </tr>
+    </table>
+<script>
+    function click1(){
+        var val=document.getElementById("in").value;  //获取输入框的内容
+        if(document.getElementsByTagName("td").length==0){
+            document.getElementById("queue").appendChild(document.createElement("td"));
+            document.getElementsByTagName("td")[0].innerHTML=val;
+        }else {
+            document.getElementById("queue").appendChild(document.createElement("td"));
+            var tds=document.getElementsByTagName("td");
+            for(var i=tds.length-2;i>=0;i--){
+                tds[i+1].innerHTML=tds[i].innerHTML;  //将原有元素全部后移一位
+            }
+            tds[0].innerHTML=val;
+        }
+    }
+    function click2(){
+        document.getElementById("queue").appendChild(document.createElement("td"));
+        var val=document.getElementById("in").value;
+        var tds=document.getElementsByTagName("td");
+        tds[tds.length-1].innerHTML=val;
+    }
+    function click3(){
+        var tds=document.getElementsByTagName("td");
+        alert(tds[0].innerHTML);
+        tds[0].remove();  //移除下标为0的元素，即最左端的元素
+    }
+    function click4(){
+        var tds=document.getElementsByTagName("td");
+        alert(tds[tds.length-1].innerHTML);
+        tds[tds.length-1].remove();  //移除最右端（末尾）的元素
+    }
+</script>
+</body>
+</html>
