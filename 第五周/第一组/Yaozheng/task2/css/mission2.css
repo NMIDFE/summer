@@ -1,0 +1,21 @@
+#listOutPut {
+	margin-top: 20px;
+}
+
+.red {
+    display: inline-block;
+	background-color: #ff0000;
+	color: #ffffff;
+    width: 55px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 2px;
+}
+.inp{
+    margin-left: 2px;
+}
+#inpt{
+    display: block;
+    margin-left: 2px;
+}
