@@ -1,0 +1,14 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#box{
+	width: 400px;
+	margin: 100px auto;
+}
+button{
+	cursor: pointer;
+}
+#tbe button{
+	color: blue;
+}

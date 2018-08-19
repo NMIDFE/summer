@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script>
+function loadXMLDoc()
+{
+	var xmlhttp = new XMLHttpRequest();
+	xmlhttp.onreadystatechange=function()
+	{
+		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		{
+			document.getElementById("myajax").innerHTML=xmlhttp.responseText;
+		}
+	}
+	xmlhttp.open("GET","simple.txt",true);
+	xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<div id="myajax"><h2>使用 AJAX 修改该文本内容</h2></div>
+<button type="button" onclick="loadXMLDoc()">修改内容</button>
+
+</body>
+</html>
