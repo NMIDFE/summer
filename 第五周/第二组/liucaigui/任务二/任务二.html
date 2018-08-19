@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <title>task_18</title>
+</head>
+<body>
+  <input type="text" id="text">
+  <input type="button" value="左侧入" id="left_move"/>
+  <input type="button" value="右侧入" id="right_move" />
+  <span>&nbsp;&nbsp;&nbsp;</span>
+  <input type="button" value="左侧出" id="left_leave"/>
+  <input type="button" value="右侧出" id="right_leave"/>
+
+<div id="num"></div>
+<script type="text/javascript">
+    var oleft_move=document.getElementById("left_move");
+    var oright_move=document.getElementById("right_move");
+    var oleft_leave=document.getElementById("left_leave");
+    var oright_leave=document.getElementById("right_leave");
+    var oNum=document.getElementById("num");
+    var text=document.getElementById("text");
+    function createNode(){
+      var oNode=document.createElement("span");
+      oNode.style.width="auto";
+      oNode.style.height="50px";
+      oNode.style.background="red";
+      oNode.style.lineHeight="50px";
+      oNode.style.paddingLeft="5px";
+      oNode.style.paddingRight="5px";
+      oNode.style.marginLeft="10px";
+      oNode.style.textAlign="center";
+      return oNode;
+    }
+    function right_move(num){
+      var oNode=createNode();
+      var oText=document.createTextNode(num);
+      oNode.appendChild(oText);
+      oNum.appendChild(oNode);
+    }
+    function left_move(num){
+      var oNode=createNode();
+      var oText=document.createTextNode(num);
+      oNode.appendChild(oText);
+      if(oNum.hasChildNodes()){
+      oNum.insertBefore(oNode,oNum.firstChild);//插入到前面
+    }else{
+      oNum.appendChild(oNode);
+          }
+    }
+    function left_leave(){
+       var oBtn=oNum.firstChild;
+        alert(oBtn.innerHTML);
+      oNum.removeChild(oNum.firstChild);
+    }
+    function right_leave(){
+       var oBtn=oNum.lastChild;
+       alert(oBtn.innerHTML);
+      oNum.removeChild(oNum.lastChild);
+    }
+      oright_move.onclick=function(){
+        
+        var num=text.value;
+        if(!Number(num)){
+          alert("输入不合法，请输入数字");
+              text.value="";
+        }
+        else{
+          right_move(num);
+           }
+      };
+     oleft_move.onclick=function(){
+        
+        var num=text.value;
+           if(!Number(num)){
+          alert("输入不合法，请输入数字");
+              text.value="";
+        }else{
+          left_move(num);
+            }
+      };
+      oleft_leave.onclick=function(){
+        left_leave();
+     
+      };
+      oright_leave.onclick=function(){
+        right_leave();
+      }
+    </script>
+</body>
+</html>
