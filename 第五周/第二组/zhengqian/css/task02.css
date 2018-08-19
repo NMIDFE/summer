@@ -1,0 +1,23 @@
+input{
+	padding: 10px 5px;
+}
+
+button{
+	padding: 8px;
+	background: #fff;
+	border: 1px solid #aaa;
+	border-radius: 10%;
+	outline: none;
+}
+button:hover{
+	cursor: pointer;
+}
+#show{
+	margin-top: 20px;
+}
+#show span{
+	display: inline-block;
+	padding: 8px;
+	background: pink;
+	color: #fff;
+}
