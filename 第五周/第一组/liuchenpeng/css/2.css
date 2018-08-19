@@ -1,0 +1,30 @@
+.clear{
+  overflow: hidden;
+}
+.in{
+  float: left;
+}
+.all{
+    width: 408px;
+    float: left;
+    margin-left: 20px;
+}
+.all div{
+    width: 100px;
+    float: left;
+    border: 1px solid #999;
+    text-align: center;
+    cursor: pointer;
+}
+.charu{
+  overflow: hidden;
+}
+.charu div{
+  float: left;
+  background: red;
+  color: white;
+  width: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  text-align: center;
+}

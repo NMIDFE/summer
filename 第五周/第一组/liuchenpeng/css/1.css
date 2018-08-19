@@ -1,0 +1,13 @@
+*{
+  list-style: none;
+}
+.list li{
+  overflow: hidden;
+}
+.list div{
+  float: left;
+}
+.list button{
+  display: block;
+  float: left;
+}
