@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>js中的Ajax经典实例</title>
+    <script type="text/javascript" >
+        function ajax() {
+            //1.声明异步请求对象：
+            var xmlHttp = null;
+            if (window.ActiveXObject) {
+                // IE6, IE5 浏览器执行代码
+                xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+            } else if (window.XMLHttpRequest) {
+                // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+                xmlHttp = new XMLHttpRequest();
+            }
+            //2.如果实例化成功，就调用open（）方法：
+            if (xmlHttp != null) {
+                xmlHttp.open("get", "data.txt", true);
+                xmlHttp.send();
+                xmlHttp.onreadystatechange = doResult; //设置回调函数                 
+            }
+            function doResult() {
+                if (xmlHttp.readyState == 4) { //4表示执行完成
+                    if (xmlHttp.status == 200) { //200表示执行成功
+                        document.getElementById("resText").innerHTML = xmlHttp.responseText;
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="resText"></div>
+        <input type="button" value="点击获得文本内容" onclick="ajax();"/>
+    </form>
+</body>
+</html>
+
