@@ -1,0 +1,23 @@
+#input-number{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+#button-4{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+#queue{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+span{
+    border: 1px red solid;
+    padding: 0;
+    margin: 0;
+}
+span:hover{
+    cursor: pointer;
+}
