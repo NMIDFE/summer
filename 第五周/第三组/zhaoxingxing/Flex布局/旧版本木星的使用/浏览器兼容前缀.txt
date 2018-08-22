@@ -1,0 +1,4 @@
+浏览器兼容性：
+-moz代表firefox浏览器私有属性，
+-ms代表ie浏览器私有属性，
+-webkit代表safari、chrome私有属性。

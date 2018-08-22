@@ -1,0 +1,2 @@
+column-gap: normal | length
+用来设置列间距

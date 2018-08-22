@@ -1,0 +1,11 @@
+语法：
+box-orient: horizontal || vertical || inline-axis || block-axis
+horizontal：伸缩项目在伸缩容器中从左到右在一条不平线上排列显示。
+
+vertical：伸缩项目在伸缩容器中从上到下在一条垂直线上排列显示。
+
+inline-axis：伸缩项目沿着内联轴排列显示。
+
+block-axis：伸缩项目沿着块轴排列显示。
+新版本：
+flex-direction: row(从左向右，默认值) || row-reverse || column || column-reverse

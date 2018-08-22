@@ -1,0 +1,2 @@
+justify-content: flex-start(向一行的起始位置对齐) | flex-end(向一行的结束位置对齐) | center(向中间位置靠) | 
+space-between(伸缩项平均的分布在行里) | space-around(伸缩项目会平均的分布行里，两端保留一般的空间)

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>任务十八：基础JavaScript练习（一）</title>
+	<style type="text/css">
+		* {
+			padding:0;
+			margin: 0 auto;
+		}
+		.all {
+			position: relative;
+			top: 50px;
+			width: 50%;
+			text-align: center;
+		}
+		button {
+			cursor: pointer;
+			height: 25px;
+			width: auto;
+			border: 0;
+			border-bottom: 2px solid lightblue;
+			background: none;
+			padding:0;
+		}
+		button:active,button:hover {
+			background: lightblue;
+		}
+		.list .ul{
+			margin-top: 100px;
+			height: 100px;
+		}
+		.list .ul li {
+			position: relative;
+			bottom: 0;
+			vertical-align: bottom;
+			display:inline-block;
+			width:30px;
+			background: lightblue;
+			list-style: none;
+			cursor: pointer;
+			color: black;
+		}
+		input {
+			display: block;
+			width: 200px;
+			height: 30px;
+		}
+		.ul ul {
+			position: relative;
+			bottom: 0;
+		}
+	</style>
+</head>
+<body>
+	<!-- 如图，模拟一个队列，队列的每个元素是一个数字，初始队列为空
+	有一个input输入框，以及4个操作按钮
+	点击"左侧入"，将input中输入的数字从左侧插入队列中；
+	点击"右侧入"，将input中输入的数字从右侧插入队列中；
+	点击"左侧出"，读取并删除队列左侧第一个元素，并弹窗显示元素中数值；
+	点击"右侧出"，读取并删除队列又侧第一个元素，并弹窗显示元素中数值；
+	点击队列中任何一个元素，则该元素会被从队列中删除 -->
+	<div class="all">
+		<input type="text" class="kuang">
+		<button class="left-enter">左侧进</button>
+		<button class="right-enter">右侧近</button>
+		<button class="left-out">左侧出</button>
+		<button class="right-out">右侧出</button>
+		<button class="paixu">排序</button>
+		<div class="list">
+			<div class="ul">
+				<ul></ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="任务十八：基础JavaScript练习（二）.js"></script>
+</body>
+</html>

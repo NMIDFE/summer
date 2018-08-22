@@ -1,0 +1,5 @@
+display：box(设置块伸缩容器:里面的款及元素将从左至右)||inline-box(内联级伸缩容器)
+新版本： 
+display: flexbox(块级) || inline-flexbox
+浏览器兼容性：
+display: -webkit-box;| moz-box;

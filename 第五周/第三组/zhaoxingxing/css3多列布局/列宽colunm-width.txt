@@ -1,0 +1,3 @@
+语法：
+colunm-width: auto | length
+如果没有设置该属性或设置的是auto，则根据列宽(colunm-count)自动调整

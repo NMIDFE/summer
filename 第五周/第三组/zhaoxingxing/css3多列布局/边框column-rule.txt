@@ -1,0 +1,1 @@
+column-rule: width | style | color

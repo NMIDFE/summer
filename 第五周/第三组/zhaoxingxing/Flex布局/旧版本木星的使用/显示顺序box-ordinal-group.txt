@@ -1,0 +1,4 @@
+box-ordinal-group: integer(默认是1)：主要使用来安排里面想哭的顺序
+兼容性：-moz-box-ordinal-groud:数字
+-webkit-box-ordinal-groud:数字
+新版本：order: 数字；

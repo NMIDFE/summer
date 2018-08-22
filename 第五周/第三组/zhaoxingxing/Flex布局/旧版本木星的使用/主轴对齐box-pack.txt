@@ -1,0 +1,5 @@
+box-pack: start(向一行起始位置对齐) | end | 
+center(左右：向一行中间位置对齐) | justify(项目平均的分布在一行里) 
+新版本：
+flex-pack: start | end | center | justify | distribute(项目平均分配，但是两端会保留一定的空间就是padding的一半)
+

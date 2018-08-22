@@ -1,0 +1,3 @@
+column-fill: auto|balance
+auto: 各列的高度根据内容变化
+balance：根据最大的一行设置统一高度

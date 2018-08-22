@@ -1,0 +1,2 @@
+align-items: flex-start(侧轴起点开始) | flex-end(侧轴终点结束) | center(上下居中) |baseline(艺元素的中间对齐) | stretch
+旧版：box-align: start | end | center | baseline | stretch

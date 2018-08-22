@@ -1,0 +1,3 @@
+box-line：single || muliple
+新版本：
+fles-wrap: nowrap(单行显示) | wrap(多行显示) | wrap-reverse(多行显示)
