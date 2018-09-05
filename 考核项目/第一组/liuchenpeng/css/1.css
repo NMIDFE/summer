@@ -1,0 +1,1092 @@
+*{
+  margin: 0 auto;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.zhemuceng{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(46, 30, 30, 0.5);
+  display: none;
+}
+.top{
+  height: 78px;
+  width: 1000px;
+  position: relative;
+}
+.logo{
+  background: url(../images/logo.png);
+  width: 153px;
+  height: 37px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.search{
+  width: 300px;
+  height: 36px;
+  padding-top: 20px;
+  margin-left: 193px;
+}
+.search1{
+  border: 1px solid #ccc;
+  width: 298px;
+  height: 34px;
+  line-height: 34px;
+  position: relative;
+}
+.search1 input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 249px;
+  height: 24px;
+  line-height: 24px;
+  border: 0;
+  margin-left: 14px;
+  padding: 5px 0;
+  color: #666;
+}
+.search2{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  background: 0 0;
+  cursor: pointer;
+}
+.search2 i{
+  display: block;
+  margin: 9px 0 0 9px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/search.png) no-repeat;
+  background-position: -40px -56px;
+  cursor: pointer;
+}
+.topnav{
+  position: absolute;
+  width: 402px;
+  top: 30px;
+  right: 0;
+}
+.topnav ul{
+  width: 250px;
+  float: left;
+  text-align: right;
+  padding-right: 11px;
+  border-right: 1px solid #e6e6e6;
+  padding-left: 0;
+}
+.topnav li{
+  float: left;
+  padding: 0 15px;
+  font-size: 13px;
+}
+.topnav li:hover{
+  color: #169af3;
+}
+.logIn{
+  width: 110px;
+  float: right;
+  margin-top: -5px;
+  margin-left: 30px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.user{
+  border: 1px solid grey;
+  display: none;
+  width: 110px;
+  float: right;
+  height: 16.8px;
+  line-height: 16.8px;
+  text-align: center;
+}
+.login{
+  background: #169af3;
+  color: #fff;
+  float: left;
+  width: 48px;
+  line-height: 28px;
+  border: 1px solid #169af3;
+}
+.zc{
+  float: left;
+  width: 48px;
+  line-height: 28px;
+  border: 1px solid #dbdbdb;
+  color: #777;
+  margin-left: 10px;
+}
+.logIn::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.zc:hover{
+  border: 1px solid #169af3;
+}
+.login:hover{
+  background: #158fe1;
+}
+.top-low{
+  width: 100%;
+  min-width: 1000px;
+  height: 55px;
+  background-color: #2c323b;
+}
+.top-lownav{
+  width: 1000px;
+}
+.homenav li{
+  float: left;
+  line-height: 55px;
+}
+.special{
+  background-color: #169af3;
+  color: #fff;
+  display: block;
+  padding: 0 30px;
+}
+.normal{
+  color: #fff;
+  display: block;
+  padding: 0 30px;
+}
+#change{
+  background: url(../images/arrowMored.png) no-repeat 72px 25px;
+  position: relative;
+}
+#change:hover{
+  background: url(../images/arrowMoreu.png) no-repeat 72px 25px #169af3;
+}
+.a{
+  display: none;
+  position: absolute;
+  width: 92px;
+  background-color: #2c323b;
+  left: 0;
+}
+.a ul{
+  padding-left: 0;
+  text-align: center;
+}
+.a li{
+  float: none;
+}
+.a li:hover{
+  background-color: #383d44;
+}
+#change:hover .a{
+  display: block;
+  z-index: 1;
+}
+.subnav{
+  float: right;
+  margin-top: 16px;
+  height: 35px;
+}
+.subnav li{
+  float: left;
+  margin-left: 20px;
+}
+.subnav::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.subnav a{
+  color: #ddd;
+  display: block;
+  padding-left: 20px;
+  background-image: url(../images/sprite.png);
+}
+.subnav1{
+  background-position: 0 -118px;
+}
+.subnav2{
+  background-position: 0 -154px;
+}
+.subnav3{
+  background-position: 0 -190px;
+}
+.subnav4{
+  background-position: 0 -280px;
+}
+.subnav a:hover{
+  color: #169af3;
+}
+.subnav1:hover{
+  background-position: 0 -100px;
+}
+.subnav2:hover{
+  background-position: 0 -136px;
+}
+.subnav3:hover{
+  background-position: 0 -172px;
+}
+.subnav4:hover{
+  background-position: 0 -244px;
+}
+.lunbo{
+  min-width: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+.banner{
+  height: 350px;
+  overflow: hidden;
+}
+.banner img{
+  width: 100%;
+  height: 350px;
+}
+.leftarrow{
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  left: 0;
+  top: 88px;
+  background: url(../images/sprite.png) 0 -755px;
+}
+.rightarrow{
+  width: 60px;
+  height: 120px;
+  position: absolute;
+  right: 0;
+  top: 88px;
+  background: url(../images/sprite.png) 0 -1130px;
+}
+.download{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 60px;
+  position: absolute;
+  top: 289px;
+}
+.download1{
+  width: 745px;
+  height: 60px;
+  position: absolute;
+  left: 30%;
+}
+.download1 a{
+  display: block;
+  float: left;
+  width: 130px;
+  color: #fff;
+  line-height: 25px;
+  height: 25px;
+  text-align: center;
+  padding-left: 30px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.download1 span{
+  float: left;
+  height: 18px;
+  margin-top: 25px;
+  border-right: 1px solid rgba(255,255,255,.2);
+  display: block;
+}
+#pcdown{
+  background: url(../images/pc.png) no-repeat 20px center;
+  padding-right: 45px
+}
+#iphonedown{
+  background: url(../images/mac.png) no-repeat left center;
+  padding-right: 45px;
+}
+#androiddown{
+  background: url(../images/andriod.png) no-repeat left center;
+}
+.content{
+  width: 1000px;
+  overflow: hidden;
+}
+.subContentM{
+  margin-top: 40px;
+}
+.subContentM-left{
+  width:660px;
+  float: left;
+}
+.subContentM-leftitem{
+  background: url(../images/selectlist.jpg) no-repeat 0 0;
+  height: 30px;
+  padding-bottom: 30px;
+}
+.subContentM-leftitem a{
+  display: block;
+  float: right;
+  margin-top: 7px;
+  color: #999;
+}
+.subContentM-leftitem a:hover{
+  color: #50baf7;
+}
+.subContentM-left1{
+  width: 660px;
+}
+.subContentM-left11{
+  position: relative;
+  width: 325px;
+  height: 325px;
+  margin-right: 5px;
+  float:left;
+}
+.Cover{
+  width: 325px;
+  height: 325px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.Btn{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  z-index: 1;
+}
+.subContentM-left11:hover .Cover{
+  display: block;
+}
+.cpt{
+  position: absolute;
+  background: url(../images/cptTBg.png);
+  color: white;
+  width: 152px;
+  line-height: 30px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  padding-right: 8px;
+}
+.subContentM-left11 img{
+  width: 100%;
+  height: 100%;
+}
+.icon{
+  background: url(../images/sprite.png) 0 -267px;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  line-height: 30px;
+  margin-left: 64px;
+}
+.num{
+  display: inline-block;
+}
+.cptb{
+  position: absolute;
+  bottom: 0;
+  height: 38px;
+  width: 309px;
+  padding: 6px 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.cptb1{
+  position: absolute;
+  bottom: 0;
+  height: 38px;
+  width: 144px;
+  padding: 6px 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.songListName1{
+  color: #fff;
+  line-height: 19px;
+  text-overflow: ellipsis;
+  width: 109px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 0;
+}
+.songListName{
+  color: #fff;
+  line-height: 19px;
+  font-size: 14px;
+}
+.songListSinger{
+  color: #cfcfcf;
+  line-height: 19px;
+}
+.subContentM-left12{
+  width: 160px;
+  height: 160px;
+  position: relative;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+.subContentM-left12 img{
+  width: 100%;
+  height: 100%;
+}
+.cOver{
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.bTn{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  z-index: 1;
+}
+.subContentM-left12:hover .cOver{
+  display: block;
+}
+.subContentM-left1::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.subContentM-right{
+  width: 320px;
+  float: left;
+  margin-left: 20px;
+}
+.hotlist{
+  background: url(../images/hotlist.jpg) 0 0 no-repeat;
+}
+.listitem{
+  background: #f6f6f6;
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+.listitem img{
+  width: 98px;
+  height: 98px;
+  float: left;
+}
+.list{
+  overflow: hidden;
+  width: 200px;
+  height: 68px;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.list dt{
+  line-height: 24px;
+  color: #333;
+  font-weight:
+}
+.list dd{
+  width: 180px;
+  line-height: 24px;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.subContentM::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.cover{
+  width: 98px;
+  height: 98px;
+  background-color: rgba(0,0,0,.3);
+  position: absolute;
+  display: none;
+}
+.btn{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  left: 31px;
+}
+.listitem:hover .cover{
+  display: block;
+}
+.advertisement{
+  margin-top: 10px;
+}
+.newsong{
+  background: url(../images/newlist.jpg) no-repeat 0 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+.tabT{
+  float: left;
+  margin-left: 150px;
+}
+.tabT span{
+  line-height: 30px;
+  margin-right: 20px;
+}
+.cg{
+  color: #009af3;
+}
+.playAll{
+  float: right;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding: 5px 10px;
+  color: #555;
+  cursor: pointer;
+  background-color: #fff;
+}
+.play{
+  width: 12px;
+  height: 14px;
+  background: url(../images/sprite.png) 0 -303px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.playAll:hover{
+  border: 1px solid #009af3;
+}
+.playAll:hover .play{
+  background: url(../images/sprite.png) 0 -341px;
+}
+.itemContent{
+  overflow: hidden;
+  height: 280px;
+}
+.itemContent a{
+  color: #333;
+  display: block;
+  line-height: 35px;
+  height: 35px;
+  position: relative;
+}
+.itemContent ul{
+  padding-left: 0;
+}
+.itemContent li{
+  height: 35px;
+  line-height: 35px;
+}
+.songname{
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: left;
+  line-height: 35px;
+}
+.songtime{
+  float: right;
+}
+.songtips{
+  margin: 12px 0 0 10px;
+  padding: 12px 0 0 21px;
+  background: url(../images/first.png) no-repeat 0 0;
+  display: inline-block;
+}
+.itemContent li a::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.itemContent li:hover .songtips{
+  display: none;
+}
+.itemContent li a:hover{
+  color: #009af3;
+  background-color: #f5f8fb
+}
+.play1{
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  display: none;
+}
+.down{
+  background: url(../images/icon_splice.png) -90px 0 no-repeat;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 10px;
+  right: 75px;
+  display: none;
+}
+.itemContent li a:hover .play1{
+  display: block;
+}
+.itemContent li a:hover .down{
+  display: block;
+}
+.tuijian{
+  background: url(../images/albumlist.jpg) no-repeat 0 0;
+}
+.iTemContent{
+  width: 332px;
+}
+.cptt{
+  width: 320px;
+  height: 175px;
+  margin-bottom: 12px;
+  margin-left: 0;
+  float: left;
+}
+.cptt a{
+  position: relative;
+  display: block;
+  width: 320px;
+  height: 175px;
+}
+.cptt img{
+  width: 100%;
+  height: 100%;
+}
+.cptb2{
+  position: absolute;
+  bottom: 0;
+  height: 38px;
+  width: 309px;
+  padding: 6px 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}
+.songListName2{
+  color: #fff;
+  line-height: 19px;
+  text-overflow: ellipsis;
+  width: 309px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 0;
+}
+.covEr{
+  width: 320px;
+  height: 175px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.BTn{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  top: 50%;
+  left: 145px;
+  margin-top: -18px;
+  z-index: 1;
+}
+.cptt a:hover .covEr{
+  display: block;
+}
+.iTemContent::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.cptt1{
+  width: 154px;
+  height: 130px;
+  margin-right: 12px;
+  float: left;
+}
+.cptt1 a{
+  display: block;
+  position: relative;
+  width: 154px;
+  height: 130px;
+}
+.cptt1 img{
+  width: 100%;
+}
+.cptt1b{
+  width: 144px;
+  height: 38px;
+  font-size: 14px;
+  padding: 5px 0 0;
+}
+.songListName3{
+  width: 154px;
+  color: #444;
+  line-height: 19px;
+}
+.songListSinger1{
+  font-size: 12px;
+  color: #888;
+  line-height: 19px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cptt1:hover .songListName3{
+  color: #009af3;
+}
+.coveR{
+  width: 154px;
+  height: 86px;
+  position: absolute;
+  top: 0;
+  background: rgba(0,0,0,0.3);
+  display: none;
+}
+.btN{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  top: 50%;
+  left: 60px;
+  margin-top: -18px;
+  z-index: 1;
+}
+.cptt1:hover .coveR{
+  display: block;
+}
+.pages{
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
+  color: #999;
+}
+.remendiantai{
+  background: url(../images/hotredio.jpg) no-repeat 0 0;
+}
+.round{
+  padding: 0;
+  width: 700px;
+  overflow: hidden;
+}
+.round li{
+  width: 100px;
+  margin-right: 37px;
+  margin-bottom: 25px;
+  float: left;
+}
+.round a{
+  width: 100px;
+  height: 130px;
+  position: relative;
+  display: block;
+}
+.radioLogo{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.radioLogo img{
+  width: 100%;
+}
+.radioKind{
+  width: 100px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+.COver{
+  width: 100px;
+  height: 100px;
+  background: url(../images/radio.png);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.BTN{
+  width: 36px;
+  height: 36px;
+  background: url(../images/sprite.png) 0 -401px;
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  margin-top: -18px;
+  z-index: 1;
+}
+.round a:hover .COver{
+  display: block;
+}
+.remengeshou{
+  background: url(../images/hotsinger.jpg) no-repeat 0 0;
+  width: 350px;
+}
+.tabt{
+  margin-left: 120px;
+  line-height: 30px;
+}
+.tabt span{
+  margin-left: 10px;
+}
+.act{
+  color: #009af3;
+}
+.first{
+  padding: 0;
+}
+.actv{
+  display: none;
+}
+.first::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.first li{
+  float: left;
+}
+.first1{
+  width: 160px;
+  height: 160px;
+  margin: 0 5px 5px 0;
+  position: relative;
+}
+.first1 img{
+  width: 100%;
+  height: 100%;
+}
+.COVER{
+  width: 160px;
+  height: 160px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.tip{
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 160px;
+  line-height: 30px;
+  padding-left: 20px;
+}
+.first1:hover .COVER{
+  display: block;
+}
+.first2{
+  width: 105px;
+  height: 105px;
+  margin: 0 5px 5px 0;
+  position: relative;
+}
+.COVER1{
+  width: 105px;
+  height: 105px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.tip1{
+  width: 105px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding-left: 10px;
+  line-height: 30px;
+}
+.first2:hover .COVER1{
+  display: block;
+}
+.first2 img{
+  width: 100%;
+  height: 100%;
+}
+.partner{
+  width: 1000px;
+  padding-top: 30px;
+}
+.iTem{
+  height: 30px;
+  padding-bottom: 30px;
+  background: url(../images/partner.jpg) no-repeat;
+}
+.friends{
+  width: 1010px;
+}
+.friends::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.friends a{
+  width: 130px;
+  height: 58px;
+  float: left;
+  margin: 0 12px 12px 0;
+  border: 1px dashed #ccc;
+  padding: 0;
+  overflow: hidden;
+  cursor: default;
+}
+.link{
+  width: 1000px;
+  padding-top: 30px;
+}
+.link1{
+  background: url(../images/friendLink.jpg) no-repeat;
+}
+.link2{
+  width: 1000px;
+  padding-bottom: 20px;
+}
+.link2 a{
+  width: 125px;
+  height: 24px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #555;
+  float: left;
+}
+.link2::after{
+  display: block;
+  clear: both;
+  content: ".";
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+.footerwrapper{
+  background-color: #2c323b;
+}
+.footer{
+  padding-bottom: 50px;
+}
+.links{
+  border-bottom: 1px solid #3d424a;
+  padding: 15px 0;
+  font-size: 12px;
+  color: #b1b3b9;
+  text-align: center;
+}
+.links a{
+  color: #b1b3b9;
+  padding: 10px;
+}
+.link2 a:hover{
+  color: #009af3;
+}
+.words{
+  width: 1000px;
+  margin: 40px auto 0;
+}
+.words p{
+  line-height: 30px;
+  text-align: center;
+  color: #b1b3b9;
+}
+.zcjiemian{
+  position: fixed;
+  width: 440px;
+  background-color: #fff;
+  z-index: 999;
+  left: 50%;
+  margin-left: -220px;
+  top: 200px;
+  display: none;
+}
+.zc4{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #009af3;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.zc1 input{
+  display: block;
+  margin-top: 30px;
+  height: 20px;
+  padding: 0;
+}
+.zc5{
+  position: absolute;
+  width: 60px;
+  line-height: 25px;
+  top: 30px;
+  left: 60px;
+}
+.zc6{
+  position: absolute;
+  width: 60px;
+  line-height: 25px;
+  top: 80px;
+  left: 60px;
+}
+.zc7{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #009af3;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.denglujiemian{
+  position: fixed;
+  width: 440px;
+  background-color: #fff;
+  z-index: 999;
+  left: 50%;
+  margin-left: -220px;
+  top: 200px;
+  display: none;
+}
+.logo1{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #009af3;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
