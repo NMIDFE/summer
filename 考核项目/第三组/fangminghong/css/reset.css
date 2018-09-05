@@ -1,0 +1,25 @@
+/*样式重置*/
+*{margin:0;padding:0;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+/*清除浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+/*默认样式*/
+body{font:12px Arial, Helvetica, sans-serif;}
+img{border:0; cursor:pointer;}
+/*类*/
+.left{float: left;}
+.right{float: right;}
+.clear-margin{margin: 0!important;}
+/*通用样式*/
+.still-more{color: #999;margin-top: 7px;font-size: 13px;}
+.still-more:hover{color: #169af3;}
+.ad{cursor: pointer;}
+.relative{position: relative;}
+.absolute{position: absolute;}
+.display-none{display: none;}
+.clear-margin-horizontal{margin-left: 0!important;margin-right: 0!important;}

@@ -1,0 +1,338 @@
+.nav .left-ul li:nth-child(2){
+	background-color: #0c8ed9;
+}
+.nav .left-ul li:nth-child(2) a{
+	color: #fff;
+}
+.nav .left-ul li:nth-child(1){
+	background-color: #28323B;
+}
+.nav .left-ul li:nth-child(1) a{
+	color: #ddd;
+}
+.nav .left-ul li:hover{
+	background-color: #0c8ed9;
+}
+.nav .left-ul li:hover a{
+	color: #fff;
+}
+
+.list-content{
+	width: 1000px;
+	margin: 40px auto;
+}
+.list-left{
+	width: 218px;
+	height: 1315px;
+	box-sizing: border-box;
+}
+.list-top{
+	width: 218px;
+	padding-left: 15px;
+	border: 1px solid #f2f2f2;
+	cursor: pointer;
+	position: relative;
+	box-sizing: border-box;
+}
+.list-top:hover i{
+	color: #169af3;
+}
+.list-left a{
+	line-height: 45px;
+	font-size: 16px;
+	color: #555;
+	font-weight: 400;
+}
+.list-left i{
+	font-size: 12px;
+	position: absolute;
+	right: 30px;
+	top: 18px;
+}
+
+.list-left-hot{
+	width: 218px;
+	height: 731px;
+	border: 1px solid #f2f2f2;
+	box-sizing: border-box;
+}
+.list-content-one{
+	width: 216px;
+	height: 685px;
+	border: 1px solid #f2f2f2;
+}
+.list-content-one ul{
+	width: 216px;
+	height: 685px;
+}
+.list-li ul li{
+	width: 216px;
+	height: 36px;
+	margin-bottom: 4px;
+}
+.list-li ul li:hover{
+	background-color: #F5F8FB;
+	cursor: pointer;
+}
+.list-li ul li:hover a{
+	color: #169af3;
+}
+.current-list-p a{
+	color: #fff!important;
+}
+.list-li ul li a{
+	width: 216px;
+	height: 36px;
+	font-size: 14px;
+	line-height: 36px;
+	padding-left: 15px;
+	color: #555;
+}
+.list-li ul li a span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	position: relative;
+	top: 3px;
+}
+.list-li ul li a p{
+	display: inline-block;
+	width: 50px;
+	height: 18px;
+	margin-left: 3px;
+}
+.list-li ul li a span img{
+}
+.current-list-p{
+	background: #169af3 !important;
+	color: #fff;
+}
+.list-content-two{
+	width: 216px;
+	height: 286px;
+	border: 1px solid #f2f2f2;
+}
+.list-content-third{
+	width: 216px;
+	height: 206px;
+	border: 1px solid #f2f2f2;
+}
+.list-right{
+	width: 750px;
+	height: 1500px;
+	//background-color: red;
+}
+.list-right-header{
+	width: 750px;
+	height: 56px;
+	border-bottom: 1px dotted #cacaca;
+}
+.list-right-header h3{
+	font-size: 24px;
+	margin-right: 20px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.list-right-header .rank_update{
+	display: inline-block;
+	color: #999;
+	font-size: 14px;
+	margin-top: 22px;
+	letter-spacing: .2px;
+}
+.list-right-header button{
+	width: 112px;
+	height: 34px;
+	background: #169af3;
+	color: #fff;
+	border: 1px solid #dbdbdb;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+.list-right-header button span{
+	display: inline-block;
+	width: 10px;
+	height: 14px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+.list-right-header button:hover{
+	background: #158FE1;
+}
+.list-right-content .check{
+	width: 750px;
+	height: 30px;
+	font-size: 14px;
+	color: #999;
+	margin-top: 30px;
+}
+.list-right-content input{
+	margin: 0 10px;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	top: 2px;
+	float: left;
+}
+.list-right-content ul{
+	width: 750px;
+	height: 1210px;
+	margin-top: 10px;
+}
+.list-right-content ul li{
+	width: 750px;
+	height: 54px;
+	border-bottom: 1px solid #f2f2f2;
+	line-height: 54px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.list-right-content ul li:hover {
+	background-color: #F5F8FB;
+}
+.list-right-content ul li:hover .content-p{
+	color: #009af3;
+}
+.list-right-content ul li:hover .list-time{
+	color: #009af3;
+}
+.list-right-content ul li:hover .all-play{
+	display: block;
+}
+.list-right-content ul li:hover .all-download{
+	display: block;
+}
+.list-right-content ul li:hover .all-share{
+	display: block;
+}
+.list-right-content ul li .all-new{
+	display: inline-block;
+	width: 17px;
+	height: 9px;
+	background-image: url(../images/list/all-new.png);
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+	display: none;
+}
+.list-right-content ul li p{
+	position: relative;
+	bottom: 15px;
+	color: #999;
+	font-size: 14px;
+}
+.list-right-content ul li .first-p{
+	width: 30px;
+	float: left;
+	font-size: 18px;
+	font-family: Tahoma;
+	color: #fe2c62;
+	font-weight: 400;
+}
+.list-right-content ul li .second-p{
+	width: 30px;
+	float: left;
+	font-size: 18px;
+	font-family: Tahoma;
+	color: #fe2c62;
+	font-weight: 400;
+}
+.list-right-content ul li .third-p{
+	width: 30px;
+	float: left;
+	font-size: 18px;
+	font-family: Tahoma;
+	color: #fe2c62;
+	font-weight: 400;
+}
+.list-right-content ul li .other-p{
+	width: 30px;
+	float: left;
+}
+.list-right-content ul li .content-p{
+	color: #333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+}
+.list-right-content ul li .all-play{
+	float: right;
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	background-image: url(../images/play-icon-one.png);
+	margin-right: 10px;
+	display: none;
+}
+.list-right-content ul li .all-play:hover{
+	background-image: url(../images/play-icon-two.png);
+}
+.list-right-content ul li .all-download{
+	width: 13px;
+	height: 13px;
+	float: right;
+	background-image: url(../images/download-icon-one.png);
+	margin-right: 10px;
+	display: inline-block;
+	display: none;
+}
+.list-right-content ul li .all-download:hover{
+	background-image: url(../images/download-icon-two.png);
+}
+.list-right-content ul li .all-share{
+	float: right;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	background-image: url(../images/share-icon-one.png);
+	margin-right: 10px;
+	position: relative;
+	display: none;
+}
+.list-right-content ul li .all-share:hover{
+	background-image: url(../images/share-icon-two.png);
+}
+.list-right-content ul li .list-time{
+	float: right;
+	position: relative;
+	bottom: 18px;
+
+}
+.more-songs{
+	width: 750px;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	font-size: 16px;
+	color: #666;
+}
+.more-songs p{
+	display: inline-block;
+}
+.more-songs button{
+	width: 108px;
+	height: 36px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #169af3;
+	border-radius: 3px;
+	margin-left: 20px;
+	border:none;
+	cursor: pointer;
+}
+.more-songs button:hover{
+	background-color: #158FE1;
+}
+.list-right>div{
+	display: none;
+}
+.current-display{
+	display: block!important;
+}
+#new-display .all-new{
+	display: block;
+}

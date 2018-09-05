@@ -1,0 +1,159 @@
+.login-cover{
+	display: block;
+	width: 100%;
+	min-width: 1000px;
+	height: 3106px;
+	background-color: rgba(0,0,0,.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.login-cover-info{
+	width: 368px;
+	color: #333;
+	box-shadow: 0 0 5px #666;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 30px 35px;
+	height: 316px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -220px;
+	margin-top: -189px;
+}
+.login-info{
+	width: 368px;
+	height: 316px;
+	position: relative;
+}
+.login-info h3{
+	font-size: 22px;
+	color: #333;
+	font-family: "Microsoft YaHei";
+	font-weight: 400;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.login-info .warn{
+	position: absolute;
+	top: 36px;
+	display: none;
+}
+.login-info #show-info{
+	position: absolute;
+	top: 34px;
+	left: 16px;
+	color: #db0909;
+	display: none;
+}
+.login-info .login-close{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background-image: url(../images/login-close.png);
+	position: absolute;
+	right: -18px;
+	top: -20px;
+}
+.login-info .account{
+	height: 38px;
+	border: 1px solid #ccc;
+	background: #f6f6f6;
+	padding: 7px 10px;
+	width: 368px;
+	box-sizing: border-box;
+	position: absolute;
+	color: #7b7b7b;
+}
+.login-info .account input{
+	border: none;
+	background: #f6f6f6;
+	width: 310px;
+	height: 22px;
+}
+.login-info .account-one{
+	top:60px;
+}
+.login-info .account-two{
+	top:110px;
+}
+.login-info .auto-check{
+	position: absolute;
+	top: 165px;
+}
+.login-info .auto-login{
+	position: absolute;
+	top: 163px;
+	left: 20px;
+}
+.login-info .register-now{
+	position: absolute;
+	top: 163PX;
+	right: 0;
+	color: #7b7b7b;
+	border-bottom: 1px solid #fff;
+}
+.login-info .register-now:hover{
+	border-bottom: 1px solid #7b7b7b;
+}
+.login-info .check-login{
+	display: block;
+	width: 368px;
+	height: 40px;
+	font-size: 16px;
+	color: #fff;
+	border: 0;
+	border-radius: 4px;
+	overflow: hidden;
+	cursor: pointer;
+	background-color: #2299ed;
+	position: absolute;
+	top: 210px;
+	text-align: center;
+	line-height: 40px;
+}
+.login-info .check-login:hover{
+	background-color: #158FE1
+}
+.login-info .login-otherLogin{
+	position: absolute;
+	bottom: 0;
+	color: #7b7b7b;
+}
+.login-info .login-icon{
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	cursor: pointer;
+}
+.login-info .login-icon-one{
+	bottom: 0;
+	left: 90px;
+	background-image: url(../images/login-qq.png);
+}
+.login-info .login-icon-two{
+	bottom: 0;
+	left: 115px;
+	background-image: url(../images/login-wechat.png);
+}
+.login-info .login-others{
+	position: absolute;
+	color: #7b7b7b;
+	cursor: pointer;
+	border-bottom: 1px solid #7b7b7b;
+}
+.login-info .login-others-one{
+	right: 60px;
+	bottom: 0;
+}
+.login-info .login-others-two{
+	right: 0;
+	bottom: 0;
+}
+.login-info .login-others:hover{
+	color: #666;
+}
