@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #menu{width:200px;height:25px;background:#f9c;}
+        #item1{width:200px;}
+        #item1 ul{display:none;background:#f00;}
+        #item1 li{height:30px;}
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li id="item1">菜单项目
+        <ul>
+            <li>子菜单项目</li>
+            <li>子菜单项目</li>
+            <li>子菜单项目</li>
+            <li>子菜单项目</li>
+        </ul>
+    </li>
+</ul>
+</body>
+<script>
+
+    item1.onclick = function(){
+        var c = item1.children[0];
+        c.style.height = "0px";
+        c.style.display= "block";
+        c.style.overflow = "hidden";
+        var timer = setInterval(function(){
+            c.style.height = c.offsetHeight + 1 +"px";
+            var t = parseInt(c.style.height);
+            console.log(t);
+            if(t >= 300){
+                clearInterval(timer);
+            }
+        },10);
+
+
+
+
+
+    }
+</script>
+</html>
