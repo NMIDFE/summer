@@ -1,0 +1,33 @@
+/* 公共属性 */
+body,h1,h3,h4,div,ul,li,img,p,input {
+    margin: 0px;
+    padding: 0px;
+    
+}
+a, h1, h2, h3, h4, h5, h6, p {
+    font-size: 100%;
+}
+body,input {
+    font: 13px/1.5 \5FAE\8F6F\96C5\9ED1,simsun,sans-serif;
+}
+div {
+    display: block;
+}
+input {
+    vertical-align: middle;
+}
+i {
+    font-style: italic;
+}
+li {
+    display: list-item;
+}
+a {
+    text-decoration: none;
+}
+a, img, textarea {
+    outline: 0;
+}
+li, ol, ul {
+    list-style: none;
+}

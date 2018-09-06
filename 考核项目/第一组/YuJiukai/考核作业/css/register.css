@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    cursor: pointer;
+}
+h1 {
+    color: rgb(0, 134, 211);
+    text-align: center;
+}
+.wrap {
+    margin-top: 100px;
+    margin-left: 40%;
+}
+.same {
+    height: 38px;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    padding: 7px 10px;
+    width: 368px;
+    box-sizing: border-box;
+    position: absolute;
+    color: #7b7b7b;
+}
+.user {
+    position: relative;
+    top: 10px;
+}
+.name {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    color: #7b7b7b;
+}
+.same input {
+    border: none;
+    height: 22px;
+    line-height: 22px;
+    width: 200px;
+    padding: 0;
+    background: transparent;
+    color: #a1a1a1;
+    vertical-align: middle;
+}
+.ps {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input.log_btn {
+    position: relative;
+    top: 120px;
+    width: 368px;
+    height: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #2299ed;
+    vertical-align: middle;
+}
+input.log_btn:hover {
+    background-color: #2258ee;
+}

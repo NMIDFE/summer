@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>酷狗音乐 - 就是歌多</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/login.css" />
+</head>
+<body>
+    <div class="main">
+        <!-- 头部 -->
+        <div class="header">
+            <h1 class="logo">
+                <a  href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </h1>
+            <div class="search_wrap">
+                <div class="search_input">
+                    <input type="text" value="洛晴 可能否">
+                    <div class="search_btn">
+                        <i class="search_icon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header_nav">
+                <ul>
+                    <li>
+                        <a href="#">客服中心</a>
+                    </li>
+                    <li>
+                        <a href="#">招贤纳士</a>
+                    </li>
+                    <li>
+                        <a href="#">会员中心</a>
+                    </li>
+                </ul>
+                <div class="login_area">
+                    <div id="login_in" class="login_in">
+                        <a id="login_btn" class="login_btn">登录</a>
+                        <a href="register.html" class="regin">注册</a>
+                    </div>
+                    <div class="show"></div>
+                </div>
+            </div>    
+        </div>
+        <div class="login">
+            <div class="zzc"></div>
+            <div class="login_form">
+                <a class="login_close" id="login_close">
+                    <i></i>
+                </a>
+                <div class="login_title">
+                    <h4>登录酷狗音乐</h4>
+                </div>
+                <div class="login_content">
+                    <p class="warn"></p>
+                    <div class="same user">
+                        <label class="name">账号：</label>
+                        <input type="text" name="username" id="username" placeholder="用户名/手机/邮箱">
+                    </div>
+                    <div class="same ps">
+                        <label class="name">密码：</label>
+                        <input type="password" name="password" id="password" placeholder="请输入密码">
+                    </div>
+                    <input type="checkbox" class="chbox">
+                    <span class="autologin">下次自动登录</span>
+                    <a href="#" class="ljzc">立即注册</a>
+                    <input type="button" class="log_btn" id="denglu" value="登录">
+                    <div class="login_foot">
+                        <div class="login_foot_left">
+                            其他方式登录:
+                            &nbsp;&nbsp;
+                            <img src="img/qq.png" width="15px;" height="15px;">
+                            &nbsp;&nbsp;
+                            <img src="img/vx.png" width="15px;" height="15px;">
+                        </div>
+                        <a href="#" class="login_foot_right">用户协议</a>
+                        <a href="#" class="login_foot_right">隐私政策</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="register"></div>
+        <!-- 主页导航栏 -->
+        <div class="nav_wrap">
+            <div class="nav">
+                <ul class="home_nav">
+                    <li>
+                        <a href="#" class="normal active">首页</a>
+                    </li>
+                    <li>
+                        <a href="#" class="normal">榜单</a>
+                    </li>
+                    <li>
+                        <a href="download.html" class="normal">下载客户端</a>
+                    </li>
+                    <li class="more" id="more">
+                        <a href="#" class="showmore">
+                            更多
+                        </a>
+                        <ul class="second_nav">
+                            <li>
+                                <a href="#">电台</a>
+                            </li>
+                            <li>
+                                <a href="#">MV</a>
+                            </li>
+                            <li>
+                                <a href="#">歌单</a>
+                            </li>
+                            <li>
+                                <a href="#">歌手</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="sub_nav">
+                    <li>
+                        <a href="#" class="icon-nav1">
+                            音乐直播
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-nav2">
+                            酷狗LIVE
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-nav3">
+                            音乐人
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-nav4">
+                            商城
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 轮播框 -->
+        <div class="slider_wrap">
+            <div class="banner">
+                <!-- 图片 -->
+                <div class="img-wrap">
+                    <ul class="imgul">
+                        <li class="item">
+                            <a href="#">
+                                <img src="img/slider1.jpg" width="1519" height="445" alt="">
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <img src="img/slider2.jpg" width="1519" height="445" alt="">
+                            </a>    
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                 <img src="img/slider3.jpg" width="1519" height="445" alt="">
+                            </a>
+                        </li>
+                        <li class="item">
+                            <a href="#">
+                                <img src="img/slider4.jpg" width="1519" height="445" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 左右按钮 -->
+                <div class="lr-tab">
+                    <div class="left btn1"></div>
+                    <div class="right btn1"></div>
+                </div>
+                <!-- 小圆点 -->
+                <div class="tab-btn">
+                    <ul>
+                        <li class="btn"></li>
+                        <li class="btn"></li>
+                        <li class="btn"></li>
+                        <li class="btn"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="down_blur">
+            <div class="overlayer">
+                <div class="download">
+                    <a href="#" id="pcdown">
+                        下载PC端
+                    </a>
+                    <span class="line"></span>
+                    <a href="#" id="iphone">
+                        下载iPhone端
+                    </a>
+                    <span class="line"></span>
+                    <a href="#" id="android">
+                        下载Android端
+                    </a>
+                </div>               
+            </div>
+        </div>
+        <!-- 页面内容 -->
+        <div class="content">
+            <!-- 歌单榜单 -->
+            <div class="sub_content">
+                <!-- 精选歌单 -->
+                <div class="jxsong">
+                    <div class="item_title">
+                        <h3>
+                            <b>精选</b>歌单
+                        </h3>
+                        <a href="#" class="mor">
+                            更多
+                        </a>
+                    </div>
+                    <div class="item_content">
+                        <div class="huiwei">
+                            <a href="#"></a>
+                        </div>
+                        <div class="mi">
+                            <a href="#"></a>
+                        </div>
+                        <div class="qing">
+                            <a href="#"></a>
+                        </div>
+                        <div class="shi">
+                            <a href="#"></a>
+                        </div>
+                        <div class="cui">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 热门榜单 -->
+                <div class="hotsong">
+                        <div class="item_title2">
+                            <h3>
+                                <b>热门</b>歌单
+                            </h3>
+                            <a href="#" class="mor">
+                                更多
+                            </a>
+                        </div>
+                        <div class="item_content2">
+                            <a href="#" class="biao">
+                            </a>
+                            <a href="#" class="top">
+                            </a>
+                            <a href="#" class="wang">
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <!-- 广告一 -->
+            <a href="#" class="ads">
+            </a>
+            <!-- 新歌MV -->
+            <div class="sub_content2">
+                <!-- 新歌首发 -->
+                <div class="newsong">
+                    <div class="newsong_title">
+                        <h3>
+                            <b>新歌</b>首发
+                        </h3>
+                        <div class="ns_tab">
+                            <span>华语</span>
+                            <span>欧美</span>
+                            <span>韩国</span>
+                            <span>日本</span>
+                            <button class="playall">
+                                <span class="icon_play"></span>
+                                全部播放
+                            </button>
+                        </div>
+                    </div>
+                    <div class="newsong_content">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        薛之谦 - 违背的青春【酷狗音乐致不易青年主题曲】
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">05:36</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                            阿杜 - 坏朋友
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">04:09</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        格子兮 - 找寻
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">03:51</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        银临、HITA、清弄、小魂、陈鹏杰 - 玉剑风流【英雄联盟玉剑传说同人主题曲】
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">03:21</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        洛天依 - 英雄出征
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">03:40</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        BBT、王子异 - 暗恋【怦然心动备忘录迷你剧主题曲】
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">04:19</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        云菲菲 - 在大理等我
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">04:20</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="songname">
+                                        高安 - 只是听说
+                                    </span>
+                                    <span class="songtip"></span>
+                                    <span class="songtime">04:43</span>
+                                    <span class="play"></span>
+                                    <span class="download"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 推荐MV -->
+                <div class="tjmv">
+                    <div class="item_title3">
+                        <h3>
+                            <b>推荐</b>MV
+                        </h3>
+                        <a href="#" class="mor">
+                            更多
+                        </a>
+                    </div>
+                    <div class="item_content3">
+                        <div class="dao">
+                            <a href="#">
+
+                            </a>
+                        </div>
+                        <div class="wo">
+                            <a href="#">
+
+                            </a>
+                        </div>
+                        <div class="hou">
+                            <a href="#">
+
+                            </a>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <!-- 广告二 -->
+            <a href="#" class="ads2">
+            </a>
+            <!-- 电台歌手 -->
+            <div class="sub_content3">
+                <div class="hotradio">
+                    <div class="hot_title">
+                            <h3>
+                                <b>热门</b>电台
+                            </h3>
+                            <a href="#" class="mor">
+                                更多
+                            </a>
+                    </div>
+                    <div class="hot_content">
+                        <ul>
+                            <li class="rl_1">
+                                <a href="#">
+                                    <div class="radiologo_1">
+                                    </div>
+                                    <div class="radiokind">
+                                        KTV必点歌曲
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_2">
+                                <a href="#">
+                                    <div class="radiologo_2">
+                                    </div>
+                                    <div class="radiokind">
+                                        中文DJ
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_3">
+                                <a href="#">
+                                    <div class="radiologo_3">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        酷狗热歌
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_4">
+                                <a href="#">
+                                    <div class="radiologo_4">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        网络红歌
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_5">
+                                <a href="#">
+                                    <div class="radiologo_5">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        经典
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_6">
+                                <a href="#">
+                                    <div class="radiologo_6">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        老情歌
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_7">
+                                <a href="#">
+                                    <div class="radiologo_7">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        新歌
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_8">
+                                <a href="#">
+                                    <div class="radiologo_8">
+                                    
+                                    </div>
+                                    <div class="radiokind">
+                                        动漫
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_9">
+                                <a href="#">
+                                    <div class="radiologo_9">
+                                
+                                    </div>
+                                    <div class="radiokind">
+                                        老情歌
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="rl_10">
+                                <a href="#">
+                                    <div class="radiologo_10">
+                                
+                                    </div>
+                                    <div class="radiokind">
+                                        最爱成名曲
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hotsinger">
+                    <div class="singer_title">
+                        <h3>
+                            <b>热门</b>歌手
+                        </h3>
+                        <div class="tab">
+                            <span class="china">
+                                华语
+                            </span>
+                            <span class="europe">
+                                欧美
+                            </span>
+                            <span class="japan">
+                                日韩
+                            </span>
+                            <span>
+                                <a href="#" class="singer_more">
+                                    更多
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="singer_content">
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/md.png">
+                            </a>
+                        </div>
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/jay.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/xue.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/tf.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/mao.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="singer_content1">
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/aw.png">
+                            </a>
+                        </div>
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/mj.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/ma.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/sl.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/ts.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="singer_content2">
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/big.png">
+                            </a>
+                        </div>
+                        <div class="md">
+                            <a href="#">
+                                <img src="img/exo.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/gd.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/bts.png">
+                            </a>
+                        </div>
+                        <div class="xue">
+                            <a href="#">
+                                <img src="img/girl.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 广告三 -->
+            <a href="#" class="ads3">
+            </a>
+            <!-- 合作伙伴 -->
+            <div class="partner">
+                <div class="partner_title">
+                    <h3>
+                        <b>合作</b>伙伴
+                    </h3>
+                </div>
+                <div class="partner_content">
+                    <img src="img/friend_1.png" title="universal">
+                    <img src="img/friend_2.png" title="EMI">
+                    <img src="img/friend_3.png" title="SONY">
+                    <img src="img/friend_4.png" title="海蝶">
+                    <img src="img/friend_5.png" title="丰华唱片">
+                    <img src="img/friend_6.png" title="喜欢音乐">
+                    <img src="img/friend_7.png" title="种子音乐">
+                    <img src="img/friend_8.png" title="亚神娱乐音乐">
+                    <img src="img/friend_9.png" title="bma">
+                    <img src="img/friend_10.png" title="中唱总公司">
+                    <img src="img/friend_11.png" title="中国好声音">
+                    <img src="img/friend_12.png" title="孔雀唱片">
+                    <img src="img/friend_13.png" title="简单快乐">
+                    <img src="img/friend_14.png" title="鸟人艺术">
+                    <img src="img/friend_15.png" title="竹书">
+                    <img src="img/friend_16.png" title="极韵文化">
+                    <img src="img/friend_17.png" title="天浩盛世">
+                    <img src="img/friend_18.png" title="太合麦田">
+                    <img src="img/friend_19.png" title="东music">
+                    <img src="img/friend_20.png" title="music">
+                    <img src="img/friend_21.png" title="大国文化">
+                </div>
+            </div>
+            <div class="friendlink">
+                <div class="friendlink_title">
+                    <h3>
+                        <b>友情</b>链接
+                    </h3>
+                    <a href="#" class="more">
+                        更多
+                    </a>
+                </div>
+                <div class="friendlink_content">
+                    <a href="#">
+                        爱美网
+                    </a>
+                    <a href="#">
+                        央视网综艺频道
+                    </a>
+                    <a href="#">
+                        汽车论坛
+                    </a>
+                    <a href="#">
+                        IT之家
+                    </a>
+                    <a href="#">
+                        iPhone游戏
+                    </a>
+                    <a href="#">
+                        旅游攻略
+                    </a>
+                    <a href="#">
+                        悦声无限
+                    </a>
+                    <a href="#">
+                        华为商城
+                    </a>
+                    <a href="#">
+                        365音乐网
+                    </a>
+                    <a href="#">
+                        软件下载
+                    </a>
+                    <a href="#">
+                        漫漫看漫画
+                    </a>
+                    <a href="#">
+                        手机游戏
+                    </a>
+                    <a href="#">
+                        5sing原唱音乐
+                    </a>
+                    <a href="#">
+                        腾讯音乐人
+                    </a>
+                    <a href="#">
+                        豌豆荚
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部 -->
+        <div class="footer_wrap">
+            <div class="footer">
+                <div class="links">
+                    <a href="#">
+                        关于酷狗
+                    </a>
+                    | 
+                    <a href="#">
+                        监督举报
+                    </a>
+                    | 
+                    <a href="#">
+                        广告举报
+                    </a>
+                    | 
+                    <a href="#">
+                        版权指引
+                    </a>
+                    | 
+                    <a href="#">
+                        隐私政策
+                    </a>
+                    | 
+                    <a href="#">
+                        用户服务协议
+                    </a>
+                    | 
+                    <a href="#">
+                        推广合作
+                    </a>
+                    | 
+                    <a href="#">
+                        酷狗音乐人
+                    </a>
+                    | 
+                    <a href="#">
+                        酷狗音乐推
+                    </a>
+                    | 
+                    <a href="#">
+                        招聘信息
+                    </a>
+                    | 
+                    <a href="#">
+                        客服中心
+                    </a>
+                    | 
+                    <a href="#">
+                        用户体验计划
+                    </a>
+                </div>
+                <div class="copyright">
+                    <p>
+                        我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com
+                    </p>
+                    <p>
+                        信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="#">
+                            粤ICP备09017694号-2
+                        </a>
+                        <span class="footericon">
+                            <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        </span>
+                    </p>
+                    <p>
+                        广播电视节目制作经营许可证（粤）字第01270号
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        营业性演出许可证穗天演440106026
+                    </p>
+                    <p>
+                        穗公网监备案证第44010650010167
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        互联网药品信息服务资格证编号（粤）-非经营性-2012-0018
+                        <a href="#">
+                            粤ICP备09017694号-2
+                        </a>
+                        <span class="footericon2">
+                            <a href="#">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </span>
+                    </p>
+                    <p>
+                        不良信息举报邮箱：jubao_music@kugou.net
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        客服邮箱：kefu@kugou.com
+                    </p>
+                    <p>
+                        Copyright
+                        &nbsp;&nbsp;
+                        ©
+                        &nbsp;&nbsp;
+                        2004-2018 KuGou-Inc.All Rights Reserved
+                        <span class="footericon3">
+                            <a href="#">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 跳至顶部按钮 -->
+        <div class="jump">
+            <a href="#">
+                <img src="img/backtop.png">    
+            </a>
+        </div>
+    </div>
+<script src="js/jqku.js"></script>
+<script src="js/main.js"></script>
+<script src="js/tanchu.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
