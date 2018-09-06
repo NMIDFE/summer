@@ -1,0 +1,195 @@
+.pos {
+	width: 1000px;
+	margin: 0 auto;
+	font: 13px/40px "微软雅黑";
+}
+.pos a,.pos span {
+	float: left;
+	color: #999;
+}
+
+
+
+
+
+.download_apps {
+	background-color: #f8f8f8;
+}
+.download_content {
+	width: 1000px;
+	padding: 50px 0;
+	margin: 0 auto;
+}
+.download_content ul {
+	margin-right: -20px;
+}
+.download_content li {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	padding: 20px;
+	width: 280px;
+	background-color: #fff;
+	font: 14px "微软雅黑";
+}
+.download_content span,
+.download_content a {
+	display: block;
+	text-align: center;
+}
+.vn {
+	position: absolute;
+	top: 18px;
+	right: 16px;
+	line-height: 14px;
+	color: #c3c3c3;
+}
+.vn_infor {
+	margin-top: 9px;
+	height: 115px;
+}
+.vn_tu img {
+	width: 64px;
+	height: 64px;
+}
+.apps_name {
+	font-size: 18px;
+	color: #333;
+	line-height: 27px;
+	margin-top: 23px;
+}
+.update {
+	color: #a2a2a2;
+	line-height: 21px;
+	margin-top: 3px;
+}
+.downapp {
+	margin: 22px auto;
+	margin-bottom: 9px;
+	width: 180px;
+	background-color: #28a9f3;
+}
+.downapp span {
+	display: inline;
+	padding-left: 25px;
+	font-size: 13px;
+	line-height: 36px;
+	/*height: 36px;*/
+	color: #fff;
+	background: url(../img/Bgother.png) no-repeat;
+}
+.download_content li:hover .apps_name {
+	color: #199be5;
+}
+.download_content li:hover {
+	box-shadow: 0 0 18px rgba(0,0,0,.25);
+}
+
+
+
+
+
+.other_app {
+	background-color: #eeeff0;
+}
+.o_app_content {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0 30px 0;
+}
+.o_app_content ul {
+	margin-right: -20px;
+}
+.o_app_content li {
+	float: left;
+	width: 320px;
+	margin: 0 20px 20px 0;
+	padding: 19px 0;
+	background-color: #fff;
+}
+.o_app_content li:hover .o_app_name a {
+	color: #199be5;
+}
+.o_app_content li:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,.25);
+}
+.o_app_tu {
+	float: left;
+	width: 110px;
+	height: 86px;
+	background: url(../img/o_app_1.png) no-repeat 30px 20px ;
+}
+.o_app_tu2 {
+	background: url(../img/o_aap_2.png) no-repeat 30px 20px ;
+}
+.o_app_tu3 {
+	background: url(../img/o_app_1.png) no-repeat 30px 20px ;
+}
+.o_app_tu4 {
+	background: url(../img/o_app_3.png) no-repeat 30px 20px ;
+}
+.o_app_tu5 {
+	background: url(../img/o_app_4.png) no-repeat 30px 20px ;
+}
+.o_app_tu6 {
+	background: url(../img/o_app_5.jpg) no-repeat 30px 20px ;
+}
+.o_app_tu7 {
+	background: url(../img/o_app_6.png) no-repeat 30px 20px ;
+}
+.o_app_tu8 {
+	background: url(../img/o_app_7.jpg) no-repeat 30px 20px ;
+}
+.o_app_tu9 {
+	background: url(../img/o_app_8.png) no-repeat 30px 20px ;
+}
+.o_app_tu10 {
+	background: url(../img/o_app_9.jpg) no-repeat 30px 20px ;
+}
+.o_app_tu11 {
+	background: url(../img/o_app_10.png) no-repeat 30px 20px ;
+}
+.o_app_tu12 {
+	background: url(../img/down.png) no-repeat 30px 20px ;
+}
+.o_app_infor {
+	float: left;
+}
+.o_app_name {
+	width: 175px;
+}
+.o_app_name a {
+	display: block;
+	font: 16px/18px "微软雅黑";
+	color: #333;
+	margin-bottom: 6px;
+}
+.o_app_name span {
+	display: block;
+	font: 14px/21px "微软雅黑";
+	color: #a2a2a2;
+	margin-bottom: 15px;
+}
+.o_app_icon a {
+	float: left;
+	width: 80px;
+	height: 26px;
+	font: 13px/26px "微软雅黑";
+	color: #fff;
+	text-align: center;
+	background-color: #28a9f3;
+}
+.o_app_icon span {
+	float: left;
+	height: 26px;
+	font: 14px/26px "微软雅黑";
+	color: #c3c3c3;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.o_app_icon a:hover {
+	background-color: #0090e2;
+	color: #fff;
+}
+
