@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>注册</title>
+	<link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="reg.css">
+	<script type="text/javascript" src="../js/jquery-3.3.1.min.js" ></script>
+    <script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="reg.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="head-left">
+			<img src="../image/reg1.jpg">
+		</div>
+		<div class="head-right">
+			<ul>
+				<li><a href="index.html">注册</a></li>
+				<li><a href="javascript:void(0)" class="sign-in">登录</a></li>
+				<li><a href=""><span class="glyphicon glyphicon-shopping-cart" ></span></a></li>
+			</ul>
+		</div>
+	</header>
+	<nav class="navbar ">
+		<div class="nav-center clearfix">
+			<h1 class="logo">
+				<a href="#"><img src="../image/reg-logo.jpg"></a>
+			</h1>
+			<ul class="nav-manu">
+				<li><a href="#">酷狗商城</a></li>
+				<li><a href="#">下载客户端</a></li>
+				<li><a href="#">音乐直播</a></li>
+				<li><a href="#">酷狗音乐人</a></li>
+			</ul>
+			<ul class="nav-right">
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">VIP中心</a></li>
+				<li><a href="#">客服中心</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="reg-body">
+		<div class="reg-body-inner">
+			<a href="#"><h3 class="reg-tel"><span class="glyphicon glyphicon-phone"></span><span>手机注册</span></h3></a>
+			<div class="reg-form">
+				<form>
+					<table>
+						<tbody>
+							<tr>
+								<td class="reg-form-title">*用户名：</td>
+								<td colspan="2"><input type="text" name="user_name" required="required" class="user_name"/></td>
+								<td hidden="">请输入用户名</td>
+							</tr>
+							<tr>
+								<td class="reg-form-title">*手机号码：</td>
+								<td colspan="2"><input type="text" name="tel" maxlength="11" required="required" class="tel"/></td>
+								<td hidden="">请输入手机号码</td>
+							</tr>
+							<tr>
+								<td class="reg-form-title">*短信验证：</td>
+								<td colspan="1"><input type="text" name="idencode" maxlength="4" required="required" class="idencode"/></td>
+								<td><button class="btn btn-info sendCode" disabled type="button" style="background-color: #bbb;border: none;">获取短信</button></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td class="reg-form-title">*密码：</td>
+								<td colspan="2"><input type="password" name="password" autocomplete="on" required="required" maxlength="16" class="password"/>
+								<span>密码强度</span>
+								</td>
+								<td hidden="">密码需由6-16位数字或字符组成</td>
+							</tr>
+							<tr>
+								<td class="reg-form-title">*确认密码：</td>
+								<td colspan="2"><input type="password" name="repassword" autocomplete="on" required="required" class="repassword"/></td>
+								<td hidden="">请再次输入密码</td>
+							</tr>
+							<tr>
+								<td class="reg-form-title">*性别：</td>
+								<td colspan="2"><input type="radio" name="sex" value="male"/>男
+								<input type="radio" style="margin-left:10px ;" name="sex" value="famale"/>女
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2"><input type="checkbox" name="read" class="read"/>
+								我已经认真阅读并同意&nbsp;&nbsp;&nbsp;<a href="#">用户协议</a>、<a href="#">隐私政策</a>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td colspan="2"><button class="btn btn-lg reg-submit" type="button">注册</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+		</div>
+		
+	</div>
+<footer class="footer">
+	<div class="links">
+		<ul>
+			<li><a href="#">关于酷狗</a></li>
+			<li><a href="#">监督举报</a></li>
+			<li><a href="#">广告服务</a></li>
+			<li><a href="#">版权指引</a></li>
+			<li><a href="#">隐私政策</a></li>
+			<li><a href="#">用户服务协议</a></li>
+			<li><a href="#">推广合作</a></li>
+			<li><a href="#">酷狗音乐人</a></li>
+			<li><a href="#">酷狗音乐推</a></li>
+			<li><a href="#">招聘信息</a></li>
+			<li><a href="#">客服中心</a></li>
+			<li><a href="#" style="border-style: none;">用户体验提升计划</a></li>
+		</ul>
+	</div>
+	<div class="last">
+		<p>我们致力于推动网络正版音乐发展，相关版权合作请联系copyrights@kugou.com</p>
+		<p>信息网络传播视听节目许可证 1910564 增值电信业务经营许可证粤B2-20060339&nbsp;&nbsp;&nbsp;<a href="">粤ICP备09017694号-2<img src="../image/last-1.png"></a></p>
+		<p>广播电视节目制作经营许可证（粤）字第01270号&nbsp;&nbsp;&nbsp;营业性演出许可证穗天演440106026</p>
+		<p>穗公网监备案证第44010650010167&nbsp;&nbsp;&nbsp;互联网药品信息服务资格证编号（粤）-非经营性-2012-0018&nbsp;&nbsp;&nbsp;<a href="">粤公网安备 44010602000141号<img src="../image/last-2.png"></a></p>
+		<p>不良信息举s报邮箱：jubao_music@kugou.net&nbsp;&nbsp;&nbsp;客服邮箱：kefu@kugou.com</p>
+		<p>Copyright &nbsp;© &nbsp;2004-2018 KuGou-Inc.All Rights Reserved <a href=""><img src="../image/last-3.png"></a></p>
+	</div>
+</footer>
+<div class="modal fade" id="sign-in" tabindex="-1" role="dialog"  aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					登录酷狗音乐
+				</h4>
+			</div>
+			<div class="modal-body" style="padding: 40px;">
+				<div class="getIn-user getin-input">
+					<span>账号:</span>
+					<input type="text" />
+					<span style="visibility: hidden;">忘记密码</span>
+				</div>
+				<div class="getIn-password getin-input">
+					<span>密码:</span>
+					<input type="password"  />
+					<span><a href="#">忘记密码</a></span>
+				</div>
+				<div style="margin-bottom: 20px;">
+					<input type="checkbox" />下次自动登录<a href="index.html" style="float: right;">立即注册</a>
+				</div>
+				<div class="getin-input">
+					<button class="btn btn-info btn-block getin-submit">登录</button>
+				</div>
+				<div style="margin: 20px 0;" class="policy">
+					<span style="float: left;">其他方式登录：<a href="#">QQ</a><a href="#">We</a></span>
+					<span style="float: right;"><a href="#">用户协议</a><a href="#">隐私政策</a></span>
+				</div>
+			</div>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+</body>
+</html>
