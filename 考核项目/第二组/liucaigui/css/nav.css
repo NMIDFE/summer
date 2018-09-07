@@ -22,7 +22,7 @@ a{text-decoration: none;}
 .nav .con .right .login a:hover{color: white;text-decoration: underline;}
 .nav .con .right .login a img{position: absolute;top: -5px;}
 
-        #list{position: absolute;z-index: 99;background: #242424;font-size: 14px;right: 340px; top: 60px;display: none;}
+        #list{position: absolute;z-index: 99;background: #242424;font-size: 14px;right: 340px; top: 80px;display: none;}
         #list a{color: white;text-decoration: none;}
         #list li {line-height: 35px;border-bottom: 1px solid black;padding-right: 10px;list-style: none;}
         #list li:hover{background: grey;}

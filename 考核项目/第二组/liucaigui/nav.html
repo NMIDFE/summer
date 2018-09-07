@@ -10,14 +10,51 @@
     
     <link rel="stylesheet" href="./css/conn.css">
     <link rel="stylesheet" href="./css/bot.css">
+    <link rel="stylesheet" href="./css/denglu.css">
     <style>
         body{background:#f5f5f5;}
-        
-        .conn .right .connrig2{}
     </style>
 </head>
 <body>
-    
+<div class="link">
+	<a href="javascript:showDialog();">登录</a>
+</div>
+<div class="ui-mask" id="mask" onselectstart="return false"></div>
+<div class="ui-dialog" id="dialogMove" onselectstart='return false;'>
+	<div class="ui-dialog-title" id="dialogDrag"  onselectstart="return false;" >
+		
+		手机号登录
+
+		<a class="ui-dialog-closebutton" href="javascript:hideDialog();"></a>
+
+	</div>
+	<div class="ui-dialog-content">
+		<div class="ui-dialog-l40 ui-dialog-pt15">
+            <select name="" id="yonghu">
+                <option value="+86">+86</option>
+            </select>
+			<input class="ui-dialog-input ui-dialog-input-username" type="input" placeholder="请输入手机号" value="" /><!--手机/邮箱/用户名-->
+		</div>
+		<div class="ui-dialog-l40 ui-dialog-pt15">
+			<input class="ui-dialog-input ui-dialog-input-password" type="input" placeholder="请输入密码" value="" />
+		</div>
+		<div class="ui-dialog-l40">
+               <form action="" class="denglubiao">
+                    <input type="checkbox">
+               </form>
+               <span class="zidong">自动登录</span>
+			<a href="#" class="forget">忘记密码?</a>
+		</div>
+		<div>
+			<a class="ui-dialog-submit" href="#" >登录</a>
+        </div>
+        <div class="dibu">
+            <a href="" class="left">< 其他登录方式</a>
+            <a href="" class="right">没有账号？免费注册 ></a>
+        </div>
+	</div>
+</div>
+
     <div id="list">
             <ul>
                 <a href=""><li><img src="./images/手机.png" width="18px" height="18px" alt="" ><span>手机号登录</span></li></a>
@@ -371,10 +408,8 @@
     </div>
     <script src="./js/index.js"></script>
     <script src="./js/index2.js"></script>
+    <script src="./js/denglu.js"></script>
     <script>
-      var aa=document.getElementsByTagName();
-      aa.onmouse
-      aa.length
     </script>
 </body>
 </html>
