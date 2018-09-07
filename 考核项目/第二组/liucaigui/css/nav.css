@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;font-size: 14px;}
+a{text-decoration: none;}
+.nav{width: 1902px;height: 70px;background: rgba(0, 0, 0, 0.8);vertical-align: middle;line-height: 70px;overflow: hidden;color: gainsboro;}
+.nav .con{width: 1200px;margin: 0 auto;}
+.nav .con .left a{float: left;text-decoration: none;}
+.nav .con .left a img{margin-top: 15px;}
+.nav .con .left a h2{float: right;color: #fff;margin-right: 20px;}
+.nav .con .left li{list-style: none;color: white;text-align: center;margin: 0px 15px;}/*用了一个margin左右，给盒子加大了左右边距  lineheight加大了上下*/
+.nav .con .left ul .li_onbluer{background: black;}/*第一个元素显示样式*/
+.nav .con .left ul a:hover {background: black;}
+.nav .con .right div{float: left;margin: 0 20px;}
+.nav .con .right .ser{position: relative;width: 158px;height: 32px;border-radius: 32px;background: #fff;margin-top: 19px;overflow: hidden;} 
+.nav .con .right .ser img{position: relative;top: -15px;left: 9px;}
+.nav .con .right .ser .ser-con{position: relative;top: -20px;width: 120px;left: 10px;border: 0px;height: 30px;outline: none;color: grey;}
+.nav .con .right .put{position: relative; border: 1px solid gainsboro;border-radius: 36px;width: 100px;height: 32px;margin-top: 19px;}
+.nav .con .right .put:hover{border-color: white;}
+.nav .con .right .put a{position: relative;top: -19px;left: 13px;color: white;text-decoration: none;}
+.nav .con .right .put span{font-size: 14px;margin-left: 20px;color: gainsboro}
+.nav .con .right .put img{position: absolute;top: 2px;left: -5px;}
+.nav .con .right .login a{text-decoration: none;color: gainsboro ;position: relative;}
+.nav .con .right .login a:hover{color: white;text-decoration: underline;}
+.nav .con .right .login a img{position: absolute;top: -5px;}
+
+        #list{position: absolute;z-index: 99;background: #242424;font-size: 14px;right: 404px; top: 60px;display: none;}
+        #list a{color: white;text-decoration: none;}
+        #list li {line-height: 35px;border-bottom: 1px solid black;padding-right: 10px;list-style: none;}
+        #list li:hover{background: grey;}
+        #list img{margin:0 10px;}
+        .nav-2{width: 100%;height: 40px;background: red;color: white;position: relative;}
+        .tri{position: absolute; width: 0;height: 0;border-width: 10px; border-style: solid; border-color:  transparent transparent red transparent;left: 628px;top: -20px;}
+        .nav-2 .inner li{float: left; list-style: none;border-radius: 36px;padding: 3px 10px;}
+        .nav-2 .inner li:hover{background:rgba(0, 0, 0, 0.5);} 
+        .nav-2 .inner li.onbluer_one{background:rgba(0, 0, 0, 0.5);} /*第一个元素显示样式*/
+        .nav-2 .inner {position: absolute;top: 0;margin-left: 590px;}
+        .nav-2 .inner a{display: inline-block; color: white;margin-top: 5px;font-size: 13px;margin: 7px 25px;}
+
+
+        
