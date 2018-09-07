@@ -24,45 +24,60 @@
     <div class="ui-mask" id="mask" onselectstart="return false"></div>
     <div class="ui-dialog" id="dialogMove" onselectstart='return false;'>
         <div class="ui-dialog-title" id="dialogDrag" onselectstart="return false;">
-
             手机号登录
-
             <a class="ui-dialog-closebutton" href="javascript:hideDialog();"></a>
 
         </div>
         <div class="ui-dialog-content">
-            <div class="ui-dialog-l40 ui-dialog-pt15">
-                <select name="" id="yonghu">
-                    <option value="+86">+86</option>
-                </select>
-                <input class="ui-dialog-input ui-dialog-input-username" type="input" placeholder="请输入手机号" value="" />
-                <!--手机/邮箱/用户名-->
+            <div class="neirong">
+                <div class="ui-dialog-l40 ui-dialog-pt15">
+                   
+                    <input class="ui-dialog-input ui-dialog-input-username" id="user1" type="input" placeholder="请输入用户名" value="" />
+                    <!--手机/邮箱/用户名-->
+                </div>
+                <div class="ui-dialog-l40 ui-dialog-pt15">
+                    <input class="ui-dialog-input ui-dialog-input-password" id="password1" type="password" placeholder="请输入密码" value="" />
+                </div>
+                <div class="ui-dialog-l40">
+                    <form action="" class="denglubiao">
+                        <input type="checkbox">
+                    </form>
+                    <span class="zidong">自动登录</span>
+                    <a href="#" class="forget">忘记密码?</a>
+                </div>
+                <div>
+                    <a class="ui-dialog-submit" id="ringup" href="#">登录</a>
+                </div>
             </div>
-            <div class="ui-dialog-l40 ui-dialog-pt15">
-                <input class="ui-dialog-input ui-dialog-input-password" type="input" placeholder="请输入密码" value="" />
+            <div class="neirong2" style="display: none;">
+                <p style="margin-bottom: -10px;">用户名：</p>
+                <div class="dialog1">
+                    <input class="dialog-input" type="input" id="user2" placeholder="请输入手机号" value="" />
+                    <!--手机/邮箱/用户名-->
+                    <p style="line-height: normal; text-align: left;margin-bottom: -10px;margin-top: 10px;">密码：</p>
+                    <div class="ui-dialog-l40 ui-dialog-pt15">
+                            <input class="ui-dialog-input ui-dialog-input-password" type="password"  id="password2" placeholder="设置登录密码，不少于6位" value="" />
+                        </div>
+                        <div>
+                                <a class="submit" id="zc" href="#">注册</a>
+                            </div>
+                </div>
             </div>
-            <div class="ui-dialog-l40">
-                <form action="" class="denglubiao">
-                    <input type="checkbox">
-                </form>
-                <span class="zidong">自动登录</span>
-                <a href="#" class="forget">忘记密码?</a>
-            </div>
-            <div>
-                <a class="ui-dialog-submit" href="#">登录</a>
-            </div>
+            
             <div class="dibu">
-                <a href="" class="left">
-                    < 其他登录方式</a> <a href="" class="right">没有账号？免费注册 >
+                <a href="javascript:;" class="left">< 其他登录方式</a> <a id="signin" href="javascript:;" class="right">没有账号？免费注册 >
                 </a>
             </div>
+            <div class="dibu" style="display: none;">
+                    <a href="javascript:;" class="left" id="fanhui">< 返回登录</a> 
+                </div>
         </div>
     </div>
 
     <div id="list">
         <ul>
-            <a href="">
-                <li><img src="./images/手机.png" width="18px" height="18px" alt=""><span>手机号登录</span></li>
+            <a href="javascript:;" id="phone">
+                <li ><img src="./images/手机.png" width="18px" height="18px" alt=""><span>手机号登录</span></li>
             </a>
             <a href="">
                 <li><img src="./images/微信.png" width="18px" height="18px" alt=""><span>微信登录</span></li>
@@ -112,7 +127,7 @@
                 </div>
                 <div class="put"><a href=""><img src="./images/视频.png" alt="" width="20px" height="20px"><span>视频投稿</span></a></div>
                 <div class="login">
-                    <a href="">登录<img src="./images/三角.png" alt="" width="30px" height="30px">
+                    <a href="javascript:;" id="ringup">登录<img src="./images/三角.png" alt="" width="30px" height="30px">
                     </a></div>
             </div>
         </div>

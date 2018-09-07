@@ -106,4 +106,124 @@ function hideDialog(){
 Dialog('dialogDrag','dialogMove');
 
 //默认设置弹出层启动
-showDialog();
+//showDialog();
+
+
+var ringup=document.getElementById('ringup');
+ringup.onclick=showDialog;
+var phone=document.getElementById('phone');
+phone.onclick=showDialog;
+
+
+var neirong =document.getElementsByClassName('ui-dialog-content')[0].getElementsByClassName('neirong')[0];
+var neirong2 =document.getElementsByClassName('ui-dialog-content')[0].getElementsByClassName('neirong2')[0];
+var dibu=document.getElementsByClassName('ui-dialog-content')[0].getElementsByClassName('dibu')[0];
+var dibu2=document.getElementsByClassName('ui-dialog-content')[0].getElementsByClassName('dibu')[1];
+var fanhui=document.getElementById('fanhui');
+
+
+//console.log(neirong);
+
+var signin=document.getElementById('signin');
+signin.onclick=function(){
+    neirong.style.display="none";
+    neirong2.style.display="block";
+    dibu.style.display="none";
+    dibu2.style.display="block";
+}
+fanhui.onclick=function(){
+    neirong.style.display="block";
+    neirong2.style.display="none";
+    dibu.style.display="block";
+    dibu2.style.display="none";
+}
+
+
+
+var zc=document.getElementById('zc');
+var ringup=document.getElementById('ringup');
+var user1=document.getElementById('user1');
+var password1=document.getElementById('password1');
+var user2=document.getElementById('user2');
+var password2=document.getElementById('password2');
+
+
+function Ajax(id,pass){
+    var xmlhttp;
+    if (window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","http://120.78.51.133:8080/frontdemo/testAdd?name="+id+"&password="+pass,false);
+
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          var obj = JSON.parse(xmlhttp.responseText);
+          if(obj.result == "yes"){
+            alert("恭喜你注册成功");
+            neirong.style.display="block";
+            neirong2.style.display="none";
+            dibu.style.display="block";
+            dibu2.style.display="none";
+          } else {
+            alert(obj.reason);
+          }
+        }
+    };
+  xmlhttp.send();
+  }
+  zc.onclick = function(){
+    Ajax(user2.value,password2.value);
+    user2.value = "";
+    password2.value = "";
+  }
+
+  //登录
+  function Ajax1(id,pass){
+    var xmlhttp;
+    if (window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.open("GET","http://120.78.51.133:8080/frontdemo/testLogin?name="+id+"&password="+pass,false);
+
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+          var obj = JSON.parse(xmlhttp.responseText);
+          if(obj.result == "yes"){
+            alert("恭喜你登陆成功");
+            hideDialog();
+          } else {
+            alert(obj.reason);
+          }
+        }
+    };
+  xmlhttp.send();
+  }
+  ringup.onclick = function(){
+    Ajax1(user1.value,password1.value);
+    user1.value = "";
+    password1.value = "";
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
