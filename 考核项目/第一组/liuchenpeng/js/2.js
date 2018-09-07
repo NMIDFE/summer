@@ -31,7 +31,8 @@
             alert(obj.reason);
           }
         }
-    };
+    }
+    ;
   xmlhttp.send();
   }
   zc.onclick = function(){
@@ -61,6 +62,7 @@
             logIn.style.display = "none";
             zhemuceng.style.display = "none";
             user.innerHTML = id
+            
           } else {
             alert(obj.reason);
           }
