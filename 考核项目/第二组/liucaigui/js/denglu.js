@@ -141,6 +141,7 @@ fanhui.onclick=function(){
 
 
 var zc=document.getElementById('zc');
+var denglu=document.getElementById('denglu');
 var ringup=document.getElementById('ringup');
 var user1=document.getElementById('user1');
 var password1=document.getElementById('password1');
@@ -194,6 +195,7 @@ function Ajax(id,pass){
           var obj = JSON.parse(xmlhttp.responseText);
           if(obj.result == "yes"){
             alert("恭喜你登陆成功");
+            ringup.innerHTML="欢迎你！"+id+"<img src='./images/三角.png' alt='' width='30px' height='30px'>";
             hideDialog();
           } else {
             alert(obj.reason);
@@ -202,7 +204,7 @@ function Ajax(id,pass){
     };
   xmlhttp.send();
   }
-  ringup.onclick = function(){
+  denglu.onclick = function(){
     Ajax1(user1.value,password1.value);
     user1.value = "";
     password1.value = "";
