@@ -1,0 +1,7 @@
+.page2{display: none;}
+.page2 .con{width: 980px;height: 700px;margin: 0 460px;border: 1px solid #d3d3d3; background: white;} 
+.page2 .con div{width: 807px;height: 372px;margin: 104px auto; position: relative;}
+.page2 .con div a{display: block;width: 168px;height: 43px;background: url("./../images/page2-2.png")no-repeat;position: absolute;right: 157px;top: 203px;}
+.page2 .con div a:hover{background: url("./../images/page2-21.png")no-repeat;}
+.page2 .nav3{width: 100%;height: 5px;background:red;}
+.tri2{position: absolute; width: 0;height: 0;border-width: 10px; border-style: solid; border-color:  transparent transparent red transparent;left: 750px;top: 70px;}

@@ -101,7 +101,7 @@ function hideDialog(){
 }
 
 //	侦听浏览器窗口大小变化
-window.onresize = showDialog;
+//window.onresize = showDialog;
 
 Dialog('dialogDrag','dialogMove');
 
