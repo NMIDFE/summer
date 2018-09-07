@@ -1,6 +1,6 @@
 /*中间的内容*/
 .conn{width: 980px;height: 100%;margin: 0 460px;border: 1px solid #d3d3d3;}
-.conn .left{width: 729px;height: 1530px; background: white;float: left;}
+.conn .left{width: 728px;height: 1530px; background: white;float: left;border: 1px solid #d3d3d3;}
 .conn .left .rmtj{width: 95%;height: 55px; margin:0 auto;margin-top: 2.5%; }
 .conn .left .rmtj li {float: left;list-style: none;margin-right: 10px;font-size: 10px;}
 .conn .left .rmtj img{width: 16px;height: 16px;}
@@ -38,7 +38,7 @@
 
 
 
-.conn .right{width: 250px;height: 1530px;background: white;float: right;}
+.conn .right{width: 248px;height: 1530px;background: white;float: right;border: 1px solid #d3d3d3;}
 .conn .right .log{width: 250px;height: 136px;background:url('./../images/index.png') no-repeat;}
 .conn .right .log p{width: 205px;font-size: 12px;margin: 0 auto;padding: 16px 0;line-height: 22px;}
 .conn .right .log1{display: block;text-decoration: none;border-radius: 4px;background:  #8a060b;text-align: center; width: 100px;height: 31px;line-height: 31px;margin: 0 auto;color: #fff;text-shadow: 0 1px 0 #8a060b;}
