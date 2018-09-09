@@ -1,5 +1,5 @@
 /*中间的内容*/
-.conn{width: 980px;height: 100%;margin: 0 460px;border: 1px solid #d3d3d3;}
+.conn{width: 980px;height: 100%;margin: 0 auto;border: 1px solid #d3d3d3;}
 .conn .left{width: 728px;height: 1530px; background: white;float: left;border: 1px solid #d3d3d3;}
 .conn .left .rmtj{width: 95%;height: 55px; margin:0 auto;margin-top: 2.5%; }
 .conn .left .rmtj li {float: left;list-style: none;margin-right: 10px;font-size: 10px;}
