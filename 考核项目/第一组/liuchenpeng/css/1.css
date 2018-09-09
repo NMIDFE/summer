@@ -262,6 +262,7 @@
   left: 0;
   top: 88px;
   background: url(../images/sprite.png) 0 -755px;
+  display: none;
 }
 .rightarrow{
   width: 60px;
@@ -270,6 +271,7 @@
   right: 0;
   top: 88px;
   background: url(../images/sprite.png) 0 -1130px;
+  display: none;
 }
 .download{
   width: 100%;
@@ -780,7 +782,7 @@
   display: block;
 }
 .pages{
-  width: 50px;
+  width: 100px;
   text-align: center;
   cursor: pointer;
   color: #999;
