@@ -3,6 +3,7 @@
   var t = 1;
   var left = document.querySelector(".leftarrow");
   var right = document.querySelector(".rightarrow");
+  var lunbo = document.querySelector('.lunbo');
   var timed;
   qq[0] = "images/4.jpg";
   qq[1] = "images/1.jpg";
@@ -36,11 +37,19 @@
     }
     photomove.src = qq[t];
   }
-  timed = setInterval(move,3000);
+  timed = setInterval(move,2000);
   timed;
   photomove.onmouseover = function(){
     clearInterval(timed);
   }
   photomove.onmouseout = function(){
-    timed = setInterval(move,3000);
+    timed = setInterval(move,2000);
+  }
+  lunbo.onmouseover = function(){
+    left.style.display = "block";
+    right.style.display = "block";
+  }
+  lunbo.onmouseout = function(){
+    left.style.display = "none";
+    right.style.display = "none";
   }
