@@ -1,0 +1,17 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+#box{
+    margin: 200px auto;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+#box p{
+    float: left;
+    width: 40px;
+    height: 300px;
+}

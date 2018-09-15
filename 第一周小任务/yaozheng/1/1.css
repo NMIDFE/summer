@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.test{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+ul{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+li{
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    list-style-type: disc;
+}
+li i{
+    font-style: normal;
+}
