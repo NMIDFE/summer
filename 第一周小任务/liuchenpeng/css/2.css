@@ -1,0 +1,36 @@
+*{
+  margin: 0 auto;
+}
+.li1{
+  background: #f99;
+}
+.li2{
+  background: #9ff;
+}
+.li3{
+  background: #f9f;
+}
+.li4{
+  background: #9f9;
+}
+.li5{
+  background: blue;
+}
+.li6{
+  background: yellow;
+}
+.box{
+  width: 1050px;
+  height: 300px;
+  overflow: hidden;
+}
+.accordion li{
+  float: left;
+  width: 100px;
+  height: 300px;
+}
+.accordion{
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+}
