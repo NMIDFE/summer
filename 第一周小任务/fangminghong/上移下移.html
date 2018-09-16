@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上移下移</title>
+</head>
+<body>
+	<ul>
+		<li>1. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>2. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>3. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>4. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>5. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+	</ul>
+	<script>
+		function $ (element) {
+			/**
+			 * 模仿jQuery$
+			 */
+			if(element.charAt(0) == '#'){
+				return document.getElementById(element.slice(1));
+			}else if (element.charAt(0) == '.') {
+				return getClassName(element.slice(1));
+			}else {
+				return document.getElementsByTagName(element);
+			}
+		}
+		function getClassName (element) {
+			if(document.getElementsByClassName){
+				return document.getElementsByClassName(element);
+			}
+			var result = [] , tags = document.getElementsByTagName("*");
+			for(var i=0;i<tags.length;i++){
+				var className = tags[i].className.split(" ");
+				for(var j=0;j<className.length;j++){
+					if(className[j] == element){
+						result.push(tags[i]);
+					}
+				}
+			}
+			return result;
+		}
+		function insertAfter(newElement,targetElement) {
+			var parent = targetElement.parentNode; 
+			if(parent.lastChild == targetElement){
+				parent.appendChild(newElement);
+			}else{
+				parent.insertBefore(newElement,targetElement.nextSibling);
+			}
+		}
+		var down = $(".down"),up = $(".up"),lis = $("li");
+		function moveUp () {
+			var current = this.parentElement,prev = current.previousElementSibling;
+			insertAfter(prev,current);
+		}
+		function moveDown () {
+			var current = this.parentElement,next = current.nextElementSibling;
+			$("ul")[0].insertBefore(next,current);
+		}
+		for(var i=0;i<up.length;i++){
+			up[i].onclick = moveUp;
+		}
+		for(var i=0;i<down.length;i++){
+			down[i].onclick = moveDown;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手风琴</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			width: 800px;
+			height: 300px;
+			margin: 100px auto;
+			list-style: none;
+			font-size: 0;
+			overflow: hidden;
+		}
+		li{
+			width: 100px;
+			height: 300px;
+			display: inline-block;
+		}
+		li:nth-child(1){
+			width: 500px;
+			background-color: #fb929e;
+		}
+		li:nth-child(2){
+			background-color: #ffdfdf;
+		}
+		li:nth-child(3){
+			background-color: #f5e965;
+		}
+		li:nth-child(4){
+			background-color: #aedefc;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<script>
+		function getStyle (element,attr) {
+			return window.getComputedStyle ? window.getComputedStyle(element)[attr] : element.currentStyle[attr]||0;
+		}
+		function animate (element,json) {
+			clearInterval(element.timeID);
+			element.timeID = setInterval(function () {
+				for(var attr in json){
+					var flag = true;
+					var current = parseInt(getStyle(element,attr));
+					var target = json[attr];
+					var step = (target - current) / 10;
+					step = step > 0 ? Math.ceil(step) : Math.floor(step);
+					current += step;
+					element.style[attr] = current + 'px';
+					if(target!=current){
+						flag = false;
+					}
+				}
+				if(flag){
+					clearInterval(element.timeID);
+				}
+			},10);
+		}
+		for(var i=0;i<document.getElementsByTagName("li").length;i++){
+			document.getElementsByTagName("li")[i].onmouseover = function () {
+				var lis=this.parentElement.children;
+				for(var j=0;j<lis.length;j++){
+					if(this!=lis[j]){
+						animate(lis[j],{"width":100});
+					}else {
+						animate(lis[j],{"width":500});
+					}
+				}
+			};
+		}
+	</script>
+</body>
+</html>

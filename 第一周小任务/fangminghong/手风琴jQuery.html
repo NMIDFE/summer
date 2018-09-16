@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>手风琴JQ</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			width: 800px;
+			height: 300px;
+			margin: 100px auto;
+			list-style: none;
+			font-size: 0;
+			overflow: hidden;
+		}
+		li{
+			width: 100px;
+			height: 300px;
+			display: inline-block;
+		}
+		li:nth-child(1){
+			width: 500px;
+			background-color: #fb929e;
+		}
+		li:nth-child(2){
+			background-color: #ffdfdf;
+		}
+		li:nth-child(3){
+			background-color: #f5e965;
+		}
+		li:nth-child(4){
+			background-color: #aedefc;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	<script src="jquery-1.12.4.js"></script>
+	<script>
+		$(function () {
+			$("ul li").mouseenter(function() {
+				$(this).stop().animate({width:500}).siblings().stop().animate({width:100});
+			});
+		});
+	</script>
+</body>
+</html>

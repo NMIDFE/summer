@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>上下移</title>
+</head>
+<body>
+	<ul>
+		<li>1. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>2. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>3. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>4. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+		<li>5. <input type="button" class="up" value="上移"><input type="button" class="down" value="下移"></li>
+	</ul>
+	<script src="jquery-1.12.4.js"></script>
+	<script>
+		$('.up').on('click',function () {
+			var current = $(this).parent(),prev = current.prev();
+			if(current.index()!=0){
+				current.insertBefore(prev);
+			}
+		});
+		$('.down').on('click',function () {
+			var current = $(this).parent(),next = current.next();
+			if(current.index()!=$('.li').index()){
+				current.insertAfter(next);
+			}
+		});
+	</script>
+</body>
+</html>
