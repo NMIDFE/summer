@@ -1,0 +1,21 @@
+*{
+  margin: 0 auto;
+  text-align: center;
+}
+div{
+  border: 2px solid black;
+}
+.root{
+  width: 800px;
+  height: 600px;
+}
+.children1{
+  width: 350px;
+  height: 500px;
+  float: left;
+  margin: 20px;
+}
+.children2{
+  width:250px;
+  height: 100px;
+}
