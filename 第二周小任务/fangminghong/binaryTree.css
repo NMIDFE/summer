@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	border: 1px solid #000;
+	box-sizing: border-box;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	vertical-align: top;
+}
+div[index='1']{
+	width: 900px;
+	height: 300px;
+}
+div[index='2'],div[index='5']{
+	width: 430px;
+	height: 280px;
+}
+div[index='3'],div[index='6']{
+	width: 195px;
+	height: 260px;
+}
+div[index='4'],div[index='7']{
+	width: 77px;
+	height: 240px;
+}
