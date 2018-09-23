@@ -1,0 +1,68 @@
+<!--
+    第二周小任务 二叉树 ： 先序 中序 后序 (root 位置 L->R)
+    多叉树 ：深度优先遍历（前身：先序 中序 后序） 广度优先遍历
+-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>递归实现二叉树 多叉树 遍历 查询</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="1-7.css" />
+</head>
+<body>
+<div class="root">
+    101
+    <div class="childOne">
+        100
+        <div class="childTwo two">
+            102
+            <div class="childThree three">1</div>
+            <div class="childThree three">2</div>
+            <div class="childThree three">3</div>
+            <div class="childThree three">4</div>
+        </div>
+        <div class="childTwo two">
+            103
+            <div class="childThree three">5</div>
+            <div class="childThree three">6</div>
+            <div class="childThree three">7</div>
+            <div class="childThree three">8</div>
+        </div>
+        <div class="childTwo two">
+            104
+            <div class="childThree three">21</div>
+            <div class="childThree three">22</div>
+            <div class="childThree three">23</div>
+            <div class="childThree three">24</div>
+        </div>
+        <div class="childTwo two">
+            105
+            <div class="childThree three">25</div>
+            <div class="childThree three">26</div>
+            <div class="childThree three">27</div>
+            <div class="childThree three">28</div>
+        </div>
+    </div>
+    <div class="childOne">
+        404
+        <div class="childTwo">
+            329
+            <div class="childThree">9</div>
+            <div class="childThree">10</div>
+        </div>
+        <div class="childTwo">
+            691
+            <div class="childThree">11</div>
+            <div class="childThree">12</div>
+        </div>
+    </div>
+</div>
+    <input type="button" value="二叉树 先序">
+    <input type="button" value="二叉树 中序">
+    <input type="button" value="二叉树 后序">
+    <input type="text" value="" class="pass">
+    <input type="submit" value="查询" class="search">
+<script type="text/javascript" src="1-7.js"></script>
+</body>
+</html>
