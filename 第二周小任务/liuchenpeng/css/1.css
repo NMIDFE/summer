@@ -1,21 +1,25 @@
 *{
   margin: 0 auto;
-  text-align: center;
 }
-div{
-  border: 2px solid black;
-}
-.root{
-  width: 800px;
-  height: 600px;
-}
+.tree{
+  width: 600px;
+  height: 300px;
+  border: 1px solid #000;
+  overflow: hidden;
+  background-color: #fff;
+  }
 .children1{
-  width: 350px;
-  height: 500px;
-  float: left;
-  margin: 20px;
-}
+  margin-top: 10px;
+  width: 280px;
+  height: 250px;
+  border: 1px solid #000;
+  display: inline-block;
+  background-color: #fff;
+  }
 .children2{
-  width:250px;
-  height: 100px;
-}
+  width: 200px;
+  height: 90px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  background-color: #fff;
+  }
